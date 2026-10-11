@@ -11,3 +11,5 @@ https://energyriskengineering.com/data-center-tracker
 
 The page loads `data.json` each time someone opens it, so updating this file updates the site.
 No other file needs to change. If the file can't be loaded, the page falls back to the copy built into it.
+
+- `softr-page-code.html` — the code pasted into the Softr Custom Code block (one time). It reads `data.json` from this repo.

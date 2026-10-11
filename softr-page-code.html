@@ -1,0 +1,875 @@
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+<style>
+#dash-root{
+  --font-anthropic-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-anthropic-serif: 'Lora', Georgia, 'Times New Roman', serif;
+  --cds-font-size-caption: 13px; --cds-font-size-body: 15px; --cds-font-size-heading: 17px; --cds-font-size-title: 28px;
+  --cds-font-weight-medium: 600;
+  --color-fg: #1f1e1b; --color-fg-muted: #6f6b63; --color-bg: #f7f5f0; --color-panel: #ffffff; --color-border-line: #e3dfd6;
+  --color-ok: #2f7d4f; --color-warn: #b7791f; --color-bad: #c43e2d;
+  --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 16px; --cds-gap-lg: 24px; --cds-gap-xl: 32px;
+  --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 20px; --cds-pad-xl: 28px;
+  --cds-radius: 10px;
+  --cds-chart-grid: #ece8e0; --cds-chart-axis: #cfcac0; --cds-chart-reference: #8a857b; --cds-chart-muted: #c4bfb6; --cds-chart-status-critical: #c43e2d;
+  --cds-surface-popover: #ffffff; --cds-border: #e3dfd6; --cds-shadow-popover: 0 6px 20px rgba(0,0,0,.12); --cds-text-secondary: #6f6b63;
+  --cds-dur-slow: 300ms; --cds-ease-out: cubic-bezier(.2,.8,.2,1);
+}
+
+#dash-root{display:block;width:100%;min-width:min(100vw - 32px, 1280px);box-sizing:border-box;max-width:1280px;margin:0 auto;padding:28px 16px 40px;background:var(--color-bg);color:var(--color-fg);text-align:left;line-height:1.4;}
+.dash-skeleton{color:transparent;}
+.dc a{color:inherit;}
+</style>
+<script>
+window.DC_SNAPSHOT = {"projects": [{"id": "stargate-abilene", "name": "Stargate Abilene", "sponsor": "OpenAI", "developer": "Crusoe (Lancium Clean Campus)", "tenant": "Oracle (OCI) for OpenAI", "city": "Abilene", "county": "Taylor", "state": "TX", "lat": 32.5, "lon": -99.78, "status": "Partially operational", "status_note": "All eight buildings are topped out. Buildings 1-2 have run since late 2025, about six had been handed to OpenAI by late September 2026, and the last four are expected fully running around November 2026.", "planned_mw": 1200, "online_mw": 421, "first_power": "2025-Q3", "full_build": "2026", "power_source": "1.2 GW ERCOT interconnection with new 1 GW substation, onsite gas-turbine plant, behind-the-meter solar and batteries", "utility": "ERCOT via Lancium interconnection", "onsite_generation": "Yes", "cooling": "Closed-loop direct-to-chip liquid with air-cooled free-cooling chillers (no evaporation)", "cooling_type": "Closed-loop liquid", "water_source": "Not disclosed (closed loop, zero evaporative use claimed)", "est_cost_busd": 15, "cost_note": "$15B Crusoe/Blue Owl JV for the 1.2 GW campus. Epoch AI puts it near $31.9B including IT hardware. 1.2 GW is facility power; online MW is Epoch's IT estimate.", "next_milestone": "Buildings 5-8 fully operational (campus complete)", "next_milestone_date": "2026-11", "key_risks": "A planned expansion past 1.2 GW was dropped amid financing problems and shifting OpenAI demand; Microsoft took the adjacent 900 MW. Full output depends on the onsite gas plant and new substation.", "sources": ["https://epoch.ai/data/ai-data-centers/directory/openai-stargate-abilene", "https://thetechcapital.com/abilene-stargate-data-centre-update/", "https://w.media/microsoft-to-add-900-mw-to-ai-campus-in-abilene-texas/", "https://www.tomshardware.com/tech-industry/oracle-and-openai-scrap-planned-600mw-abilene-expansion"], "as_of": "2026-10-05"}, {"id": "stargate-shackelford-frontier", "name": "Stargate Frontier (Shackelford)", "sponsor": "OpenAI", "developer": "Vantage Data Centers", "tenant": "Oracle for OpenAI", "city": "Abilene area (FM 604)", "county": "Shackelford", "state": "TX", "lat": 32.56, "lon": -99.52, "status": "Under construction", "status_note": "Shells for buildings 1-5 are complete and roofed, cooling and generators are going into buildings 1-3, and foundations have started on 6-7. Vantage targets first delivery in late 2026; Epoch's filing-based estimate is mid-2027.", "planned_mw": 1400, "online_mw": 0, "first_power": "2026-Q4", "full_build": "2028", "power_source": "Off-grid behind-the-meter gas microgrid by VoltaGrid (Jenbacher reciprocating engines, about 700 MW first phase)", "utility": "None (off-grid VoltaGrid microgrid in ERCOT region)", "onsite_generation": "Yes", "cooling": "Closed-loop chilled water with combined air and liquid-to-liquid cooling for 250 kW+ racks", "cooling_type": "Closed-loop liquid", "water_source": "Not disclosed (Vantage claims near-zero WUE)", "est_cost_busd": 25, "cost_note": "$25B+ Vantage campus figure. TDLR filings register $10.64B of construction; Epoch projects about $53B with IT hardware. 1,400 MW is critical IT load.", "next_milestone": "First data center building delivered", "next_milestone_date": "2026-12", "key_risks": "Depends entirely on a major-source gas plant, its TCEQ air permit and gas supply; the Sept 2026 Texas pause on new TCEQ data-center permits adds uncertainty. SoftBank's pending acquisition of Vantage parent DigitalBridge.", "sources": ["https://epoch.ai/data/ai-data-centers/directory/openai-stargate-shackelford", "https://vantage-dc.com/data-center-locations/north-america/shackelford-county-tx", "https://www.marketscale.com/industries/software-and-technology/vantages-14gw-texas-campus-makes-grid-contracts-the-real-data-center-schedule"], "as_of": "2026-10-05"}, {"id": "stargate-milam", "name": "Stargate Milam (Freebird)", "sponsor": "OpenAI", "developer": "SB Energy (SoftBank)", "tenant": "OpenAI", "city": "Burlington", "county": "Milam", "state": "TX", "lat": 30.96, "lon": -96.93, "status": "Under construction", "status_note": "The first-phase building (548,950 sq ft, four data halls) topped out in March 2026 and state filings show completion around October 2026. No capacity confirmed online yet.", "planned_mw": 1200, "online_mw": 0, "first_power": "2026-Q4", "full_build": "2028", "power_source": "SB Energy-funded new generation and storage (type not disclosed) plus ERCOT grid", "utility": "ERCOT (utility not disclosed)", "onsite_generation": "No", "cooling": "Not disclosed", "cooling_type": "Not disclosed", "water_source": "Not disclosed (designed to minimize water use)", "est_cost_busd": 3, "cost_note": "$3B is SB Energy's earlier campus plan; the phase-1 TDLR filing is about $470M. Epoch projects about $32.5B with IT. 1.2 GW is OpenAI's lease figure.", "next_milestone": "Phase-1 building completion per TDLR filing", "next_milestone_date": "2026-10", "key_risks": "Power supply plan not public; execution depends on SoftBank/SB Energy financing and a new fast-build modular approach.", "sources": ["https://epoch.ai/data/ai-data-centers/directory/openai-stargate-milam", "https://www.datacenterdynamics.com/en/news/openai-stargates-milam-texas-freebird-data-center-to-span-548950-sq-ft-in-first-phase/", "https://www.datacenterdynamics.com/en/news/softbanks-sb-energy-to-build-and-operate-openais-12gw-stargate-data-center-in-milam-county-texas/"], "as_of": "2026-10-05"}, {"id": "stargate-lordstown", "name": "Stargate Lordstown", "sponsor": "OpenAI", "developer": "SoftBank (with Foxconn)", "tenant": "OpenAI", "city": "Lordstown", "county": "Trumbull", "state": "OH", "lat": 41.14, "lon": -80.86, "status": "Under construction", "status_note": "The former GM/Foxconn plant is being refit mainly as a factory for modular data-center equipment plus a smaller data-center component. Nothing operating yet; one tracker lists the data-center use as withdrawn.", "planned_mw": 214, "online_mw": 0, "first_power": "2027-Q1", "full_build": "2027", "power_source": "Grid via existing plant substation", "utility": "Not disclosed", "onsite_generation": "No", "cooling": "Not disclosed", "cooling_type": "Not disclosed", "water_source": "Not disclosed", "est_cost_busd": 3, "cost_note": "Up to $3B for SoftBank's plant conversion, mostly manufacturing. 214 MW is Epoch's IT estimate.", "next_milestone": "First data-center capacity operational (Epoch projection)", "next_milestone_date": "2027-03", "key_risks": "Unclear how much of the site will be a data center versus a factory. Village data-center permit moratorium extended in July 2026; local opposition over noise, heat and water.", "sources": ["https://epoch.ai/data/ai-data-centers/directory/openai-stargate-lordstown", "https://www.tribtoday.com/news/local-news/2026/06/lordstown-extends-data-center-moratorium/", "https://baxtel.com/data-center/openai-stargate-lordstown-campus"], "as_of": "2026-10-05"}, {"id": "stargate-project-jupiter", "name": "Project Jupiter (Doña Ana)", "sponsor": "OpenAI", "developer": "STACK Infrastructure (Blue Owl) and BorderPlex Digital Assets", "tenant": "Oracle for OpenAI", "city": "Santa Teresa", "county": "Doña Ana", "state": "NM", "lat": 31.85, "lon": -106.72, "status": "Under construction", "status_note": "Data-center buildings were about 26% complete in September 2026. The fuel-cell microgrid awaits its state air permit and its gas pipeline has slipped to February 2027; Oracle sent a force-majeure notice while saying the schedule holds.", "planned_mw": 2450, "online_mw": 0, "first_power": "2028", "full_build": "2028", "power_source": "Private onsite gas microgrid of about 2.46 GW of Bloom solid-oxide fuel cells, fed by the new Transwestern pipeline; up to 2 GW of off-site renewables sought", "utility": "Yucca Growth Infrastructure (private microgrid)", "onsite_generation": "Yes", "cooling": "Closed-loop non-evaporative", "cooling_type": "Closed-loop liquid", "water_source": "Non-potable industrial well water (purchased farm water rights)", "est_cost_busd": 165, "cost_note": "$165B is the developers' full-buildout estimate and county IRB authorization. 2.45 GW is campus design draw.", "next_milestone": "NMED decision on microgrid air permit", "next_milestone_date": "2026-11", "key_risks": "Contested microgrid air permit, State Land Office pipeline right-of-way denial and pending FERC authorization, litigation over county bonds and incentives, and strong local opposition.", "sources": ["https://www.enr.com/articles/63720-oracle-invokes-force-majeure-as-new-mexico-project-jupiter-power-work-faces-hurdles", "https://www.oracle.com/news/announcement/project-jupiter-statement-on-construction-permitting-2026-09-14/", "https://siliconangle.com/2026/09/24/oracle-issues-force-majeure-notice-to-developer-of-new-mexico-data-center-over-energy-delays/"], "as_of": "2026-09-24"}, {"id": "stargate-saline-township", "name": "Stargate Michigan (The Barn)", "sponsor": "OpenAI", "developer": "Related Digital (with Blackstone funds)", "tenant": "Oracle for OpenAI", "city": "Saline Township", "county": "Washtenaw", "state": "MI", "lat": 42.16, "lon": -83.85, "status": "Under construction", "status_note": "All three 550,000 sq ft buildings are under construction; the first was described as nearly finished in June 2026. Completion targeted late 2027, operations early 2028.", "planned_mw": 1400, "online_mw": 0, "first_power": "2027", "full_build": "2028", "power_source": "DTE grid from existing resources plus project-funded battery storage", "utility": "DTE Energy (MISO)", "onsite_generation": "No", "cooling": "Closed-loop air-cooled system; water use said to be similar to an office building", "cooling_type": "Air-cooled", "water_source": "Not disclosed", "est_cost_busd": 16, "cost_note": "$16B development and construction (up from about $7B). Totals near $43-56B are reported including Oracle's equipment fit-out. 1.4 GW is DTE's contracted supply.", "next_milestone": "First building energized and delivered to Oracle", "next_milestone_date": "2027-12", "key_risks": "AG and environmental groups are appealing the MPSC's approval of the DTE contracts; local opposition after a consent judgment overrode the township's rezoning denial; possible repeal of Michigan's data-center tax break.", "sources": ["https://michiganadvance.com/2026/08/10/nessel-and-environmental-groups-file-initial-arguments-in-appeal-of-dte-saline-data-center-contract/", "https://spectrumlocalnews.com/mi/michigan/news/2026/08/02/related-digital-saline-township-data-center-construction-progress", "https://www.oracle.com/news/announcement/related-digital-oracle-openai-walbridge-and-governor-whitmer-celebrate-construction-of-stargate-campus-in-saline-township-2026-06-01/"], "as_of": "2026-08-10"}, {"id": "stargate-port-washington-lighthouse", "name": "Stargate Lighthouse (Port Washington)", "sponsor": "OpenAI", "developer": "Vantage Data Centers", "tenant": "Oracle for OpenAI", "city": "Port Washington", "county": "Ozaukee", "state": "WI", "lat": 43.39, "lon": -87.91, "status": "Under construction", "status_note": "Four roughly 550,000 sq ft buildings are rising with about 3,000 workers on site, but the campus cannot run until a new ATC transmission line is approved; the PSC sent that application back in August 2026.", "planned_mw": 902, "online_mw": 0, "first_power": "2028", "full_build": "2028", "power_source": "We Energies grid via a dedicated rate: new solar, wind and battery projects plus a proposed 10-20% share of Point Beach nuclear output; diesel emergency generators", "utility": "We Energies / ATC (MISO)", "onsite_generation": "No", "cooling": "Closed-loop liquid cooling", "cooling_type": "Closed-loop liquid", "water_source": "Municipal (new city water main)", "est_cost_busd": 15, "cost_note": "$15B+ Vantage campus figure, excluding the $1.3-2B+ ATC transmission project. Other sources cite a 1.3 GW grid request.", "next_milestone": "PSC review of refiled ATC transmission application; ruling on Point Beach nuclear deal", "next_milestone_date": "2027-03", "key_risks": "Transmission delay: an analyst projects meaningful load no earlier than mid-to-late 2028. Lawsuit against DNR over environmental review; resident opposition over transmission costs and noise.", "sources": ["https://civicmedia.us/news/2026/10/02/we-energies-strikes-deal-to-power-oracle-data-center-with-nuclear-energy", "https://biztimes.com/analysis-of-port-washington-data-center-project-says-completion-likely-to-be-delayed-until-at-least-mid-2028/", "https://www.wpr.org/news/psc-denies-transmission-project-port-washington-data-center"], "as_of": "2026-10-02"}, {"id": "meta-hyperion", "name": "Meta Hyperion", "sponsor": "Meta", "developer": "Meta (JV with Blue Owl, 80/20)", "tenant": "Meta", "city": "Holly Ridge", "county": "Richland Parish", "state": "LA", "lat": 32.477, "lon": -91.632, "status": "Under construction", "status_note": "Roofs are on the first two halls and the cooling plant is being installed, but nothing is energized yet. In July 2026 Meta raised the target to 5 GW and the investment to more than $50B.", "planned_mw": 5000, "online_mw": 0, "first_power": "2028", "full_build": "2036", "power_source": "Entergy Louisiana grid plus 3 approved new combined-cycle gas plants (7 more requested), solar, batteries and new 500 kV transmission", "utility": "Entergy Louisiana / MISO", "onsite_generation": "No", "cooling": "Air-cooled chillers (about 816 planned, per satellite imagery); liquid loop design not disclosed", "cooling_type": "Air-cooled", "water_source": "Not disclosed (Meta pledges 100% local watershed replenishment)", "est_cost_busd": 50, "cost_note": "Meta's July 2026 figure of more than $50B (was $10B at groundbreaking, about $27B in the Blue Owl JV). 5,000 MW is Meta's stated compute target; Epoch counts about 1,632 MW of IT by 2028.", "next_milestone": "First new Entergy gas units in service; PSC ruling on 7 more gas plants", "next_milestone_date": "2026-12", "key_risks": "Relies on regulators approving 7 more Entergy gas plants; a PSC commissioner warns of stranded costs. Scrutiny of off-balance-sheet bond financing and fast-track approvals.", "sources": ["https://www.wrkf.org/2026-07-14/meta-is-investing-40b-more-to-expand-richland-parish-data-center-project", "https://epoch.ai/data/ai-data-centers/directory/meta-hyperion", "https://finance.yahoo.com/sectors/energy/articles/meta-triples-initial-plans-builds-203000961.html"], "as_of": "2026-10-05"}, {"id": "meta-prometheus", "name": "Meta Prometheus", "sponsor": "Meta", "developer": "Meta", "tenant": "Meta", "city": "New Albany", "county": "Licking", "state": "OH", "lat": 40.08, "lon": -82.75, "status": "Partially operational", "status_note": "Most buildings and tent halls are running AI clusters; expansion continues while Williams finishes two behind-the-meter gas plants for the remaining halls.", "planned_mw": 1022, "online_mw": 471, "first_power": "2025-Q3", "full_build": "2028", "power_source": "AEP Ohio grid (250 MW interim) plus Williams Socrates South/North behind-the-meter gas plants (400 MW) with batteries; a third plant (about 250 MW) projected for 2028", "utility": "AEP Ohio / PJM; Williams onsite gas", "onsite_generation": "Yes", "cooling": "Direct-to-chip liquid in AI halls; air-assisted liquid racks in older halls", "cooling_type": "Hybrid", "water_source": "Municipal (New Albany)", "est_cost_busd": 38.7, "cost_note": "Epoch AI's projected capex for full build. Meta has disclosed only about $1.5B invested since 2017. MW figures are Epoch IT estimates; Meta's target is 1 GW by end of 2026.", "next_milestone": "Socrates South and North gas plants fully in service", "next_milestone_date": "2026-11", "key_risks": "Growth depends on on-time Williams gas plants; the AEP grid feed is temporary with an 85% minimum-demand charge; onsite gas emissions draw scrutiny.", "sources": ["https://epoch.ai/data/ai-data-centers/directory/meta-prometheus", "https://cleanview.co/reports/behind-the-meter-data-centers/full-report/meta-new-albany", "https://measuredai.substack.com/p/meta-prometheus-google-ohio"], "as_of": "2026-10-05"}, {"id": "meta-el-paso", "name": "Meta El Paso", "sponsor": "Meta", "developer": "Meta / BlackRock JV (80/20)", "tenant": "Meta", "city": "El Paso", "county": "El Paso", "state": "TX", "lat": 31.95, "lon": -106.37, "status": "Under construction", "status_note": "Vertical construction is under way on the 1 GW campus; a majority stake went to BlackRock in July 2026. Texas judges proposed approving the dedicated 366 MW gas plant only if ratepayers bear none of its cost.", "planned_mw": 1000, "online_mw": 0, "first_power": "2028", "full_build": "2028", "power_source": "El Paso Electric grid (about 220 MW) plus a proposed 366 MW plant of modular gas generators next to the campus", "utility": "El Paso Electric (Western Interconnection)", "onsite_generation": "Yes", "cooling": "Closed-loop water cooling (per Meta)", "cooling_type": "Closed-loop liquid", "water_source": "Not disclosed", "est_cost_busd": 14, "cost_note": "Total development cost in the July 2026 BlackRock JV announcement (was $1.5B, then $10B+). The gas plant is a separate ~$0.5B.", "next_milestone": "Texas PUC vote on the McCloud gas plant certificate", "next_milestone_date": "2026-11", "key_risks": "PUCT could deny or restrict the gas plant; the City of El Paso and over 1,000 residents oppose it. Texas's Sept 2026 pause on TCEQ data-center permits adds uncertainty.", "sources": ["https://insideclimatenews.org/news/24092026/el-paso-electric-only-considered-gas-to-power-meta-data-center/", "https://w.media/meta-hands-blackrock-majority-stake-in-1-gw-el-paso-data-center/", "https://news.bgov.com/artificial-intelligence/meta-increases-investment-in-el-paso-data-center-to-10-billion"], "as_of": "2026-09-24"}, {"id": "meta-lebanon-in", "name": "Meta Lebanon (LEAP District)", "sponsor": "Meta", "developer": "Meta", "tenant": "Meta", "city": "Lebanon", "county": "Boone", "state": "IN", "lat": 40.06, "lon": -86.52, "status": "Under construction", "status_note": "Ground broken in February 2026 on a 1,500-acre, 13-building campus; first phase aimed at late 2027 or early 2028.", "planned_mw": 1000, "online_mw": 0, "first_power": "2027-Q4", "full_build": null, "power_source": "Grid supply from Boone REMC / Wabash Valley Power Alliance, matched with 409 MW of new Indiana renewables", "utility": "Boone REMC / WVPA (MISO)", "onsite_generation": "No", "cooling": "Closed-loop liquid cooling that recirculates water (per Meta)", "cooling_type": "Closed-loop liquid", "water_source": "Municipal (Lebanon / LEAP supply from Citizens Energy Group)", "est_cost_busd": 10, "cost_note": "Meta's stated figure of more than $10B across up to six phases.", "next_milestone": "First phase online", "next_milestone_date": "2027-12", "key_risks": "Controversy over moving regional water to the LEAP District, rate-impact concerns, and dependence on new transmission.", "sources": ["https://about.fb.com/news/2026/02/metas-new-data-center-lebanon-indiana-marks-milestone-ai-investment/", "https://indianacapitalchronicle.com/2026/02/11/details-on-long-expected-meta-data-center-campus-unveiled/"], "as_of": "2026-02-12"}, {"id": "xai-colossus-1", "name": "xAI Colossus 1", "sponsor": "xAI", "developer": "xAI (SpaceXAI)", "tenant": "Anthropic (sole tenant since May 2026)", "city": "Memphis", "county": "Shelby", "state": "TN", "lat": 35.06, "lon": -90.15, "status": "Operational", "status_note": "The converted Electrolux plant is fully running; since May 2026 Anthropic has leased all of its compute while xAI training moved to Colossus 2.", "planned_mw": 340, "online_mw": 340, "first_power": "2024-Q3", "full_build": "2025", "power_source": "MLGW/TVA grid (about 300 MW) plus permitted onsite gas turbines, Megapack batteries and adjacent solar", "utility": "MLGW / TVA", "onsite_generation": "Yes", "cooling": "Evaporative cooling towers (33 units), replacing air-cooled chillers by Feb 2026", "cooling_type": "Evaporative", "water_source": "Municipal (MLGW, Memphis aquifer); planned $80M wastewater recycling plant stalled", "est_cost_busd": 12.9, "cost_note": "Epoch AI's estimated capex. MW is Epoch's IT estimate.", "next_milestone": "Construction restarts on the wastewater recycling plant", "next_milestone_date": "2027-03", "key_risks": "Environmental-justice opposition and air-permit disputes over the gas turbines; aquifer drawdown concerns while the recycling plant is delayed; Memphis council moratorium vote set for Oct 20.", "sources": ["https://epoch.ai/data/ai-data-centers/directory/colossus-1", "https://www.actionnews5.com/2026/05/06/anthropic-parent-company-claude-operate-data-center-memphis/", "https://www.selc.org/news/inside-memphis-fight-against-xai/"], "as_of": "2026-10-05"}, {"id": "xai-colossus-2", "name": "xAI Colossus 2", "sponsor": "xAI", "developer": "xAI (SpaceXAI)", "tenant": "SpaceXAI; also Anthropic and Cursor", "city": "Memphis (power plant in Southaven, MS)", "county": "Shelby", "state": "TN", "lat": 34.995, "lon": -90.03, "status": "Partially operational", "status_note": "Two large clusters on Tulane Road run close to 1 GW; a third building is under construction. Power comes from temporary gas turbines in Southaven, MS, to be replaced by a permitted 1.2 GW permanent plant.", "planned_mw": 1531, "online_mw": 946, "first_power": "2025-Q4", "full_build": "2027", "power_source": "Mostly self-generated gas: temporary turbines in Southaven, MS, to be replaced by a 41-turbine 1.2 GW plant; Megapacks and some MLGW supply", "utility": "Self-generation (Southaven, MS); MLGW/TVA", "onsite_generation": "Yes", "cooling": "Air-cooled (dry) chillers and air-cooled condenser arrays", "cooling_type": "Air-cooled", "water_source": "Not disclosed", "est_cost_busd": 58, "cost_note": "Epoch AI's projected capex. MW are Epoch IT estimates; Musk has claimed 2 GW eventually.", "next_milestone": "Permanent Southaven gas plant in service; temporary turbines retired by July 2027", "next_milestone_date": "2027-03", "key_risks": "NAACP Clean Air Act suit, a residents' class action and an appeal of the MDEQ permit target the Southaven turbines; continuing local opposition to air pollution.", "sources": ["https://epoch.ai/data/ai-data-centers/directory/colossus-2", "https://www.actionnews5.com/2026/07/31/xai-announces-fourth-data-center-turbines-be-removed-southaven-site/", "https://www.datacenterdynamics.com/en/news/musks-xai-gets-go-ahead-for-41-natural-gas-turbines-in-mississippi-to-power-colossus-data-centers"], "as_of": "2026-10-05"}, {"id": "msft-fairwater-wisconsin", "name": "Microsoft Fairwater (Wisconsin)", "sponsor": "Microsoft", "developer": "Microsoft", "tenant": "Microsoft (OpenAI training likely, per Epoch)", "city": "Mount Pleasant", "county": "Racine", "state": "WI", "lat": 42.69, "lon": -87.95, "status": "Partially operational", "status_note": "Building 1 was completed and fully running by June 2026 after an April startup. Building 2 next door is under construction for 2028, and grading for a larger expansion has begun.", "planned_mw": 737, "online_mw": 369, "first_power": "2026-Q2", "full_build": "2028", "power_source": "We Energies grid; matched with carbon-free supply including 250 MW of solar; backup generators", "utility": "We Energies / MISO", "onsite_generation": "No", "cooling": "Closed-loop liquid for over 90% of the facility, outside air for the rest; air-cooled heat rejection", "cooling_type": "Closed-loop liquid", "water_source": "Racine Water Utility (Lake Michigan); about 2.8M gal/yr for Phase 1", "est_cost_busd": 7.3, "cost_note": "$3.3B for building 1 plus $4B for building 2 (Microsoft). Epoch estimates about $27.9B including chips. MW are Epoch IT estimates.", "next_milestone": "Building 2 energized (Epoch projection)", "next_milestone_date": "2027-02", "key_risks": "Neighbor complaints about cooling-fan noise; ratepayer pushback on We Energies rate increases for about 2.6 GW of new Microsoft load.", "sources": ["https://news.microsoft.com/source/2026/06/23/microsoft-completes-construction-on-first-datacenter-facility-in-mount-pleasant-wisconsin/", "https://epoch.ai/data/ai-data-centers/directory/microsoft-fairwater-wisconsin", "https://www.wpr.org/news/microsoft-data-centers-8-million-gallons-water-each-year"], "as_of": "2026-10-05"}, {"id": "msft-fairwater-atlanta", "name": "Microsoft Fairwater Atlanta (QTS Fayetteville)", "sponsor": "Microsoft", "developer": "QTS (Blackstone)", "tenant": "Microsoft", "city": "Fayetteville", "county": "Fayette", "state": "GA", "lat": 33.44, "lon": -84.51, "status": "Operational", "status_note": "Fairwater 2 began running in October 2025 and buildings 3-4 were operating by mid-June 2026. QTS has two more shells under way on the 615-acre campus, tenant unconfirmed.", "planned_mw": 636, "online_mw": 636, "first_power": "2025-Q4", "full_build": "2026", "power_source": "Utility grid only, no onsite generation or UPS for the GPU fleet; onsite storage smooths power swings", "utility": "Not disclosed", "onsite_generation": "No", "cooling": "Closed-loop direct-to-chip liquid with a very large air-cooled chiller plant (about 672 units)", "cooling_type": "Closed-loop liquid", "water_source": "Fayette County municipal (closed loop; small initial fill)", "est_cost_busd": 24.1, "cost_note": "Epoch AI estimate including chips for buildings 1-4. Microsoft has not disclosed a cost. MW is Epoch's IT estimate.", "next_milestone": "Fit-out of two more QTS building shells", "next_milestone_date": null, "key_risks": "No backup generation for the GPU halls means full utility dependence; a water-billing dispute over unmetered lines at the QTS campus; regional opposition to data-center water use.", "sources": ["https://epoch.ai/data/ai-data-centers/directory/microsoft-fairwater-atlanta", "https://blogs.microsoft.com/blog/2025/11/12/infinite-scale-the-architecture-behind-the-azure-ai-superfactory/", "https://www.atlantanewsfirst.com/2026/07/13/records-raise-questions-about-georgias-largest-data-center-its-water-use/"], "as_of": "2026-10-05"}, {"id": "msft-pecos", "name": "Microsoft Pecos", "sponsor": "Microsoft", "developer": "Microsoft (power: Chevron/Engine No. 1)", "tenant": "Microsoft", "city": "Pecos", "county": "Reeves", "state": "TX", "lat": 31.42, "lon": -103.49, "status": "Announced", "status_note": "Announced June 2026 with a 20-year supply deal from a co-located Chevron gas plant; capacity added over 5-7 years and no construction start published.", "planned_mw": 2000, "online_mw": null, "first_power": "2028", "full_build": "2033", "power_source": "Co-located behind-the-meter gas plant up to 2.67 GW (GE Vernova and Solar Turbines), later grid tie", "utility": "None at launch; future ERCOT interconnection", "onsite_generation": "Yes", "cooling": "Closed-loop; initial fill only", "cooling_type": "Closed-loop liquid", "water_source": "Non-potable and brackish groundwater; possible produced-water reuse", "est_cost_busd": null, "cost_note": "Microsoft gives only a multibillion-dollar figure.", "next_milestone": "First power from Chevron's gas plant", "next_milestone_date": "2028-06", "key_risks": "Depends on Chevron building a large gas plant on schedule (turbines, air permits) amid Texas's permit pause; no grid backup at launch.", "sources": ["https://blogs.microsoft.com/blog/2026/06/22/powering-the-next-wave-of-ai-expanding-capacity-with-our-new-datacenter-in-pecos/", "https://datacenterdynamics.com/en/news/microsoft-plans-2gw-data-center-campus-in-pecos-texas"], "as_of": "2026-07-02"}, {"id": "aws-project-rainier", "name": "AWS Project Rainier (New Carlisle)", "sponsor": "Amazon", "developer": "Amazon Web Services", "tenant": "Anthropic", "city": "New Carlisle", "county": "St. Joseph", "state": "IN", "lat": 41.67, "lon": -86.48, "status": "Partially operational", "status_note": "Phases 1-2 (18 buildings) largely run Trainium chips for Anthropic; buildings 17-18 expected around October 2026. A 14-building expansion is in site prep awaiting air and wetlands permits.", "planned_mw": 2200, "online_mw": 910, "first_power": "2025-Q1", "full_build": "2028", "power_source": "I&M grid (nuclear, coal, wind) matched by about 635 MW of Amazon Indiana wind/solar; diesel backup only", "utility": "Indiana Michigan Power (AEP) / PJM", "onsite_generation": "No", "cooling": "Mostly outside air with water-assisted cooling on hot hours; expansion adds direct-to-chip liquid", "cooling_type": "Hybrid", "water_source": "New Carlisle municipal wells (shallow aquifer)", "est_cost_busd": 11, "cost_note": "$11B AWS announced investment. Epoch estimates $72.9B at full build including chips. 2,200 MW is AWS grid draw; online MW is Epoch's IT estimate.", "next_milestone": "Energize two new 345 kV substations (about 1.1 GW)", "next_milestone_date": "2026-12", "key_risks": "345 kV substation timing, pending permits for the expansion, aquifer drawdown disputes, and a county move (Sept 22) to draft zoning barring new hyperscale campuses.", "sources": ["https://epoch.ai/data/data-centers/satellite-explorer/AnthropicAmazonProjectRainierNewCarlisleIndiana", "https://convergedigest.com/aws-activates-project-rainier-data-center-campus/", "https://www.abc57.com/news/st-joseph-county-council-advances-plan-to-ban-new-data-centers"], "as_of": "2026-10-05"}, {"id": "aws-madison-county-ms", "name": "AWS Madison County (Canton/Ridgeland)", "sponsor": "Amazon", "developer": "Amazon Web Services", "tenant": "AWS", "city": "Canton", "county": "Madison", "state": "MS", "lat": 32.59, "lon": -90.05, "status": "Partially operational", "status_note": "Five Canton buildings are running and buildings 6-9 have roofs on. The Ridgeland campus is in early construction after an $11-12B expansion was announced in April 2026.", "planned_mw": 683, "online_mw": 284, "first_power": "2025-Q2", "full_build": "2028", "power_source": "Entergy Mississippi grid with new Entergy gas plants and solar; 616 MW of Amazon renewable contracts; diesel backup (800+ generators)", "utility": "Entergy Mississippi / MISO", "onsite_generation": "No", "cooling": "Air cooling most of the year, water about 9% of the year", "cooling_type": "Hybrid", "water_source": "Canton municipal, moving to recycled wastewater in 2027; Ridgeland city water", "est_cost_busd": 21, "cost_note": "$10B (2024) plus $11B (April 2026). MW are Epoch IT estimates for Canton only.", "next_milestone": "Canton buildings 6-7 online; switch to recycled wastewater", "next_milestone_date": "2027-03", "key_risks": "Resident complaints about diesel generator noise and emissions; criticism of Entergy's confidential contract and cost recovery; water supply concerns.", "sources": ["https://mississippitoday.org/2026/06/09/amazon-data-centers-mississippi/", "https://epoch.ai/data/ai-data-centers/directory/amazon-madison-mega-site", "https://www.mississippifreepress.org/amazon-is-expanding-data-centers-in-central-mississippi-governor-announces/"], "as_of": "2026-10-05"}, {"id": "aws-salem-susquehanna", "name": "AWS Salem Twp (Susquehanna)", "sponsor": "Amazon", "developer": "Amazon Web Services (bought from Talen)", "tenant": "AWS", "city": "Berwick (Salem Township)", "county": "Luzerne", "state": "PA", "lat": 41.1, "lon": -76.14, "status": "Under construction", "status_note": "The 1,200-acre campus has been under active construction since October 2025 around a 48 MW building Talen finished in 2023; new-building commissioning dates are TBD.", "planned_mw": 1920, "online_mw": null, "first_power": "2023", "full_build": "2032", "power_source": "Susquehanna nuclear plant (Talen) under a 1,920 MW PPA, moving to front-of-meter grid delivery", "utility": "PPL Electric / Talen / PJM", "onsite_generation": "No", "cooling": "Outside air most of the year, direct evaporative under 2% of the year", "cooling_type": "Hybrid", "water_source": "Onsite well and Susquehanna River withdrawal plus municipal; SRBC approved", "est_cost_busd": null, "cost_note": "Amazon paid $650M for the campus; $20B is AWS's statewide PA pledge with no site cost. 1,920 MW is PPA volume ramping to 2032.", "next_milestone": "Commission first Amazon-built buildings; NPDES cooling-water discharge permit", "next_milestone_date": null, "key_risks": "FERC earlier rejected expanding behind-the-meter supply; objections to cooling-water discharge to the Susquehanna; reactor licenses (2042/2044) cap long-term supply.", "sources": ["https://www.amazoninnovationinpa.com/salem-township-innovation-campus/", "https://world-nuclear-news.org/articles/new-supply-agreement-expands-talen-amazon-partnership", "https://www.outdoornews.com/2026/01/26/data-center-in-pennsylvania-seeks-approval-to-discharge-cooling-water-into-susquehanna-river/"], "as_of": "2026-08-02"}, {"id": "aws-richmond-county-nc", "name": "AWS Energy Way (Richmond County)", "sponsor": "Amazon", "developer": "Amazon Web Services", "tenant": "AWS", "city": "Hamlet", "county": "Richmond", "state": "NC", "lat": 34.86, "lon": -79.72, "status": "Under construction", "status_note": "Construction on the 21-building, roughly 800-acre campus was visible by September 2026. NC DEQ issued air permits Aug 28 for Duke's temporary bridge-power engines and Amazon's backup engines; operations expected early 2027.", "planned_mw": 1000, "online_mw": 0, "first_power": "2027-Q1", "full_build": null, "power_source": "Duke Energy Progress grid; 57 diesel bridge-power engines for about a year; 588 diesel backup engines", "utility": "Duke Energy Progress", "onsite_generation": "Yes", "cooling": "Air cooling most of the year, water on the hottest days", "cooling_type": "Hybrid", "water_source": "Not disclosed", "est_cost_busd": 10, "cost_note": "$10B announced initial investment.", "next_milestone": "Initial operations on Duke bridge power", "next_milestone_date": "2027-03", "key_risks": "Possible appeal of the air permits by SELC; organized local opposition; uncertain grid interconnection timing.", "sources": ["https://www.wunc.org/environment/2026-09-16/richmond-county-amazon-data-center-air-pollution", "https://businessnc.com/amazon-plots-state-record-10b-data-center-project-in-richmond-county/"], "as_of": "2026-09-16"}, {"id": "aws-butts-county-ga", "name": "AWS Butts County (Project Lighthouse)", "sponsor": "Amazon", "developer": "Amazon Web Services", "tenant": "AWS", "city": "Jackson", "county": "Butts", "state": "GA", "lat": 33.28, "lon": -84.04, "status": "Under construction", "status_note": "Early construction in River Park Industrial Park near I-75 with 12-14 buildings planned and the first targeted for 2027.", "planned_mw": null, "online_mw": 0, "first_power": "2027", "full_build": null, "power_source": "Not disclosed", "utility": "Not disclosed", "onsite_generation": "No", "cooling": "Not disclosed", "cooling_type": "Not disclosed", "water_source": "Butts County Water and Sewer Authority", "est_cost_busd": 11, "cost_note": "$11B is AWS's combined Butts and Douglas county figure. Unverified trackers cite about 786 MW.", "next_milestone": "First building energized; PILOT payments begin", "next_milestone_date": "2027-01", "key_risks": "Capacity, power and water undisclosed; depends on new Georgia Power and transmission buildout and water/sewer upgrades.", "sources": ["https://aboutamazon.com/news/aws/aws-investment-georgia-ai-cloud-infrastructure", "https://www.jacksonprogress-argus.com/news/amazon-s-future-contributions-to-local-entities-adjusted/article_517a4ab7-03a7-4297-847f-5a0d11d438ba.html"], "as_of": "2026-09-23"}, {"id": "homer-city", "name": "Homer City Energy Campus", "sponsor": "Amazon", "developer": "Homer City Redevelopment (Knighthead); EPC Kiewit", "tenant": "AWS (named in land-development filing)", "city": "Homer City", "county": "Indiana", "state": "PA", "lat": 40.51, "lon": -79.196, "status": "Under construction", "status_note": "Vertical construction of the 4.5 GW gas plant began April 2026. AWS filed for 36 data-center buildings in phases from December 2026; the county planning commission tabled it in September.", "planned_mw": 3700, "online_mw": 0, "first_power": "2027-Q4", "full_build": "2036", "power_source": "Onsite 4.4-4.5 GW gas plant (seven GE Vernova 7HA.02 turbines, Marcellus gas), over 1 GW exported to grid", "utility": "FirstEnergy / PJM", "onsite_generation": "Yes", "cooling": "Not described for the data halls", "cooling_type": "Not disclosed", "water_source": "Former power station's existing water-withdrawal rights", "est_cost_busd": 10, "cost_note": "$10B developer figure for campus and power plant; AWS building costs undisclosed. Planned MW is the ~3,700 MW of the 4.5 GW plant reportedly reserved for data centers.", "next_milestone": "County decision on AWS preliminary plan; AWS phase 1 start", "next_milestone_date": "2026-12", "key_risks": "Air permits appealed to the Environmental Hearing Board; resident opposition (AWS plan tabled); schedule depends on turbine deliveries; very large value accumulation beside one dedicated plant.", "sources": ["https://datacenterdynamics.com/en/news/aws-plans-36-building-data-center-campus-in-indiana-county-pennsylvania", "https://baxtel.com/news/aws-files-36-building-data-center-plan-at-4-5gw-homer-city-campus", "https://www.indianagazette.com/business/business-indiana-gorman-calls-2026-another-transformational-year-for-homer-city-project/article_60bd69d3-5d2b-446e-9e53-429e993b6083.html"], "as_of": "2026-10-07"}, {"id": "google-pryor", "name": "Google Pryor (MidAmerica Ind. Park)", "sponsor": "Google", "developer": "Google", "tenant": "Google", "city": "Pryor", "county": "Mayes", "state": "OK", "lat": 36.24, "lon": -95.33, "status": "Operational", "status_note": "Running since 2011 and still growing; a converted warehouse building came online in early September 2026. The Pryor share of Google's $9B 2025 Oklahoma pledge is undisclosed.", "planned_mw": 368, "online_mw": 368, "first_power": "2011", "full_build": null, "power_source": "GRDA grid (Grand River Energy Center) via new on-campus substation", "utility": "Grand River Dam Authority / SPP", "onsite_generation": "No", "cooling": "Evaporative cooling towers (64 units, about 484 MW heat rejection)", "cooling_type": "Evaporative", "water_source": "Neosho River via MidAmerica Industrial Park water system", "est_cost_busd": 13.9, "cost_note": "Epoch AI estimate for the AI-compute portion (368 MW IT). Google says about $15B invested in Oklahoma since 2007.", "next_milestone": "Pryor scope of the $9B Oklahoma investment built out", "next_milestone_date": "2027-08", "key_risks": "Heavy evaporative water draw (over 1.1B gallons in FY2025); new large-load cost rules under Oklahoma HB 2992.", "sources": ["https://epoch.ai/data/data-centers/satellite-explorer/GooglePryorOklahoma", "https://www.kosu.org/oklahoma-data-center-boom-water-demand", "https://www.newson6.com/what-to-know-pryor-hosts-eight-data-centers-on-google-campus"], "as_of": "2026-10-05"}, {"id": "google-stillwater", "name": "Google Stillwater", "sponsor": "Google", "developer": "Google", "tenant": "Google", "city": "Stillwater", "county": "Payne", "state": "OK", "lat": 36.1156, "lon": -97.0584, "status": "Under construction", "status_note": "Phase 1 lots are platted and permitted with building started on the first two. The OG&E power contract covering this campus and two Muskogee sites awaits OCC approval.", "planned_mw": null, "online_mw": null, "first_power": "2027", "full_build": "2036", "power_source": "OG&E grid plus two Google-backed solar farms under construction", "utility": "OG&E / SPP", "onsite_generation": "No", "cooling": "Not disclosed (about 3B gal/yr projected water use suggests water-based cooling)", "cooling_type": "Not disclosed", "water_source": "City of Stillwater municipal (Kaw Lake)", "est_cost_busd": 3, "cost_note": "Earlier reported figure of up to $3B. Three OG&E-served sites (Stillwater and Muskogee) ramp to about 1 GW over 5 years with no per-site split.", "next_milestone": "OCC ruling on OG&E-Google service agreements", "next_milestone_date": "2026-12", "key_risks": "Depends on OCC approval of the OG&E contract and large-load tariff; large municipal water commitment.", "sources": ["https://www.kgou.org/science-technology-and-environment/2026-05-01/google-og-e-reach-agreement-to-power-planned-data-centers-in-stillwater-muskogee", "https://www.kgou.org/energy/2026-06-18/og-e-proposes-new-data-center-agreement-intended-to-prevent-residential-utility-cost-spikes"], "as_of": "2026-09-10"}, {"id": "google-west-memphis", "name": "Google West Memphis", "sponsor": "Google", "developer": "Google (Groot LLC)", "tenant": "Google", "city": "West Memphis", "county": "Crittenden", "state": "AR", "lat": 35.12, "lon": -90.18, "status": "Under construction", "status_note": "Ground broken October 2025 on a five-building campus with an 18-24 month build; regulators approved the supporting Entergy solar project in March 2026.", "planned_mw": null, "online_mw": null, "first_power": "2027", "full_build": "2027", "power_source": "Entergy Arkansas grid plus new 600 MW solar and 350 MW battery storage; onsite substation", "utility": "Entergy Arkansas / MISO", "onsite_generation": "No", "cooling": "Graywater reuse plant for cooling; system type not specified", "cooling_type": "Not disclosed", "water_source": "Onsite graywater reuse plant", "est_cost_busd": 4, "cost_note": "Google's announced $4B Arkansas investment through 2027.", "next_milestone": "First building completed", "next_milestone_date": "2027-06", "key_risks": "Depends on Entergy's new solar and storage; pending Army Corps review of the floodplain site; 30-year PILOT deal under scrutiny.", "sources": ["https://www.kait8.com/2025/10/02/google-breaks-ground-4b-data-center-west-memphis", "https://now.solar/2026/03/06/plans-approved-for-entergys-1-6b-cypress-solar-project-the-arkansas-democrat-gazette/"], "as_of": "2026-03-06"}, {"id": "google-tembo-cheyenne", "name": "Project Tembo (Cheyenne)", "sponsor": "Google", "developer": "Google (Jupiter Star Holdings); power by Tallgrass", "tenant": "Google", "city": "Cheyenne", "county": "Laramie", "state": "WY", "lat": 41.03, "lon": -104.8, "status": "Site prep / permitting", "status_note": "Crusoe exited in June 2026 and a Google subsidiary filed an amended site plan for a 2.7 GW four-hall campus. Tallgrass says its power hub is proceeding; utility service targeted early 2028.", "planned_mw": 2700, "online_mw": 0, "first_power": "2028-Q1", "full_build": "2031", "power_source": "Tallgrass Cheyenne Power Hub (about 2.7 GW new gas, Mitsubishi M501JAC), plus fuel cells and Black Hills grid", "utility": "Black Hills Energy", "onsite_generation": "Yes", "cooling": "Not disclosed", "cooling_type": "Not disclosed", "water_source": "Not disclosed", "est_cost_busd": null, "cost_note": "No campus cost reported; about $7B is Tallgrass's power-hub investment.", "next_milestone": "Power hub and utility service for first operations", "next_milestone_date": "2028-03", "key_risks": "Developer change raised cost and schedule concerns; resident objections to water use and gas emissions; long-lead turbine deliveries.", "sources": ["https://www.datacenterdynamics.com/en/news/google-is-customer-behind-27gw-data-center-campus-near-cheyenne-wyoming/", "https://cowboystatedaily.com/2026/07/08/google-revealed-as-owner-of-wyomings-largest-data-center-now-project-tembo/"], "as_of": "2026-07-16"}, {"id": "anthropic-lake-mariner", "name": "Lake Mariner (Fluidstack/Anthropic)", "sponsor": "Anthropic", "developer": "TeraWulf", "tenant": "Fluidstack for Anthropic", "city": "Barker (Somerset)", "county": "Niagara", "state": "NY", "lat": 43.36, "lon": -78.6, "status": "Partially operational", "status_note": "The first Fluidstack building began running for Anthropic around May 2026; a second is nearly finished and a third is being fitted out at this former coal-plant site on Lake Ontario.", "planned_mw": 360, "online_mw": 42, "first_power": "2026-Q2", "full_build": "2027", "power_source": "Grid (NYISO); former coal plant site", "utility": "NYISO", "onsite_generation": "No", "cooling": "Dry coolers, non-evaporative closed loop", "cooling_type": "Closed-loop liquid", "water_source": "Not disclosed", "est_cost_busd": 14.3, "cost_note": "Epoch AI projection for the Anthropic buildings. 360 MW is contracted critical IT.", "next_milestone": "Building CB-4 energized", "next_milestone_date": "2026-10", "key_risks": "Third building running about a quarter late per Epoch; tied to Fluidstack financing and a Google backstop; site transmission caps expansion.", "sources": ["https://epoch.ai/data/ai-data-centers/directory/anthropic-lake-mariner", "https://www.techtimes.com/articles/326746/20260905/fluidstack-closes-15b-revenue-soars-18m-660m-projected-while-owning-zero-chips.htm"], "as_of": "2026-09-05"}, {"id": "anthropic-barber-lake", "name": "Barber Lake (Fluidstack/Anthropic)", "sponsor": "Anthropic", "developer": "Cipher Digital", "tenant": "Fluidstack for Anthropic", "city": "Colorado City", "county": "Mitchell", "state": "TX", "lat": 32.39, "lon": -100.87, "status": "Under construction", "status_note": "The first building's shell, chillers and generators were mostly installed by mid-2026 but not energized. Cipher extended the lease to 20 years; first halls due late 2026 to early 2027.", "planned_mw": 207, "online_mw": 0, "first_power": "2026-Q4", "full_build": "2027", "power_source": "ERCOT grid with about 120 diesel backup generators", "utility": "ERCOT", "onsite_generation": "No", "cooling": "Air-cooled chillers (about 175 units)", "cooling_type": "Air-cooled", "water_source": "Onsite supply (no city water)", "est_cost_busd": 7.8, "cost_note": "Epoch AI projection at 207 MW critical IT (about 300 MW gross).", "next_milestone": "First data hall delivered and rent starts", "next_milestone_date": "2026-12", "key_risks": "About three months behind schedule and over budget; fragile town water system, prompting a $10M repair pledge.", "sources": ["https://www.datacenterdynamics.com/en/news/cipher-extends-barber-lake-data-center-lease-commitments-to-20-years/", "https://epoch.ai/data/ai-data-centers/directory/anthropic-barber-lake"], "as_of": "2026-10-10"}, {"id": "thunderbird-enid", "name": "Project Thunderbird (Enid)", "sponsor": "Independent", "developer": "Plainsmen Holdings", "tenant": "None signed", "city": "Enid", "county": "Garfield", "state": "OK", "lat": 36.4, "lon": -97.88, "status": "Announced", "status_note": "Proposed September 2026 as four campuses around Enid on about 1,750 acres; rezoning filed for two sites, with no city water agreement and no tenant yet.", "planned_mw": 2750, "online_mw": null, "first_power": null, "full_build": null, "power_source": "Behind-the-meter gas plant up to 3.3 GW; not grid-supplied", "utility": "None (off-grid)", "onsite_generation": "Yes", "cooling": "Closed-loop recirculating", "cooling_type": "Closed-loop liquid", "water_source": "Raw water from Kaw Lake pipeline (agreement pending)", "est_cost_busd": 35, "cost_note": "Developer's estimate of up to $35B. 2.75 GW is IT load.", "next_milestone": "Rezoning hearings (planning commission and city commission)", "next_milestone_date": "2026-11", "key_risks": "Needs zoning, a water deal, a tenant, financing and air permits for a 3.3 GW gas plant; organized local opposition.", "sources": ["https://www.news9.com/oklahoma-city-news/enid-oklahoma-proposed-thunderbird-data-center", "https://hoodline.com/2026/09/enid-faces-1-735-acre-data-center-plan-with-on-site-power/"], "as_of": "2026-09-09"}, {"id": "iren-emerald-kiowa", "name": "IREN Project Emerald (Kiowa)", "sponsor": "Independent", "developer": "IREN", "tenant": "None announced", "city": "Kiowa", "county": "Pittsburg", "state": "OK", "lat": 34.7, "lon": -95.9, "status": "Site prep / permitting", "status_note": "IREN owns part of the roughly 2,000-acre site and a county committee endorsed the tax-incentive plan; commissioners have not voted on the TIF districts and a public-vote petition is being prepared.", "planned_mw": 1600, "online_mw": null, "first_power": "2028", "full_build": "2029", "power_source": "PSO grid interconnection (studies complete)", "utility": "PSO / SPP", "onsite_generation": "No", "cooling": "Closed-loop recirculating (per IREN)", "cooling_type": "Closed-loop liquid", "water_source": "Not disclosed", "est_cost_busd": 50, "cost_note": "About $50B across two phases per county documents; capacity figures conflict (1.6 GW vs 1.2 GW per phase).", "next_milestone": "County commissioners vote on TIF districts", "next_milestone_date": "2026-11", "key_risks": "TIF not approved and abatement may face a public vote; uncertain local water; no signed tenant.", "sources": ["https://iren.com/resources/news/iren-oklahoma-1-6gw-data-center-campus", "https://nondoc.com/2026/05/14/pittsburg-county-committee-endorses-deal-tied-to-2000-acre-50-billion-data-center-site/", "https://okcfox.com/news/local/should-kiowa-data-center-proposal-go-to-a-vote-of-the-people"], "as_of": "2026-09-09"}, {"id": "fermi-matador", "name": "Fermi Project Matador (Amarillo)", "sponsor": "Independent", "developer": "Fermi America", "tenant": "TensorWave (first lease, 222 MW, options to 650 MW)", "city": "Amarillo", "county": "Carson", "state": "TX", "lat": 35.33, "lon": -101.56, "status": "Under construction", "status_note": "Site and power-plant groundwork is under way for six Siemens SGT-800 turbines. A first lease with TensorWave was signed in August 2026 but closing depends on financing; nothing in service yet.", "planned_mw": 11000, "online_mw": 0, "first_power": "2027-Q4", "full_build": null, "power_source": "Private onsite grid: gas turbines plus a proposed 2.6 GW gas plant, four planned AP1000 nuclear units, solar and batteries", "utility": "Private grid", "onsite_generation": "Yes", "cooling": "Not specified (company claims about 80% less water than conventional)", "cooling_type": "Not disclosed", "water_source": "City of Amarillo (up to 2.5 MGD) plus Ogallala-region groundwater leases", "est_cost_busd": 80, "cost_note": "Midpoint of a reported $70-90B+ estimate. Planned MW is the stated up-to-11 GW project; generation plans have grown to about 17 GW.", "next_milestone": "TensorWave lease closing and project financing", "next_milestone_date": "2026-11", "key_risks": "No revenue and dependent on new capital; CEO firing litigation and a securities class action; air-permit challenges; Ogallala water scrutiny; unlicensed nuclear plans.", "sources": ["https://www.sec.gov/Archives/edgar/data/0002071778/000207177826000051/frmi-20260630.htm", "https://www.datacenterdynamics.com/en/news/fermi-taps-hillcore-to-construct-26gw-gas-plant-for-up-to-11gw-project-matador-in-amarillo-texas/"], "as_of": "2026-08-13"}, {"id": "polaris-forge-1", "name": "Applied Digital Polaris Forge 1", "sponsor": "Independent", "developer": "Applied Digital", "tenant": "CoreWeave", "city": "Ellendale", "county": "Dickey", "state": "ND", "lat": 46.015, "lon": -98.573, "status": "Partially operational", "status_note": "Two buildings are live with 250 MW of critical IT (building 2's second phase on Oct 1, 2026); a third 150 MW building is under construction.", "planned_mw": 400, "online_mw": 250, "first_power": "2025-Q4", "full_build": "2028", "power_source": "Regional grid (excess transmission capacity)", "utility": "Not disclosed", "onsite_generation": "No", "cooling": "Closed-loop (company general description)", "cooling_type": "Closed-loop liquid", "water_source": "Not disclosed", "est_cost_busd": null, "cost_note": "No total cost reported; $1.59B of notes fund the third building. MW are critical IT.", "next_milestone": "Third 150 MW building ready for service", "next_milestone_date": "2027-06", "key_risks": "Heavy debt load and single-tenant dependence on CoreWeave; note amortization tied to lease start makes delays costly.", "sources": ["https://www.datacenterdynamics.com/en/news/applied-digital-adds-75mw-of-capacity-at-ellendale-data-center-campus-in-north-dakota/", "https://www.sec.gov/Archives/edgar/data/0001144879/000114487926000057/apldq127earningsrelease.htm"], "as_of": "2026-10-07"}, {"id": "coreweave-lancaster", "name": "CoreWeave Lancaster", "sponsor": "Independent", "developer": "Chirisa / Machine Investment Group (JV with Blue Owl)", "tenant": "CoreWeave", "city": "Lancaster", "county": "Lancaster", "state": "PA", "lat": 40.055, "lon": -76.255, "status": "Under construction", "status_note": "Phase one converts a former printing plant; July 2026 imagery showed rooftop cooling going in but not yet running. Phase two needs city planning approval.", "planned_mw": 300, "online_mw": 0, "first_power": "2027-Q2", "full_build": null, "power_source": "PPL grid via new substation and switchyard; backup generators", "utility": "PPL Electric / PJM", "onsite_generation": "No", "cooling": "Rooftop air-cooled chillers", "cooling_type": "Air-cooled", "water_source": "Not disclosed (SRBC caps about 20,000 gal/day per site)", "est_cost_busd": 6, "cost_note": "$6B CoreWeave commitment; 100 MW initial scalable to 300 MW.", "next_milestone": "Building 1 operational (about 92 MW IT)", "next_milestone_date": "2027-06", "key_risks": "City zoning appeals, phase-two approval, and PPL substation timing.", "sources": ["https://convergedigest.com/coreweave-to-invest-6-billion-in-ai-data-center-in-pennsylvania/", "https://epoch.ai/data/ai-data-centers/directory/coreweave-lancaster-greenfield-site"], "as_of": "2026-10-05"}, {"id": "pw-digital-gateway", "name": "Prince William Digital Gateway", "sponsor": "Independent", "developer": "QTS (Blackstone) and Compass", "tenant": "None", "city": "Gainesville area", "county": "Prince William", "state": "VA", "lat": 38.83, "lon": -77.61, "status": "Paused / cancelled", "status_note": "Dead: courts voided the rezoning (affirmed March 2026) and QTS withdrew its last appeal on July 2, 2026.", "planned_mw": null, "online_mw": 0, "first_power": null, "full_build": null, "power_source": "Not disclosed", "utility": "Dominion / PJM", "onsite_generation": "No", "cooling": "Not disclosed", "cooling_type": "Not disclosed", "water_source": "Not disclosed", "est_cost_busd": null, "cost_note": "QTS had claimed tens of billions for about 23M sq ft.", "next_milestone": "None", "next_milestone_date": null, "key_risks": "Any revival needs new rezoning against strong battlefield-preservation opposition; county cut its by-right data-center district by two-thirds on Sept 25.", "sources": ["https://virginiabusiness.com/prince-william-digital-gateway-data-center-project-officially-dies/", "https://www.datacenterdynamics.com/en/news/northern-virginias-prince-william-county-puts-controls-on-new-data-center-projects/"], "as_of": "2026-09-25"}], "nri": [{"county": "Taylor", "state": "TX", "fips": "48441", "overall": "Relatively Moderate", "hurricane": "Very Low", "tornado": "Relatively Moderate", "inland_flood": "Relatively Moderate", "coastal_flood": "Not Applicable", "wildfire": "Relatively Moderate", "earthquake": "Very Low", "hail": "Very High", "strong_wind": "Relatively Moderate", "winter_weather": "Relatively High", "ice_storm": "Relatively Low", "heat_wave": "Relatively Moderate"}, {"county": "Shackelford", "state": "TX", "fips": "48417", "overall": "Very Low", "hurricane": "Very Low", "tornado": "Very Low", "inland_flood": "Very Low", "coastal_flood": "Not Applicable", "wildfire": "Relatively Low", "earthquake": "Very Low", "hail": "Relatively Low", "strong_wind": "Very Low", "winter_weather": "Very Low", "ice_storm": "Very Low", "heat_wave": "Very Low"}, {"county": "Milam", "state": "TX", "fips": "48331", "overall": "Relatively Low", "hurricane": "Relatively Low", "tornado": "Relatively Moderate", "inland_flood": "Relatively Low", "coastal_flood": "Not Applicable", "wildfire": "Relatively Low", "earthquake": "Very Low", "hail": "Relatively Moderate", "strong_wind": "Relatively Low", "winter_weather": "Relatively Low", "ice_storm": "Relatively Low", "heat_wave": "Relatively Low"}, {"county": "Trumbull", "state": "OH", "fips": "39155", "overall": "Relatively Moderate", "hurricane": "Relatively Low", "tornado": "Relatively High", "inland_flood": "Relatively Moderate", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Relatively Low", "hail": "Relatively Moderate", "strong_wind": "Relatively High", "winter_weather": "Relatively High", "ice_storm": "Relatively Moderate", "heat_wave": "Relatively Low"}, {"county": "Doña Ana", "state": "NM", "fips": "35013", "overall": "Relatively High", "hurricane": "Very Low", "tornado": "Very Low", "inland_flood": "Relatively High", "coastal_flood": "Not Applicable", "wildfire": "Relatively Low", "earthquake": "Relatively Moderate", "hail": "Relatively High", "strong_wind": "Relatively Moderate", "winter_weather": "Very High", "ice_storm": "Relatively Moderate", "heat_wave": "Relatively Moderate"}, {"county": "Washtenaw", "state": "MI", "fips": "26161", "overall": "Relatively Moderate", "hurricane": "Very Low", "tornado": "Relatively High", "inland_flood": "Relatively Moderate", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Relatively Low", "hail": "Relatively Moderate", "strong_wind": "Relatively High", "winter_weather": "Relatively Moderate", "ice_storm": "Relatively High", "heat_wave": "Relatively Moderate"}, {"county": "Ozaukee", "state": "WI", "fips": "55089", "overall": "Relatively Low", "hurricane": "Very Low", "tornado": "Relatively Low", "inland_flood": "Relatively Low", "coastal_flood": "Very Low", "wildfire": "Very Low", "earthquake": "Very Low", "hail": "Relatively Low", "strong_wind": "Relatively Low", "winter_weather": "Relatively Low", "ice_storm": "Very Low", "heat_wave": "Relatively Low"}, {"county": "Richland Parish", "state": "LA", "fips": "22083", "overall": "Very Low", "hurricane": "Relatively Low", "tornado": "Relatively Moderate", "inland_flood": "Very Low", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Relatively Low", "hail": "Relatively Low", "strong_wind": "Relatively Moderate", "winter_weather": "Very Low", "ice_storm": "Relatively Moderate", "heat_wave": "Relatively Low"}, {"county": "Licking", "state": "OH", "fips": "39089", "overall": "Relatively Low", "hurricane": "Very Low", "tornado": "Relatively Low", "inland_flood": "Relatively Moderate", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Relatively Low", "hail": "Relatively High", "strong_wind": "Relatively High", "winter_weather": "Relatively High", "ice_storm": "Relatively High", "heat_wave": "Relatively Moderate"}, {"county": "El Paso", "state": "TX", "fips": "48141", "overall": "Relatively High", "hurricane": "Very Low", "tornado": "Relatively Low", "inland_flood": "Relatively High", "coastal_flood": "Not Applicable", "wildfire": "Relatively Low", "earthquake": "Relatively Moderate", "hail": "Very High", "strong_wind": "Relatively High", "winter_weather": "Very High", "ice_storm": "Relatively Moderate", "heat_wave": "Relatively High"}, {"county": "Shelby", "state": "TN", "fips": "47157", "overall": "Relatively High", "hurricane": "Relatively Low", "tornado": "Very High", "inland_flood": "Relatively High", "coastal_flood": "Not Applicable", "wildfire": "Relatively Low", "earthquake": "Relatively High", "hail": "Very Low", "strong_wind": "Relatively High", "winter_weather": "Relatively High", "ice_storm": "Relatively High", "heat_wave": "Relatively High"}, {"county": "Racine", "state": "WI", "fips": "55101", "overall": "Relatively Moderate", "hurricane": "Very Low", "tornado": "Relatively High", "inland_flood": "Relatively Moderate", "coastal_flood": "Very Low", "wildfire": "Very Low", "earthquake": "Relatively Low", "hail": "Relatively Moderate", "strong_wind": "Relatively High", "winter_weather": "Relatively Moderate", "ice_storm": "Relatively Low", "heat_wave": "Relatively Moderate"}, {"county": "Fayette", "state": "GA", "fips": "13113", "overall": "Relatively Low", "hurricane": "Relatively Low", "tornado": "Relatively Moderate", "inland_flood": "Relatively Low", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Relatively Low", "hail": "Relatively Moderate", "strong_wind": "Relatively Moderate", "winter_weather": "Very Low", "ice_storm": "Relatively Moderate", "heat_wave": "Relatively Low"}, {"county": "Butts", "state": "GA", "fips": "13035", "overall": "Very Low", "hurricane": "Very Low", "tornado": "Relatively Low", "inland_flood": "Very Low", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Very Low", "hail": "Relatively Low", "strong_wind": "Relatively Moderate", "winter_weather": "Very Low", "ice_storm": "Relatively Low", "heat_wave": "Relatively Low"}, {"county": "St. Joseph", "state": "IN", "fips": "18141", "overall": "Relatively Moderate", "hurricane": "Very Low", "tornado": "Relatively High", "inland_flood": "Relatively Moderate", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Relatively Low", "hail": "Relatively High", "strong_wind": "Relatively High", "winter_weather": "Relatively Moderate", "ice_storm": "Relatively Moderate", "heat_wave": "Relatively Moderate"}, {"county": "Boone", "state": "IN", "fips": "18011", "overall": "Relatively Low", "hurricane": "Very Low", "tornado": "Relatively Low", "inland_flood": "Relatively Low", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Relatively Low", "hail": "Relatively Moderate", "strong_wind": "Relatively Moderate", "winter_weather": "Relatively Moderate", "ice_storm": "Relatively Low", "heat_wave": "Relatively Low"}, {"county": "Madison", "state": "MS", "fips": "28089", "overall": "Relatively Moderate", "hurricane": "Relatively Low", "tornado": "Relatively High", "inland_flood": "Relatively Moderate", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Relatively Low", "hail": "Relatively Moderate", "strong_wind": "Relatively Moderate", "winter_weather": "Relatively Moderate", "ice_storm": "Relatively High", "heat_wave": "Relatively Moderate"}, {"county": "Luzerne", "state": "PA", "fips": "42079", "overall": "Relatively Moderate", "hurricane": "Relatively Moderate", "tornado": "Relatively Moderate", "inland_flood": "Relatively High", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Relatively Low", "hail": "Relatively Low", "strong_wind": "Relatively Moderate", "winter_weather": "Very High", "ice_storm": "Relatively High", "heat_wave": "Relatively Moderate"}, {"county": "Richmond", "state": "NC", "fips": "37153", "overall": "Relatively Low", "hurricane": "Relatively Moderate", "tornado": "Relatively Moderate", "inland_flood": "Relatively Low", "coastal_flood": "Not Applicable", "wildfire": "Relatively Low", "earthquake": "Relatively Low", "hail": "Relatively Low", "strong_wind": "Relatively Moderate", "winter_weather": "Relatively Moderate", "ice_storm": "Relatively Moderate", "heat_wave": "Relatively Low"}, {"county": "Mayes", "state": "OK", "fips": "40097", "overall": "Relatively Low", "hurricane": "Very Low", "tornado": "Relatively Moderate", "inland_flood": "Relatively Moderate", "coastal_flood": "Not Applicable", "wildfire": "Relatively Low", "earthquake": "Very Low", "hail": "Relatively Low", "strong_wind": "Relatively High", "winter_weather": "Relatively Moderate", "ice_storm": "Very High", "heat_wave": "Relatively Moderate"}, {"county": "Payne", "state": "OK", "fips": "40119", "overall": "Relatively Moderate", "hurricane": "Very Low", "tornado": "Relatively High", "inland_flood": "Relatively Low", "coastal_flood": "Not Applicable", "wildfire": "Relatively Moderate", "earthquake": "Very Low", "hail": "Relatively High", "strong_wind": "Relatively Moderate", "winter_weather": "Relatively Moderate", "ice_storm": "Very High", "heat_wave": "Relatively Moderate"}, {"county": "Garfield", "state": "OK", "fips": "40047", "overall": "Relatively Moderate", "hurricane": "Very Low", "tornado": "Relatively High", "inland_flood": "Relatively Low", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Very Low", "hail": "Relatively Moderate", "strong_wind": "Relatively Moderate", "winter_weather": "Relatively Moderate", "ice_storm": "Very High", "heat_wave": "Relatively Moderate"}, {"county": "Pittsburg", "state": "OK", "fips": "40121", "overall": "Relatively Low", "hurricane": "Very Low", "tornado": "Relatively Moderate", "inland_flood": "Relatively Low", "coastal_flood": "Not Applicable", "wildfire": "Relatively Moderate", "earthquake": "Very Low", "hail": "Relatively Moderate", "strong_wind": "Relatively Moderate", "winter_weather": "Relatively Moderate", "ice_storm": "Very High", "heat_wave": "Relatively Moderate"}, {"county": "Crittenden", "state": "AR", "fips": "05035", "overall": "Relatively Moderate", "hurricane": "Very Low", "tornado": "Relatively Moderate", "inland_flood": "Relatively Low", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Relatively Moderate", "hail": "Relatively Low", "strong_wind": "Relatively Low", "winter_weather": "Relatively Low", "ice_storm": "Relatively High", "heat_wave": "Relatively Moderate"}, {"county": "Niagara", "state": "NY", "fips": "36063", "overall": "Relatively Moderate", "hurricane": "Very Low", "tornado": "Relatively Low", "inland_flood": "Relatively Moderate", "coastal_flood": "Very Low", "wildfire": "Very Low", "earthquake": "Relatively Low", "hail": "Relatively Low", "strong_wind": "Relatively Moderate", "winter_weather": "Relatively Low", "ice_storm": "Relatively High", "heat_wave": "Relatively Low"}, {"county": "Mitchell", "state": "TX", "fips": "48335", "overall": "Very Low", "hurricane": "Very Low", "tornado": "Relatively Low", "inland_flood": "Very Low", "coastal_flood": "Not Applicable", "wildfire": "Relatively Low", "earthquake": "Very Low", "hail": "Relatively Moderate", "strong_wind": "Relatively Moderate", "winter_weather": "Relatively Low", "ice_storm": "Very Low", "heat_wave": "Very Low"}, {"county": "Reeves", "state": "TX", "fips": "48389", "overall": "Very Low", "hurricane": "Very Low", "tornado": "Very Low", "inland_flood": "Very Low", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Very Low", "hail": "Relatively Low", "strong_wind": "Relatively Moderate", "winter_weather": "Relatively Moderate", "ice_storm": "Relatively Low", "heat_wave": "Very Low"}, {"county": "Carson", "state": "TX", "fips": "48065", "overall": "Very Low", "hurricane": "No Rating", "tornado": "Relatively Low", "inland_flood": "Very Low", "coastal_flood": "Not Applicable", "wildfire": "Relatively Low", "earthquake": "Very Low", "hail": "Relatively Moderate", "strong_wind": "Relatively Low", "winter_weather": "Relatively Low", "ice_storm": "Relatively Low", "heat_wave": "Very Low"}, {"county": "Indiana", "state": "PA", "fips": "42063", "overall": "Relatively Low", "hurricane": "Relatively Low", "tornado": "Relatively Low", "inland_flood": "Relatively Moderate", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Very Low", "hail": "Relatively Low", "strong_wind": "Relatively Low", "winter_weather": "Very Low", "ice_storm": "Relatively Low", "heat_wave": "Very Low"}, {"county": "Laramie", "state": "WY", "fips": "56021", "overall": "Relatively Low", "hurricane": "Not Applicable", "tornado": "Relatively Moderate", "inland_flood": "Relatively Low", "coastal_flood": "Not Applicable", "wildfire": "Relatively Moderate", "earthquake": "Relatively Low", "hail": "Relatively Moderate", "strong_wind": "Relatively Moderate", "winter_weather": "Very High", "ice_storm": "Relatively High", "heat_wave": "Very Low"}, {"county": "Dickey", "state": "ND", "fips": "38021", "overall": "Very Low", "hurricane": "Not Applicable", "tornado": "Very Low", "inland_flood": "Very Low", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Very Low", "hail": "Relatively Moderate", "strong_wind": "Relatively Low", "winter_weather": "Relatively Moderate", "ice_storm": "Relatively Low", "heat_wave": "Very Low"}, {"county": "Lancaster", "state": "PA", "fips": "42071", "overall": "Relatively High", "hurricane": "Relatively High", "tornado": "Relatively Moderate", "inland_flood": "Relatively High", "coastal_flood": "Not Applicable", "wildfire": "Very Low", "earthquake": "Relatively Moderate", "hail": "Relatively Moderate", "strong_wind": "Relatively High", "winter_weather": "Very High", "ice_storm": "Relatively Moderate", "heat_wave": "Relatively Moderate"}, {"county": "Prince William", "state": "VA", "fips": "51153", "overall": "Relatively Moderate", "hurricane": "Relatively Moderate", "tornado": "Relatively Moderate", "inland_flood": "Relatively Moderate", "coastal_flood": "Relatively Low", "wildfire": "Very Low", "earthquake": "Relatively Low", "hail": "Relatively Moderate", "strong_wind": "Relatively High", "winter_weather": "Relatively High", "ice_storm": "Relatively Low", "heat_wave": "Relatively Moderate"}], "news": [{"date": "2026-10-10", "project": "Barber Lake (Cipher/Anthropic)", "project_id": "anthropic-barber-lake", "state": "TX", "category": "Financing", "headline": "Cipher doubled lease terms at its 300 MW Colorado City campus to 20 years, lifting contracted revenue above $9B; halls now due Q4 2026 to Q1 2027.", "why_it_matters": "Long leases support project debt, but shifted handover dates and overrun-sharing terms signal schedule pressure during commissioning.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/cipher-extends-barber-lake-data-center-lease-commitments-to-20-years/"}, {"date": "2026-10-09", "project": "Project Longhorn (Cedar Creek)", "project_id": null, "state": "TX", "category": "New project", "headline": "A $366M first building, reportedly tied to Anthropic, was filed near Austin with up to 710 MW of simple-cycle gas turbines planned on site.", "why_it_matters": "Behind-the-meter simple-cycle fleets put turbine breakdown, fuel supply and fire exposures together on one site.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/anthropic-linked-366m-data-center-project-filed-for-in-cedar-creek-texas/"}, {"date": "2026-10-07", "project": "Raleigh moratorium", "project_id": null, "state": "NC", "category": "Opposition & permits", "headline": "Raleigh's council voted 7-1 to pause approvals of large data centers for six months while it drafts new rules.", "why_it_matters": "More local pauses across the Southeast add permitting and schedule risk to projects still in planning.", "source": "WUNC", "url": "https://www.wunc.org/politics/2026-10-07/raleigh-council-data-center-moratorium-opposition"}, {"date": "2026-10-06", "project": "Memphis moratorium", "project_id": "xai-colossus-2", "state": "TN", "category": "Opposition & permits", "headline": "The Memphis council's data-center moratorium vote collapsed into protests and a fight and was pushed to October 20.", "why_it_matters": "The outcome could restrict further builds near the Colossus sites.", "source": "WCAX (Gray News)", "url": "https://www.wcax.com/2026/10/07/data-center-moratorium-vote-postponed-after-fight-protests/"}, {"date": "2026-10-06", "project": "Google–Constellation PJM deal", "project_id": null, "state": "US", "category": "Power", "headline": "Google signed for 3.6 GW from Constellation, including a 20-year 890 MW nuclear PPA tied to $4.3B of upgrades at 11 reactors.", "why_it_matters": "Uprate and life-extension work at operating nuclear units adds construction and operational exposure to nuclear and power books.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/google-signs-36gw-deal-with-constellation-to-secure-power-in-pjm-service-area/"}, {"date": "2026-10-06", "project": "Homer City Energy Campus", "project_id": "homer-city", "state": "PA", "category": "New project", "headline": "AWS filed plans for 36 two-story buildings on 1,100 acres at Homer City, powered mainly by the 4.5 GW gas plant under construction next door.", "why_it_matters": "A very large value accumulation beside one dedicated plant makes power-loss business interruption the central question.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/aws-plans-36-building-data-center-campus-in-indiana-county-pennsylvania/"}, {"date": "2026-10-06", "project": "TeraWulf Muskie campus", "project_id": null, "state": "KY", "category": "Power", "headline": "TeraWulf doubled its Kentucky Power service agreement to 1 GW and pulled the second 500 MW phase forward to 2029.", "why_it_matters": "Delivery hinges on a new 765/345 kV substation and regulator approval: a single-point grid dependency.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/terawulfs-kentucky-campus-to-reach-1gw-in-2029/"}, {"date": "2026-10-05", "project": "Polaris Forge 1", "project_id": "polaris-forge-1", "state": "ND", "category": "Construction", "headline": "Applied Digital finished Building 2 at its CoreWeave-leased Ellendale campus, bringing live IT load to 250 MW of a planned 400 MW.", "why_it_matters": "Phased energization puts live halls beside active construction, mixing hot work and commissioning with operating exposure.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/applied-digital-adds-75mw-of-capacity-at-ellendale-data-center-campus-in-north-dakota/"}, {"date": "2026-10-02", "project": "Crusoe Project Hyper (Jayton)", "project_id": null, "state": "TX", "category": "New project", "headline": "Crusoe filed two satellite buildings worth $4.8B in Kent County, taking its Childress-linked Project Hyper to about $12B.", "why_it_matters": "Remote West Texas sites with limited fire service and severe convective storm exposure, carrying multibillion-dollar builder's risk values.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/crusoe-files-for-48bn-data-center-campus-in-jayton-texas/"}, {"date": "2026-10-02", "project": "Stargate Lighthouse", "project_id": "stargate-port-washington-lighthouse", "state": "WI", "category": "Power", "headline": "We Energies reached a deal to supply the Oracle campus in Port Washington partly with output from Point Beach nuclear plant.", "why_it_matters": "Adds a firm supply leg, but the campus still cannot run until its new transmission line is approved.", "source": "Civic Media", "url": "https://civicmedia.us/news/2026/10/02/we-energies-strikes-deal-to-power-oracle-data-center-with-nuclear-energy"}, {"date": "2026-10-01", "project": "Virginia accountability framework", "project_id": null, "state": "VA", "category": "Policy", "headline": "Governor Spanberger's executive order bans project NDAs and orders reviews of diesel backup generator impacts and new noise rules.", "why_it_matters": "Tighter diesel limits could change emergency power design and fuel storage in the largest US market.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/virginia-bans-data-center-ndas-as-part-of-new-digital-infrastructure-framework/"}, {"date": "2026-10-01", "project": "Ratepayer Protection Act", "project_id": null, "state": "US", "category": "Policy", "headline": "A 57-43 Senate vote fell short of cloture on a House-passed bill making data centers pay full grid-upgrade costs.", "why_it_matters": "Cost allocation stays a state-by-state patchwork, so tariff and collateral terms vary by site.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/senate-democrats-block-ratepayer-protection-act-in-57-43-vote/"}, {"date": "2026-10-01", "project": "Amazon–Calvert Cliffs PPA", "project_id": null, "state": "MD", "category": "Power", "headline": "Amazon signed a 20-year deal for 690 MW from Calvert Cliffs nuclear plant, backing more than $3B of upgrades and about 190 MW of new output.", "why_it_matters": "Hyperscaler-funded nuclear uprates bring large outage-and-upgrade construction exposure to operating plants.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/amazon-signs-ppa-with-constellation-for-maryland-nuclear-plant/"}, {"date": "2026-10-01", "project": "Valar Project Beehive", "project_id": null, "state": "UT", "category": "New project", "headline": "Valar Atomics applied to BLM for a Carbon County campus of about 456 small reactors, up to 9.6 GW, with fuel and waste facilities.", "why_it_matters": "Would co-locate unproven Gen IV reactors with data halls at a scale no nuclear pool has written.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/94gw-smr-powered-data-center-campus-proposed-in-utah/"}, {"date": "2026-09-29", "project": "Google Panhandle build", "project_id": null, "state": "TX", "category": "Incident", "headline": "A weak tornado touched down among wind turbines about four miles from a Google data-center build in the Panhandle, causing no damage.", "why_it_matters": "A near miss that shows Panhandle campuses' tornado exposure.", "source": "AccuWeather", "url": "https://www.accuweather.com/en/severe-weather/texas-tornado-twists-just-miles-from-google-data-center/1940604"}, {"date": "2026-09-29", "project": "PJM backstop auction", "project_id": null, "state": "US", "category": "Policy", "headline": "FERC suspended PJM's 6.8 GW emergency backstop capacity auction until February 2027, citing cost-allocation and collateral flaws.", "why_it_matters": "PJM's capacity shortfall persists, raising curtailment risk for Mid-Atlantic data centers.", "source": "Roic News", "url": "https://www.roic.ai/news/pjms-data-center-power-auction-suspended-by-federal-regulators-09-30-2026"}, {"date": "2026-09-25", "project": "Prince William County overlay", "project_id": "pw-digital-gateway", "state": "VA", "category": "Opposition & permits", "headline": "Prince William supervisors cut the county's by-right data-center district by about two-thirds, to 3,500 acres.", "why_it_matters": "Sites outside the smaller zone now face full review, slowing Northern Virginia pipelines.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/northern-virginias-prince-william-county-puts-controls-on-new-data-center-projects/"}, {"date": "2026-09-25", "project": "Applied Digital Delta Forge 2", "project_id": null, "state": "AL", "category": "New project", "headline": "Applied Digital sited its $3.2B, 210 MW hyperscaler campus on 1,300 acres near Brookwood in Tuscaloosa County, opening 2028.", "why_it_matters": "A new multibillion-dollar build in a county with significant wind and convective storm exposure.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/applied-digital-reveals-32bn-delta-forge-2-ai-data-center-will-be-built-in-alabama/"}, {"date": "2026-09-24", "project": "Project Jupiter (Stargate NM)", "project_id": "stargate-project-jupiter", "state": "NM", "category": "Power", "headline": "Oracle sent Blue Owl a force-majeure notice after the gas pipeline for the 2.45 GW campus slipped to February 2027.", "why_it_matters": "Fuel-supply delays for onsite fuel-cell power are triggering contract relief: a clear delay-in-start-up warning.", "source": "SiliconANGLE", "url": "https://siliconangle.com/2026/09/24/oracle-issues-force-majeure-notice-to-developer-of-new-mexico-data-center-over-energy-delays/"}, {"date": "2026-09-24", "project": "DOE SPARK grid grants", "project_id": null, "state": "US", "category": "Policy", "headline": "DOE picked 31 reconductoring and grid-upgrade projects for $1.9B, aiming to free about 23 GW of transfer capacity for large loads.", "why_it_matters": "Transmission helps interconnection but adds no generation, so onsite power stays the norm.", "source": "Baxtel", "url": "https://baxtel.com/news/doe-selects-1-9b-in-grid-projects-to-unlock-23gw-of-capacity"}, {"date": "2026-09-24", "project": "Meta El Paso", "project_id": "meta-el-paso", "state": "TX", "category": "Opposition & permits", "headline": "Reporting shows El Paso Electric considered only gas to power Meta's campus, as a ruling on the dedicated 366 MW plant nears.", "why_it_matters": "A PUC denial or restriction would leave the 1 GW campus short of firm power.", "source": "Inside Climate News", "url": "https://insideclimatenews.org/news/24092026/el-paso-electric-only-considered-gas-to-power-meta-data-center/"}, {"date": "2026-09-23", "project": "Texas TCEQ permit pause", "project_id": null, "state": "TX", "category": "Policy", "headline": "Governor Abbott froze new state environmental permits for data centers until ERCOT finishes its large-load audit, expected in December.", "why_it_matters": "Air permits for onsite turbines are on hold, putting a large share of the Texas pipeline at risk of delay.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/abbott-halts-new-texas-data-center-permits-pending-ercot-audit/"}, {"date": "2026-09-23", "project": "California data center laws", "project_id": null, "state": "CA", "category": "Policy", "headline": "Newsom signed seven bills creating rate classes for 25 MW+ loads, requiring sworn water-use reporting and ending blanket CEQA exemptions.", "why_it_matters": "Water and energy disclosure will shape cooling choices and permit timelines in California.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/california-governor-signs-seven-bill-package-targeting-data-center-energy-and-water-use/"}, {"date": "2026-09-22", "project": "St. Joseph County (Project Rainier area)", "project_id": "aws-project-rainier", "state": "IN", "category": "Opposition & permits", "headline": "The county council voted 6-3 to start drafting zoning that would bar new hyperscale campuses; a final vote is expected within 60 days.", "why_it_matters": "The county hosts about 40 Amazon and Microsoft buildings, so future expansions face headwinds.", "source": "ABC57", "url": "https://www.abc57.com/news/st-joseph-county-council-advances-plan-to-ban-new-data-centers"}, {"date": "2026-09-22", "project": "Texas Critical Data Center", "project_id": null, "state": "TX", "category": "Power", "headline": "New Era signed a 20-year PPA with Vistra's Luminant for at least 207 MW from the adjacent 1.1 GW Odessa gas plant.", "why_it_matters": "Supply from one neighboring plant concentrates outage risk; contingent business interruption needs review.", "source": "DatacenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/new-era-signs-20-year-gas-ppa-with-vistra-subsidiary-to-power-250mw-data-center-in-ector-county-texas/"}, {"date": "2026-09-21", "project": "Project Camellia (Effingham)", "project_id": null, "state": "GA", "category": "Opposition & permits", "headline": "Residents and an environmental group sued to void tax abatements and a land sale for a 3.2 GW OpenAI-linked campus, alleging secret dealings.", "why_it_matters": "A successful open-meetings challenge could unwind incentives and delay a coastal Georgia gigawatt build.", "source": "WTOC", "url": "https://www.wtoc.com/2026/09/21/georgia-group-sues-over-openai-data-center-deal-effingham-county/"}, {"date": "2026-09-21", "project": "Verrus Oakline (Salem)", "project_id": null, "state": "OR", "category": "Opposition & permits", "headline": "Salem adopted an extendable 120-day data-center moratorium, halting phase one of Verrus's $5.1B campus.", "why_it_matters": "Shows local action can strand construction schedules and financing mid-stream.", "source": "Salem Reporter", "url": "https://www.salemreporter.com/2026/09/22/city-attorney-salem-data-center-moratorium-means-verrus-cant-build-until-it-expires/"}]};
+window.dash = (function () {
+  var calcs = {}, cache = {}, cbs = [];
+  window.DC_DATA = window.DC_DATA || window.DC_SNAPSHOT;
+  function compute(id) {
+    if (id in DC_DATA) return DC_DATA[id];
+    if (id in cache) return cache[id];
+    var c = calcs[id]; if (!c) throw new Error('unknown source ' + id);
+    return (cache[id] = c.fn.apply(null, c.inputs.map(compute)));
+  }
+  var run = function () { cbs.forEach(function (f) { try { f(); } catch (e) { console.error(e); } }); };
+  var t; window.addEventListener('resize', function () { clearTimeout(t); t = setTimeout(run, 150); });
+  return {
+    colors: ['#2f7d4f', '#4f8fbf', '#d08a1e', '#8a63b8', '#9a958c', '#b8437e', '#2e9aa3', '#c4572d'],
+    data: function (id) { try { return { status: 'ok', data: compute(id), refreshing: false, meta: [] }; } catch (e) { return { status: 'error', data: [], message: String(e) }; } },
+    calc: function (id, def) { calcs[id] = def; },
+    loader: function () {},
+    onData: function (fn) { cbs.push(fn); fn(); },
+    setLink: function (name) { try { history.replaceState(null, '', '#' + name); } catch (e) {} },
+    params: function () { return {}; }, setParams: function () {}, resetParams: function () {}, refresh: function () {}
+  };
+})();
+</script>
+<div id="dash-root">
+<style>
+.dc { width: 100%; container-type: inline-size; font-family: var(--font-anthropic-sans); color: var(--color-fg); font-size: var(--cds-font-size-body); }
+.dc * { box-sizing: border-box; }
+.dc-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0 0 var(--cds-gap-xs); }
+.dc-take { color: var(--color-fg-muted); margin: 0 0 var(--cds-gap-md); max-width: 60rem; line-height: 1.5; }
+.dc-take b { color: var(--color-fg); font-weight: 600; }
+.dc-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); gap: var(--cds-gap-md); margin-bottom: var(--cds-gap-lg); }
+.dc-kpi { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md) var(--cds-pad-lg); }
+.dc-kpi-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.dc-kpi-num { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: calc(var(--cds-font-size-title) * 1.35); line-height: 1.2; font-variant-numeric: tabular-nums; margin: var(--cds-gap-xs) 0; display: flex; align-items: baseline; gap: .3rem; }
+.dc-kpi-unit { font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-body); color: var(--color-fg-muted); }
+.dc-kpi-sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.dc-tabs { display: flex; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); margin-bottom: var(--cds-gap-lg); overflow-x: auto; }
+.dc-tab { appearance: none; background: none; border: 0; border-bottom: 2px solid transparent; padding: var(--cds-pad-sm) var(--cds-pad-md); font: inherit; color: var(--color-fg-muted); cursor: pointer; white-space: nowrap; }
+.dc-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+.dc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-md); margin-bottom: var(--cds-gap-md); }
+.dc-wide { grid-column: 1 / -1; }
+.dc-week { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: var(--cds-gap-md); align-items: start; }
+@container (max-width: 760px) { .dc-week { grid-template-columns: minmax(0, 1fr); } }
+.dc-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); position: relative; min-width: 0; }
+.dc-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0 0 var(--cds-gap-xs); }
+.dc-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0 0 var(--cds-gap-md); line-height: 1.45; }
+.dc-chart { min-height: 120px; position: relative; }
+.dc-chart svg { display: block; }
+.dc-tick { font-size: var(--cds-font-size-caption); fill: var(--color-fg-muted); font-family: var(--font-anthropic-sans); }
+.dc-lab { font-size: var(--cds-font-size-caption); fill: var(--color-fg); font-family: var(--font-anthropic-sans); }
+.dc-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); max-width: 18rem; z-index: 5; line-height: 1.4; }
+.dc-tip .k { color: var(--cds-text-secondary); }
+.dc-fail { display: flex; align-items: center; justify-content: center; gap: .4rem; min-height: 120px; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.dc-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+[data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+[data-dash-source-state=empty] { color: transparent; }
+.dc-chips { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); margin-bottom: var(--cds-gap-md); }
+.dc-chip { appearance: none; font: inherit; font-size: var(--cds-font-size-caption); border: 1px solid var(--color-border-line); background: transparent; color: var(--color-fg-muted); border-radius: 999px; padding: 2px 10px; cursor: pointer; }
+.dc-chip[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+.dc-feed { display: flex; flex-direction: column; gap: var(--cds-gap-sm); max-height: 44rem; overflow: auto; min-height: 120px; }
+.dc-item { border-top: 1px solid var(--color-border-line); padding-top: var(--cds-pad-sm); }
+.dc-item:first-child { border-top: 0; padding-top: 0; }
+.dc-meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-bottom: 2px; }
+.dc-pill { border-radius: 999px; padding: 0 8px; color: var(--color-fg); }
+.dc-hl { font-weight: var(--cds-font-weight-medium); line-height: 1.4; }
+.dc-why { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: 2px; line-height: 1.45; }
+.dc-why span { font-weight: var(--cds-font-weight-medium); color: var(--color-fg); }
+.dc-foot { display: flex; gap: var(--cds-gap-md); margin-top: 4px; font-size: var(--cds-font-size-caption); }
+.dc-foot a, .dc-linkbtn { color: var(--color-fg-muted); text-decoration: underline; text-underline-offset: 2px; }
+.dc-linkbtn { appearance: none; background: none; border: 0; padding: 0; font: inherit; cursor: pointer; text-align: left; }
+.dc-scroll { overflow: auto; max-height: 34rem; }
+.dc table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.dc th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; z-index: 1; }
+.dc td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+.dc td.num, .dc th.num { text-align: right; }
+.dc th button { appearance: none; background: none; border: 0; font: inherit; color: inherit; cursor: pointer; padding: 0; }
+.dc-proj tbody tr { cursor: pointer; }
+.dc-proj tbody tr:hover, .dc-proj tbody tr.sel { background: color-mix(in srgb, var(--color-fg) 6%, transparent); }
+.dc-dot { display: inline-block; width: .55rem; height: .55rem; border-radius: 50%; margin-right: .35rem; vertical-align: middle; }
+.dc-tools { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); margin-bottom: var(--cds-gap-md); }
+.dc-tools input, .dc-tools select { font: inherit; font-size: var(--cds-font-size-caption); padding: 4px 8px; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); min-width: 0; }
+.dc-tools input { flex: 1 1 12rem; }
+.dc-heat td.r { font-size: 0; text-align: center; min-width: 2.4rem; }
+.dc-heat td.r::before { content: attr(data-abbr); font-size: var(--cds-font-size-caption); }
+.dc-heat td.name { white-space: nowrap; }
+.dc-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm) var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-bottom: var(--cds-gap-sm); }
+.dc-sw { display: inline-block; width: .9rem; height: .9rem; border-radius: 3px; vertical-align: -2px; margin-right: .3rem; border: 1px solid var(--color-border-line); }
+.dc-detail h3 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0 0 var(--cds-gap-xs); }
+.dc-dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: var(--cds-gap-md); margin-top: var(--cds-gap-md); }
+.dc-dl div > span:first-child { display: block; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-bottom: 2px; }
+.dc-dl div { line-height: 1.45; }
+.dc-risk { margin-top: var(--cds-gap-md); padding: var(--cds-pad-sm) var(--cds-pad-md); border-left: 3px solid var(--cds-chart-status-critical); background: color-mix(in srgb, var(--cds-chart-status-critical) 7%, transparent); line-height: 1.45; }
+.dc-perils { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); margin-top: var(--cds-gap-sm); }
+.dc-peril { font-size: var(--cds-font-size-caption); border: 1px solid var(--color-border-line); border-radius: 999px; padding: 1px 8px; }
+.dc-src { font-size: var(--cds-font-size-caption); margin-top: var(--cds-gap-md); color: var(--color-fg-muted); overflow-wrap: anywhere; }
+.dc-src a { color: var(--color-fg-muted); }
+.dc-empty { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); padding: var(--cds-pad-md) 0; }
+.dc-ms td:first-child { white-space: nowrap; font-weight: var(--cds-font-weight-medium); }
+.dc-foot-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: var(--cds-gap-lg); line-height: 1.5; max-width: 60rem; }
+</style>
+
+<div class="dc">
+  <header class="dc-head" id="top">
+    <h1>US AI Data Center Tracker</h1>
+    <p class="dc-note" id="dc-updated" style="margin:0 0 6px"></p>
+    <p class="dc-take" id="takeaway"><b data-source="totals" data-field="online_gw" data-row="0" class="dash-skeleton">—</b> GW is running today of <b data-source="totals" data-field="planned_gw" data-row="0" class="dash-skeleton">—</b> GW planned across the campuses tracked here. <b data-source="totals" data-field="building" data-row="0" class="dash-skeleton">—</b> are building or ramping up, and <b data-source="totals" data-field="onsite_gen" data-row="0" class="dash-skeleton">—</b> are putting a power plant on site — the grid, not land or chips, is now the schedule.</p>
+  </header>
+
+  <div class="dc-kpis" id="kpis">
+    <div class="dc-kpi"><div class="dc-kpi-label">Active projects</div><div class="dc-kpi-num"><span data-source="totals" data-field="projects" data-row="0" class="dash-skeleton">—</span></div><div class="dc-kpi-sub">Excludes cancelled</div></div>
+    <div class="dc-kpi"><div class="dc-kpi-label">Planned capacity</div><div class="dc-kpi-num"><span data-source="totals" data-field="planned_gw" data-row="0" class="dash-skeleton">—</span><span class="dc-kpi-unit">GW</span></div><div class="dc-kpi-sub">At full build</div></div>
+    <div class="dc-kpi"><div class="dc-kpi-label">Running now</div><div class="dc-kpi-num"><span data-source="totals" data-field="online_gw" data-row="0" class="dash-skeleton">—</span><span class="dc-kpi-unit">GW</span></div><div class="dc-kpi-sub">Estimated, as of Oct 2026</div></div>
+    <div class="dc-kpi"><div class="dc-kpi-label">Announced investment</div><div class="dc-kpi-num"><span class="dc-kpi-unit">$</span><span data-source="totals" data-field="invest_busd" data-row="0" class="dash-skeleton">—</span><span class="dc-kpi-unit">B</span></div><div class="dc-kpi-sub">Best public figure each</div></div>
+    <div class="dc-kpi"><div class="dc-kpi-label">Own power plant on site</div><div class="dc-kpi-num"><span data-source="totals" data-field="onsite_gen" data-row="0" class="dash-skeleton">—</span></div><div class="dc-kpi-sub">Gas, fuel cells or nuclear</div></div>
+  </div>
+
+  <nav class="dc-tabs" role="tablist" aria-label="Sections">
+    <button class="dc-tab" role="tab" id="btn-week" data-tab="week">This week</button>
+    <button class="dc-tab" role="tab" id="btn-projects" data-tab="projects">Projects</button>
+    <button class="dc-tab" role="tab" id="btn-natcat" data-tab="natcat">Nat cat exposure</button>
+    <button class="dc-tab" role="tab" id="btn-power" data-tab="power">Power &amp; cooling</button>
+  </nav>
+
+  <section id="week" class="dc-page" hidden>
+    <div class="dc-week">
+      <div class="dc-card" id="card-feed">
+        <h2>What changed</h2>
+        <p class="dc-note">Developments from the last three weeks, newest first, each with the angle that matters for property, BI and builder's risk.</p>
+        <div class="dc-chips" id="feed-chips"></div>
+        <div class="dc-feed" id="feed" data-source="news"></div>
+      </div>
+      <div class="dc-card" id="card-upcoming">
+        <h2>Coming up</h2>
+        <p class="dc-note">Next expected milestone for each tracked project, this month through the next five.</p>
+        <div class="dc-scroll" style="max-height: 40rem;">
+          <table class="dc-ms" id="ms" data-source="milestones" data-row-key="id">
+            <thead><tr><th data-field="next_milestone_date">When</th><th data-field="name">Project</th><th data-field="next_milestone">Milestone</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="dc-page" hidden>
+    <div class="dc-grid">
+      <div class="dc-card dc-wide" id="card-timeline">
+        <h2>When the power arrives</h2>
+        <p class="dc-note">Dot is first power (actual or planned; campuses running before 2023 sit at the left edge); the line runs to planned full build. Dot size is planned capacity. The dashed line is today.</p>
+        <div class="dc-legend" id="status-legend"></div>
+        <div class="dc-chart" id="timeline" data-source="projects"></div>
+      </div>
+      <div class="dc-card" id="card-status">
+        <h2>Capacity by construction status</h2>
+        <p class="dc-note">Planned GW at full build (light) and estimated GW running now (solid).</p>
+        <div class="dc-chart" id="status-chart" data-source="by_status"></div>
+      </div>
+      <div class="dc-card" id="card-sponsor">
+        <h2>Capacity by sponsor</h2>
+        <p class="dc-note">Planned GW by the company behind the demand; label shows announced investment.</p>
+        <div class="dc-chart" id="sponsor-chart" data-source="by_sponsor"></div>
+      </div>
+      <div class="dc-card dc-wide" id="card-table">
+        <h2>All projects</h2>
+        <p class="dc-note">Click a row for status, power, cooling, water, risks and sources. MW figures mix IT and facility load; each project's notes say which.</p>
+        <div class="dc-tools">
+          <input type="search" id="q" placeholder="Search name, state, developer" aria-label="Search projects">
+          <select id="f-status" aria-label="Status"></select>
+          <select id="f-sponsor" aria-label="Sponsor"></select>
+        </div>
+        <div class="dc-scroll">
+          <table class="dc-proj" id="proj" data-source="projects" data-row-key="id">
+            <thead><tr>
+              <th data-field="name"><button data-sort="name">Project</button></th>
+              <th data-field="sponsor"><button data-sort="sponsor">Sponsor</button></th>
+              <th data-field="state"><button data-sort="state">State</button></th>
+              <th data-field="status"><button data-sort="status">Status</button></th>
+              <th data-field="planned_mw" class="num"><button data-sort="planned_mw">Planned MW</button></th>
+              <th data-field="online_mw" class="num"><button data-sort="online_mw">Online MW</button></th>
+              <th data-field="first_power"><button data-sort="first_power">First power</button></th>
+              <th data-field="est_cost_busd" class="num"><button data-sort="est_cost_busd">Cost $B</button></th>
+              <th data-field="cooling_type"><button data-sort="cooling_type">Cooling</button></th>
+              <th data-field="onsite_generation"><button data-sort="onsite_generation">Onsite power</button></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="dc-card dc-wide dc-detail" id="detail"></div>
+    </div>
+  </section>
+
+  <section id="natcat" class="dc-page" hidden>
+    <div class="dc-grid">
+      <div class="dc-card" id="card-perils">
+        <h2>Which perils sit over the most capacity</h2>
+        <p class="dc-note">Planned GW in counties rated Relatively High or Very High for each peril; label shows the number of projects.</p>
+        <div class="dc-chart" id="peril-chart" data-source="peril_counts"></div>
+      </div>
+      <div class="dc-card" id="card-natcat-read">
+        <h2>How to read this</h2>
+        <p class="dc-note" style="margin:0">Ratings are FEMA's National Risk Index (December 2025 release) for the county each campus sits in. NRI risk blends expected annual loss with social vulnerability and community resilience, so it describes the county, not the site, and is a screening tool, not a substitute for site modeling. "Inland flood" is NRI's inland flooding hazard (it replaced riverine flooding). Coastal flood is omitted: it is not applicable or very low for every county here. Watch the clusters: tornado, hail and wind across the Plains and Midwest, ice storm across Oklahoma, and the Memphis area's combination of tornado, flood and New Madrid earthquake.</p>
+      </div>
+      <div class="dc-card dc-wide" id="card-heat">
+        <h2>Peril ratings by project</h2>
+        <p class="dc-note">Sorted by the number of high-rated perils, then planned capacity. VH Very High · RH Relatively High · RM Relatively Moderate · RL Relatively Low · VL Very Low · NA not applicable.</p>
+        <div class="dc-legend" id="heat-legend"></div>
+        <div class="dc-scroll">
+          <table class="dc-heat" id="heat" data-source="exposure" data-row-key="id">
+            <thead><tr>
+              <th data-field="name">Project</th>
+              <th data-field="state">State</th>
+              <th data-field="high_perils" class="num">High</th>
+              <th data-field="overall">Overall</th>
+              <th data-field="tornado">Tornado</th>
+              <th data-field="hail">Hail</th>
+              <th data-field="strong_wind">Wind</th>
+              <th data-field="ice_storm">Ice</th>
+              <th data-field="winter_weather">Winter</th>
+              <th data-field="inland_flood">Flood</th>
+              <th data-field="hurricane">Hurricane</th>
+              <th data-field="earthquake">Quake</th>
+              <th data-field="wildfire">Wildfire</th>
+              <th data-field="heat_wave">Heat</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="power" class="dc-page" hidden>
+    <div class="dc-grid">
+      <div class="dc-card" id="card-onsite">
+        <h2>Grid or their own plant</h2>
+        <p class="dc-note">Planned GW by whether the campus builds dedicated generation on or beside the site; label shows the number of projects.</p>
+        <div class="dc-chart" id="onsite-chart" data-source="by_power"></div>
+      </div>
+      <div class="dc-card" id="card-cooling">
+        <h2>Cooling approach</h2>
+        <p class="dc-note">Planned GW by cooling type; label shows the number of projects. Closed-loop liquid dominates new AI halls; evaporative is mostly older or Google-style designs.</p>
+        <div class="dc-chart" id="cooling-chart" data-source="by_cooling"></div>
+      </div>
+      <div class="dc-card dc-wide" id="card-pw-table">
+        <h2>Power, cooling and water by project</h2>
+        <p class="dc-note">As disclosed by developers, regulators and satellite-based trackers.</p>
+        <div class="dc-scroll">
+          <table id="pw" data-source="projects" data-row-key="id">
+            <thead><tr><th data-field="name">Project</th><th data-field="power_source">Power source</th><th data-field="utility">Utility / grid</th><th data-field="cooling">Cooling</th><th data-field="water_source">Water</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <p class="dc-foot-note">Research as of October 10, 2026, by John Munno, <a href="https://EnergyRiskEngineering.com">EnergyRiskEngineering.com</a>, from company releases, utility and regulator filings, Epoch AI's satellite-based data center tracker, and trade and local press; each project lists its sources. Investment figures are each project's best public number and are not like-for-like (some include chips). Running-now capacity is often a satellite-based estimate of IT load.</p>
+</div>
+
+<script type="text/dc-deferred">
+dash.calc('totals', {
+  inputs: ['projects'],
+  title: 'Portfolio totals',
+  description: 'Counts and sums over projects that are not cancelled. GW from planned_mw and online_mw; investment is the sum of est_cost_busd.',
+  fn: (projects) => {
+    const live = projects.filter((p) => p.status !== 'Paused / cancelled');
+    const sum = (k) => live.reduce((s, p) => s + (Number(p[k]) || 0), 0);
+    return [{
+      projects: live.length,
+      planned_gw: Math.round(sum('planned_mw') / 100) / 10,
+      online_gw: Math.round(sum('online_mw') / 100) / 10,
+      invest_busd: Math.round(sum('est_cost_busd')),
+      onsite_gen: live.filter((p) => p.onsite_generation === 'Yes').length,
+      building: live.filter((p) => p.status === 'Under construction' || p.status === 'Partially operational').length,
+    }];
+  },
+});
+
+dash.calc('by_status', {
+  inputs: ['projects'],
+  title: 'Capacity by status',
+  description: 'Projects, planned GW and online GW grouped by construction status.',
+  fn: (projects) => {
+    const order = ['Operational', 'Partially operational', 'Under construction', 'Site prep / permitting', 'Announced', 'Paused / cancelled'];
+    return order.map((status) => {
+      const g = projects.filter((p) => p.status === status);
+      return {
+        status,
+        projects: g.length,
+        planned_gw: Math.round(g.reduce((s, p) => s + (Number(p.planned_mw) || 0), 0) / 100) / 10,
+        online_gw: Math.round(g.reduce((s, p) => s + (Number(p.online_mw) || 0), 0) / 100) / 10,
+      };
+    }).filter((r) => r.projects > 0);
+  },
+});
+
+dash.calc('by_sponsor', {
+  inputs: ['projects'],
+  title: 'Capacity by sponsor',
+  description: 'Planned GW, project count and summed est_cost_busd by sponsor, cancelled projects excluded.',
+  fn: (projects) => {
+    const live = projects.filter((p) => p.status !== 'Paused / cancelled');
+    const names = [...new Set(live.map((p) => p.sponsor))];
+    return names.map((sponsor) => {
+      const g = live.filter((p) => p.sponsor === sponsor);
+      return {
+        sponsor,
+        projects: g.length,
+        planned_gw: Math.round(g.reduce((s, p) => s + (Number(p.planned_mw) || 0), 0) / 100) / 10,
+        invest_busd: Math.round(g.reduce((s, p) => s + (Number(p.est_cost_busd) || 0), 0)),
+      };
+    }).sort((a, b) => b.planned_gw - a.planned_gw);
+  },
+});
+
+dash.calc('by_cooling', {
+  inputs: ['projects'],
+  title: 'Capacity by cooling type',
+  description: 'Planned GW and project count by cooling_type, cancelled projects excluded.',
+  fn: (projects) => {
+    const live = projects.filter((p) => p.status !== 'Paused / cancelled');
+    const types = [...new Set(live.map((p) => p.cooling_type))];
+    return types.map((cooling_type) => {
+      const g = live.filter((p) => p.cooling_type === cooling_type);
+      return { cooling_type, projects: g.length, planned_gw: Math.round(g.reduce((s, p) => s + (Number(p.planned_mw) || 0), 0) / 100) / 10 };
+    }).sort((a, b) => b.planned_gw - a.planned_gw);
+  },
+});
+
+dash.calc('by_power', {
+  inputs: ['projects'],
+  title: 'Capacity by onsite generation',
+  description: 'Planned GW and project count by whether the campus has dedicated onsite generation, cancelled projects excluded.',
+  fn: (projects) => {
+    const live = projects.filter((p) => p.status !== 'Paused / cancelled');
+    return ['Yes', 'No'].map((onsite_generation) => {
+      const g = live.filter((p) => p.onsite_generation === onsite_generation);
+      return { onsite_generation, projects: g.length, planned_gw: Math.round(g.reduce((s, p) => s + (Number(p.planned_mw) || 0), 0) / 100) / 10 };
+    });
+  },
+});
+
+dash.calc('milestones', {
+  inputs: ['projects'],
+  title: 'Next milestones',
+  description: "Each project's next expected milestone and month, in date order.",
+  fn: (projects) => projects
+    .filter((p) => p.next_milestone_date)
+    .map((p) => ({ id: p.id, name: p.name, state: p.state, status: p.status, next_milestone: p.next_milestone, next_milestone_date: p.next_milestone_date }))
+    .sort((a, b) => a.next_milestone_date.localeCompare(b.next_milestone_date)),
+});
+
+dash.calc('exposure', {
+  inputs: ['projects', 'nri'],
+  title: 'Nat cat ratings by project',
+  description: "Each project joined to its county's FEMA NRI ratings by county and state; high_perils counts perils rated Relatively High or Very High.",
+  fn: (projects, nri) => {
+    const perils = ['tornado', 'hail', 'strong_wind', 'ice_storm', 'winter_weather', 'inland_flood', 'hurricane', 'earthquake', 'wildfire', 'heat_wave'];
+    const byCounty = new Map(nri.map((c) => [c.county + '|' + c.state, c]));
+    return projects.map((p) => {
+      const c = byCounty.get(p.county + '|' + p.state) || {};
+      const row = { id: p.id, name: p.name, state: p.state, county: p.county, status: p.status, planned_mw: p.planned_mw, overall: c.overall ?? null };
+      perils.forEach((k) => { row[k] = c[k] ?? null; });
+      row.high_perils = perils.filter((k) => c[k] === 'Relatively High' || c[k] === 'Very High').length;
+      return row;
+    });
+  },
+});
+
+dash.calc('peril_counts', {
+  inputs: ['exposure'],
+  title: 'Capacity exposed by peril',
+  description: 'For each peril, projects (not cancelled) whose county is rated Relatively High or Very High, and their planned GW.',
+  fn: (exposure) => {
+    const perils = [['tornado', 'Tornado'], ['hail', 'Hail'], ['strong_wind', 'Strong wind'], ['ice_storm', 'Ice storm'], ['winter_weather', 'Winter weather'], ['inland_flood', 'Inland flood'], ['hurricane', 'Hurricane'], ['earthquake', 'Earthquake'], ['wildfire', 'Wildfire'], ['heat_wave', 'Heat wave']];
+    const live = exposure.filter((e) => e.status !== 'Paused / cancelled');
+    return perils.map(([peril, label]) => {
+      const hit = live.filter((e) => e[peril] === 'Relatively High' || e[peril] === 'Very High');
+      return { peril, label, projects: hit.length, planned_gw: Math.round(hit.reduce((s, e) => s + (Number(e.planned_mw) || 0), 0) / 100) / 10 };
+    }).sort((a, b) => b.planned_gw - a.planned_gw);
+  },
+});
+</script>
+
+<script type="text/dc-deferred">
+(() => {
+  const STATUS = ['Operational', 'Partially operational', 'Under construction', 'Site prep / permitting', 'Announced', 'Paused / cancelled'];
+  const statusColor = (s) => (s === 'Paused / cancelled' ? 'var(--cds-chart-muted)' : dash.colors[STATUS.indexOf(s)] || 'var(--cds-chart-muted)');
+  const CATS = ['Construction', 'Power', 'Financing', 'Opposition & permits', 'Policy', 'Incident', 'New project'];
+  const catColor = (c) => (c === 'Incident' ? 'var(--cds-chart-status-critical)' : dash.colors[(CATS.indexOf(c) + 2) % dash.colors.length]);
+  const RATING = { 'Very High': ['VH', 5], 'Relatively High': ['RH', 4], 'Relatively Moderate': ['RM', 3], 'Relatively Low': ['RL', 2], 'Very Low': ['VL', 1], 'Not Applicable': ['NA', 0], 'No Rating': ['NR', 0], 'Insufficient Data': ['ID', 0] };
+  const PERILS = ['tornado', 'hail', 'strong_wind', 'ice_storm', 'winter_weather', 'inland_flood', 'hurricane', 'earthquake', 'wildfire', 'heat_wave'];
+  const PERIL_LABEL = { tornado: 'Tornado', hail: 'Hail', strong_wind: 'Strong wind', ice_storm: 'Ice storm', winter_weather: 'Winter weather', inland_flood: 'Inland flood', hurricane: 'Hurricane', earthquake: 'Earthquake', wildfire: 'Wildfire', heat_wave: 'Heat wave' };
+  const f0 = d3.format(','), f1 = d3.format(',.1f');
+  const $ = (s) => document.querySelector(s);
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const monthFmt = d3.utcFormat('%b %Y'), dayFmt = d3.utcFormat('%b %-d');
+  const parseMonth = (s) => new Date(s + '-15T00:00:00Z');
+
+  const state = { tab: 'week', cat: 'All', q: '', status: '', sponsor: '', sort: 'planned_mw', dir: -1, sel: null };
+
+  // ---------- helpers ----------
+  function failed(box) { box.replaceChildren(el('div', 'dc-fail', 'Failed to load')); }
+  function ready(id, box) {
+    const d = dash.data(id);
+    if (d.status === 'ok') { box.classList.remove('dash-skeleton'); return d.data; }
+    if (d.status === 'error') { box.classList.remove('dash-skeleton'); failed(box); return null; }
+    box.replaceChildren(); box.classList.add('dash-skeleton');
+    return null;
+  }
+  function tip(card) {
+    let t = card.querySelector(':scope > .dc-tip');
+    if (!t) { t = el('div', 'dc-tip'); t.hidden = true; card.appendChild(t); }
+    return {
+      show(ev, lines) {
+        t.replaceChildren(...lines.map(([k, v]) => { const d = el('div'); if (k) d.appendChild(el('span', 'k', k + ' ')); d.appendChild(document.createTextNode(v)); return d; }));
+        t.hidden = false;
+        const r = card.getBoundingClientRect();
+        let x = ev.clientX - r.left + 12, y = ev.clientY - r.top + 12;
+        const w = t.offsetWidth, h = t.offsetHeight;
+        if (x + w > r.width - 4) x = ev.clientX - r.left - w - 12;
+        if (y + h > r.height - 4) y = ev.clientY - r.top - h - 12;
+        t.style.left = Math.max(4, x) + 'px'; t.style.top = Math.max(4, y) + 'px';
+      },
+      hide() { t.hidden = true; },
+    };
+  }
+  function textWidth(svg, cls, strings) {
+    const g = svg.append('g'); let w = 0;
+    strings.forEach((s) => { const t = g.append('text').attr('class', cls).text(s); w = Math.max(w, t.node().getComputedTextLength()); });
+    g.remove(); return w;
+  }
+  function fitText(node, max) {
+    let s = node.textContent;
+    if (node.getComputedTextLength() <= max) return;
+    while (s.length > 4 && node.getComputedTextLength() > max) { s = s.slice(0, -1); node.textContent = s + '…'; }
+  }
+  function parseWhen(s, end) {
+    if (!s) return null;
+    const m = String(s).match(/^(\d{4})(?:-Q(\d))?(?:-(\d{2}))?$/);
+    if (!m) return null;
+    const y = +m[1];
+    if (m[2]) return new Date(Date.UTC(y, (+m[2] - 1) * 3 + 1, 15));
+    if (m[3]) return new Date(Date.UTC(y, +m[3] - 1, 15));
+    return end ? new Date(Date.UTC(y, 11, 31)) : new Date(Date.UTC(y, 6, 1));
+  }
+
+  // ---------- header ----------
+  function renderTotals() {
+    const t = dash.data('totals');
+    document.querySelectorAll('[data-source="totals"]').forEach((m) => {
+      if (t.status === 'ok' && t.data[0]) {
+        m.classList.remove('dash-skeleton');
+        const v = t.data[0][m.dataset.field];
+        m.textContent = /_gw$/.test(m.dataset.field) ? f1(v) : f0(v);
+      } else if (t.status === 'error') { m.classList.remove('dash-skeleton'); m.textContent = '—'; }
+    });
+  }
+
+  // ---------- this week ----------
+  function renderFeed() {
+    const box = $('#feed');
+    const rows = ready('news', box);
+    const chips = $('#feed-chips');
+    if (!rows) { chips.replaceChildren(); return; }
+    const cats = ['All', ...CATS.filter((c) => rows.some((r) => r.category === c))];
+    chips.replaceChildren(...cats.map((c) => {
+      const b = el('button', 'dc-chip', c); b.type = 'button'; b.setAttribute('aria-pressed', String(state.cat === c));
+      b.addEventListener('click', () => { state.cat = c; renderFeed(); });
+      return b;
+    }));
+    const list = rows.filter((r) => state.cat === 'All' || r.category === state.cat).slice().sort((a, b) => b.date.localeCompare(a.date));
+    box.replaceChildren(...list.map((r) => {
+      const a = el('article', 'dc-item');
+      const meta = el('div', 'dc-meta');
+      meta.appendChild(el('span', null, dayFmt(new Date(r.date + 'T00:00:00Z'))));
+      const pill = el('span', 'dc-pill', r.category);
+      pill.style.background = `color-mix(in srgb, ${catColor(r.category)} 22%, transparent)`;
+      meta.appendChild(pill);
+      meta.appendChild(el('span', null, r.state));
+      meta.appendChild(el('span', null, r.project));
+      a.appendChild(meta);
+      a.appendChild(el('div', 'dc-hl', r.headline));
+      const why = el('div', 'dc-why'); why.appendChild(el('span', null, 'Risk angle: ')); why.appendChild(document.createTextNode(r.why_it_matters)); a.appendChild(why);
+      const foot = el('div', 'dc-foot');
+      const link = el('a', null, (r.source || 'Source') + ' ↗'); link.href = r.url; link.target = '_blank'; link.rel = 'noopener noreferrer'; foot.appendChild(link);
+      if (r.project_id) {
+        const b = el('button', 'dc-linkbtn', 'Open project'); b.type = 'button';
+        b.addEventListener('click', () => { state.sel = r.project_id; show('projects'); requestAnimationFrame(() => $('#detail').scrollIntoView({ block: 'start' })); });
+        foot.appendChild(b);
+      }
+      a.appendChild(foot);
+      return a;
+    }));
+  }
+
+  function renderMilestones() {
+    const tbody = $('#ms tbody');
+    const d = dash.data('milestones');
+    if (d.status !== 'ok') { tbody.replaceChildren(); if (d.status === 'error') { const tr = el('tr'); const td = el('td'); td.colSpan = 3; failed(td); tr.appendChild(td); tbody.appendChild(tr); } return; }
+    const now = new Date();
+    const from = d3.utcFormat('%Y-%m')(now);
+    const to = d3.utcFormat('%Y-%m')(d3.utcMonth.offset(now, 5));
+    const rows = d.data.filter((r) => r.next_milestone_date >= from && r.next_milestone_date <= to && r.status !== 'Paused / cancelled');
+    if (!rows.length) { const tr = el('tr'); const td = el('td', 'dc-empty', 'No milestones in this window.'); td.colSpan = 3; tr.appendChild(td); tbody.replaceChildren(tr); return; }
+    tbody.replaceChildren(...rows.map((r) => {
+      const tr = el('tr'); tr.dataset.key = r.id;
+      tr.appendChild(el('td', null, monthFmt(parseMonth(r.next_milestone_date))));
+      const n = el('td'); const b = el('button', 'dc-linkbtn', r.name); b.type = 'button'; b.style.color = 'var(--color-fg)';
+      b.addEventListener('click', () => { state.sel = r.id; show('projects'); requestAnimationFrame(() => $('#detail').scrollIntoView({ block: 'start' })); });
+      n.appendChild(b); tr.appendChild(n);
+      tr.appendChild(el('td', null, r.next_milestone));
+      return tr;
+    }));
+  }
+
+  // ---------- projects ----------
+  function renderLegend() {
+    const lg = $('#status-legend');
+    lg.replaceChildren(...STATUS.map((s) => { const sp = el('span'); const dot = el('span', 'dc-dot'); dot.style.background = statusColor(s); sp.appendChild(dot); sp.appendChild(document.createTextNode(s)); return sp; }));
+  }
+
+  function renderTimeline() {
+    const box = $('#timeline');
+    const rows = ready('projects', box);
+    if (!rows) return;
+    box.replaceChildren();
+    const W = box.clientWidth; if (!W) return;
+    const data = rows.filter((r) => r.first_power && r.status !== 'Paused / cancelled')
+      .map((r) => ({ r, a: parseWhen(r.first_power), b: parseWhen(r.full_build, true) }))
+      .filter((d) => d.a).sort((x, y) => x.a - y.a || (y.r.planned_mw || 0) - (x.r.planned_mw || 0));
+    const rowH = 22, top = 26, H = top + data.length * rowH + 6;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const lw = Math.min(textWidth(svg, 'dc-lab', data.map((d) => d.r.name)), W * (W < 520 ? 0.4 : 0.3));
+    const x0 = new Date(Date.UTC(2023, 0, 1)), x1 = new Date(Date.UTC(2037, 0, 1));
+    const x = d3.scaleUtc([x0, x1], [lw + 22, W - 10]).clamp(true);
+    const rS = d3.scaleSqrt([0, d3.max(data, (d) => d.r.planned_mw || 0) || 1], [2.5, Math.min(11, rowH / 2)]);
+    const ticks = x.ticks(d3.utcYear.every(W < 560 ? 3 : 2));
+    const g = svg.append('g');
+    g.selectAll('line.grid').data(ticks).join('line').attr('x1', x).attr('x2', x).attr('y1', top - 6).attr('y2', H).attr('stroke', 'var(--cds-chart-grid)');
+    g.selectAll('text.tk').data(ticks).join('text').attr('class', 'dc-tick').attr('x', x).attr('y', 12).attr('text-anchor', 'middle').text(d3.utcFormat('%Y'));
+    const now = new Date();
+    g.append('line').attr('x1', x(now)).attr('x2', x(now)).attr('y1', top - 8).attr('y2', H).attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 3');
+    const tp = tip($('#card-timeline'));
+    const row = g.selectAll('g.row').data(data).join('g').attr('transform', (d, i) => `translate(0,${top + i * rowH + rowH / 2})`);
+    row.append('text').attr('class', 'dc-lab').attr('x', lw).attr('y', 4).attr('text-anchor', 'end').text((d) => d.r.name).each(function () { fitText(this, lw); });
+    row.append('line').attr('x1', (d) => x(d.a)).attr('x2', (d) => x(d.b && d.b > d.a ? d.b : d.a)).attr('stroke', (d) => statusColor(d.r.status)).attr('stroke-width', 3).attr('stroke-linecap', 'round').attr('opacity', 0.45);
+    row.append('circle').attr('cx', (d) => x(d.a)).attr('r', (d) => rS(d.r.planned_mw || 0)).attr('fill', (d) => statusColor(d.r.status));
+    row.append('rect').attr('x', 0).attr('y', -rowH / 2).attr('width', W).attr('height', rowH).attr('fill', 'transparent').style('cursor', 'pointer')
+      .on('mousemove', (ev, d) => tp.show(ev, [[null, d.r.name], ['Status', d.r.status], ['First power', d.r.first_power || '—'], ['Full build', d.r.full_build || '—'], ['Planned', d.r.planned_mw ? f0(d.r.planned_mw) + ' MW' : 'not disclosed']]))
+      .on('mouseleave', () => tp.hide())
+      .on('click', (ev, d) => { state.sel = d.r.id; renderTable(); renderDetail(); $('#detail').scrollIntoView({ block: 'start', behavior: 'smooth' }); });
+  }
+
+  function hbar(box, card, rows, o) {
+    box.replaceChildren();
+    const W = box.clientWidth; if (!W) return;
+    const rh = 30, H = rows.length * rh + 4;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const lw = Math.min(textWidth(svg, 'dc-lab', rows.map(o.label)), W * 0.38);
+    const vw = textWidth(svg, 'dc-tick', rows.map(o.text));
+    const max = d3.max(rows, (r) => Math.max(o.value(r), o.value2 ? o.value2(r) : 0)) || 1;
+    const x = d3.scaleLinear([0, max], [lw + 10, Math.max(lw + 20, W - vw - 10)]);
+    const tp = tip(card);
+    const g = svg.selectAll('g').data(rows).join('g').attr('transform', (d, i) => `translate(0,${i * rh + rh / 2})`);
+    g.append('text').attr('class', 'dc-lab').attr('x', lw).attr('y', 4).attr('text-anchor', 'end').text(o.label).each(function () { fitText(this, lw); });
+    g.append('rect').attr('x', x(0)).attr('y', -8).attr('height', 16).attr('rx', 4).attr('width', (d) => Math.max(0, x(o.value(d)) - x(0))).attr('fill', (d) => o.color(d)).attr('opacity', o.value2 ? 0.35 : 1);
+    if (o.value2) g.append('rect').attr('x', x(0)).attr('y', -8).attr('height', 16).attr('rx', 4).attr('width', (d) => Math.max(0, x(o.value2(d)) - x(0))).attr('fill', (d) => o.color(d));
+    g.append('text').attr('class', 'dc-tick').attr('x', (d) => x(Math.max(o.value(d), o.value2 ? o.value2(d) : 0)) + 6).attr('y', 4).text(o.text);
+    g.append('rect').attr('x', 0).attr('y', -rh / 2).attr('width', W).attr('height', rh).attr('fill', 'transparent')
+      .on('mousemove', (ev, d) => tp.show(ev, o.tip(d))).on('mouseleave', () => tp.hide());
+  }
+
+  function renderStatus() {
+    const box = $('#status-chart');
+    const rows = ready('by_status', box); if (!rows) return;
+    hbar(box, $('#card-status'), rows, {
+      label: (d) => d.status, value: (d) => d.planned_gw, value2: (d) => d.online_gw, color: (d) => statusColor(d.status),
+      text: (d) => `${f1(d.planned_gw)} GW · ${d.projects}`,
+      tip: (d) => [[null, d.status], ['Projects', f0(d.projects)], ['Planned', f1(d.planned_gw) + ' GW'], ['Running now', f1(d.online_gw) + ' GW']],
+    });
+  }
+
+  function renderSponsor() {
+    const box = $('#sponsor-chart');
+    const rows = ready('by_sponsor', box); if (!rows) return;
+    hbar(box, $('#card-sponsor'), rows, {
+      label: (d) => d.sponsor, value: (d) => d.planned_gw, color: () => dash.colors[0],
+      text: (d) => `${f1(d.planned_gw)} GW · $${f0(d.invest_busd)}B`,
+      tip: (d) => [[null, d.sponsor], ['Projects', f0(d.projects)], ['Planned', f1(d.planned_gw) + ' GW'], ['Investment', '$' + f0(d.invest_busd) + 'B']],
+    });
+  }
+
+  function fillSelect(sel, label, values, cur) {
+    sel.replaceChildren(new Option(label, ''), ...values.map((v) => new Option(v, v)));
+    sel.value = cur;
+  }
+
+  function renderTable() {
+    const tbody = $('#proj tbody');
+    const d = dash.data('projects');
+    if (d.status !== 'ok') { tbody.replaceChildren(); return; }
+    const rows = d.data;
+    fillSelect($('#f-status'), 'All statuses', STATUS.filter((s) => rows.some((r) => r.status === s)), state.status);
+    fillSelect($('#f-sponsor'), 'All sponsors', [...new Set(rows.map((r) => r.sponsor))].sort(), state.sponsor);
+    const q = state.q.trim().toLowerCase();
+    const list = rows.filter((r) => (!state.status || r.status === state.status) && (!state.sponsor || r.sponsor === state.sponsor) &&
+      (!q || [r.name, r.state, r.city, r.county, r.developer, r.tenant, r.sponsor].join(' ').toLowerCase().includes(q)));
+    const k = state.sort;
+    list.sort((a, b) => {
+      const va = a[k], vb = b[k];
+      if (va == null && vb == null) return 0; if (va == null) return 1; if (vb == null) return -1;
+      return (typeof va === 'number' ? va - vb : String(va).localeCompare(String(vb))) * state.dir;
+    });
+    document.querySelectorAll('#proj th').forEach((th) => th.setAttribute('aria-sort', th.dataset.field === k ? (state.dir > 0 ? 'ascending' : 'descending') : 'none'));
+    if (!list.length) { const tr = el('tr'); const td = el('td', 'dc-empty', 'No projects match.'); td.colSpan = 10; tr.appendChild(td); tbody.replaceChildren(tr); return; }
+    tbody.replaceChildren(...list.map((r) => {
+      const tr = el('tr'); tr.dataset.key = r.id; if (r.id === state.sel) tr.classList.add('sel');
+      tr.appendChild(el('td', null, r.name));
+      tr.appendChild(el('td', null, r.sponsor));
+      tr.appendChild(el('td', null, r.state));
+      const st = el('td'); const dot = el('span', 'dc-dot'); dot.style.background = statusColor(r.status); st.appendChild(dot); st.appendChild(document.createTextNode(r.status)); tr.appendChild(st);
+      tr.appendChild(el('td', 'num', r.planned_mw == null ? '—' : f0(r.planned_mw)));
+      tr.appendChild(el('td', 'num', r.online_mw == null ? '—' : f0(r.online_mw)));
+      tr.appendChild(el('td', null, r.first_power || '—'));
+      tr.appendChild(el('td', 'num', r.est_cost_busd == null ? '—' : String(r.est_cost_busd)));
+      tr.appendChild(el('td', null, r.cooling_type));
+      tr.appendChild(el('td', null, r.onsite_generation));
+      return tr;
+    }));
+  }
+
+  function renderDetail() {
+    const box = $('#detail');
+    const d = dash.data('projects');
+    if (d.status !== 'ok') { box.hidden = true; return; }
+    const r = d.data.find((p) => p.id === state.sel);
+    if (!r) { box.hidden = false; box.replaceChildren(el('p', 'dc-note', 'Select a project in the table or timeline to see its details here.')); return; }
+    box.hidden = false;
+    const where = 'id=' + encodeURIComponent(r.id);
+    const mark = (tag, field, text, cls) => { const m = el(tag, cls, text); m.dataset.source = 'projects'; m.dataset.field = field; m.dataset.where = where; return m; };
+    const kids = [];
+    kids.push(mark('h3', 'name', r.name));
+    const sub = el('p', 'dc-note');
+    sub.append(mark('span', 'developer', r.developer), document.createTextNode(' · tenant '), mark('span', 'tenant', r.tenant), document.createTextNode(' · '), mark('span', 'city', r.city), document.createTextNode(', '), mark('span', 'county', r.county), document.createTextNode(' County, '), mark('span', 'state', r.state));
+    kids.push(sub);
+    const stline = el('div');
+    const dot = el('span', 'dc-dot'); dot.style.background = statusColor(r.status);
+    stline.append(dot, mark('b', 'status', r.status), document.createTextNode(' — '), mark('span', 'status_note', r.status_note));
+    kids.push(stline);
+    const dl = el('div', 'dc-dl');
+    const item = (label, field, val) => { const w = el('div'); w.appendChild(el('span', null, label)); w.appendChild(mark('span', field, val)); return w; };
+    dl.append(
+      item('Planned capacity (MW)', 'planned_mw', r.planned_mw == null ? '—' : f0(r.planned_mw)),
+      item('Running now (MW)', 'online_mw', r.online_mw == null ? '—' : f0(r.online_mw)),
+      item('First power', 'first_power', r.first_power || '—'),
+      item('Full build', 'full_build', r.full_build || '—'),
+      item('Estimated cost ($B)', 'est_cost_busd', r.est_cost_busd == null ? '—' : String(r.est_cost_busd)),
+      item('Cost and capacity notes', 'cost_note', r.cost_note),
+      item('Power source', 'power_source', r.power_source),
+      item('Utility / grid', 'utility', r.utility || '—'),
+      item('Cooling', 'cooling', r.cooling),
+      item('Water', 'water_source', r.water_source),
+      item('Next milestone', 'next_milestone', r.next_milestone),
+      item('Expected', 'next_milestone_date', r.next_milestone_date ? monthFmt(parseMonth(r.next_milestone_date)) : '—'),
+    );
+    kids.push(dl);
+    const risk = el('div', 'dc-risk'); risk.appendChild(el('b', null, 'Non-weather risks: ')); risk.appendChild(mark('span', 'key_risks', r.key_risks)); kids.push(risk);
+    const ex = dash.data('exposure');
+    if (ex.status === 'ok') {
+      const e = ex.data.find((x) => x.id === r.id);
+      if (e) {
+        const wrap = el('div'); wrap.style.marginTop = 'var(--cds-gap-md)';
+        const lab = el('div', 'dc-note'); lab.style.margin = '0';
+        lab.append(document.createTextNode('FEMA NRI county rating: '));
+        const ov = el('b', null, e.overall || '—'); ov.dataset.source = 'exposure'; ov.dataset.field = 'overall'; ov.dataset.where = where; lab.appendChild(ov);
+        lab.append(document.createTextNode(' overall. Perils rated high:'));
+        wrap.appendChild(lab);
+        const chips = el('div', 'dc-perils');
+        const hi = PERILS.filter((k) => e[k] === 'Relatively High' || e[k] === 'Very High');
+        if (!hi.length) chips.appendChild(el('span', 'dc-note', 'none'));
+        hi.forEach((k) => {
+          const c = el('span', 'dc-peril'); c.appendChild(document.createTextNode(PERIL_LABEL[k] + ' · '));
+          const v = el('span', null, e[k]); v.dataset.source = 'exposure'; v.dataset.field = k; v.dataset.where = where; c.appendChild(v);
+          c.style.borderColor = e[k] === 'Very High' ? 'var(--cds-chart-status-critical)' : 'var(--color-border-line)';
+          chips.appendChild(c);
+        });
+        wrap.appendChild(chips); kids.push(wrap);
+      }
+    }
+    const src = el('div', 'dc-src'); src.appendChild(document.createTextNode('Sources (verified through '));
+    src.appendChild(mark('span', 'as_of', r.as_of)); src.appendChild(document.createTextNode('): '));
+    (r.sources || []).forEach((u, i) => {
+      if (i) src.appendChild(document.createTextNode(' · '));
+      let host = u; try { host = new URL(u).hostname.replace(/^www\./, ''); } catch (err) { /* keep raw */ }
+      const a = el('a', null, host); a.href = u; a.target = '_blank'; a.rel = 'noopener noreferrer'; src.appendChild(a);
+    });
+    kids.push(src);
+    box.replaceChildren(...kids);
+  }
+
+  // ---------- nat cat ----------
+  function heatColors() {
+    const probe = el('span'); probe.style.color = 'var(--cds-chart-status-critical)'; document.getElementById('card-heat').appendChild(probe);
+    const crit = getComputedStyle(probe).color; probe.style.color = 'var(--color-panel)'; const base = getComputedStyle(probe).color; probe.remove();
+    const ip = d3.interpolateRgb(base, crit);
+    return (lvl) => (lvl <= 0 ? 'transparent' : ip([0, 0.1, 0.24, 0.45, 0.72, 1][lvl]));
+  }
+
+  function renderPerils() {
+    const box = $('#peril-chart');
+    const rows = ready('peril_counts', box); if (!rows) return;
+    const top = rows[0] ? rows[0].peril : null;
+    hbar(box, $('#card-perils'), rows, {
+      label: (d) => d.label, value: (d) => d.planned_gw, color: (d) => (d.peril === top ? 'var(--cds-chart-status-critical)' : 'var(--cds-chart-muted)'),
+      text: (d) => `${f1(d.planned_gw)} GW · ${d.projects}`,
+      tip: (d) => [[null, d.label], ['Projects rated high', f0(d.projects)], ['Planned capacity', f1(d.planned_gw) + ' GW']],
+    });
+  }
+
+  function renderHeat() {
+    const tbody = $('#heat tbody');
+    const d = dash.data('exposure');
+    if (d.status !== 'ok') { tbody.replaceChildren(); return; }
+    const color = heatColors();
+    const lg = $('#heat-legend');
+    lg.replaceChildren(...['Very High', 'Relatively High', 'Relatively Moderate', 'Relatively Low', 'Very Low'].map((k) => { const s = el('span'); const sw = el('span', 'dc-sw'); sw.style.background = color(RATING[k][1]); s.append(sw, document.createTextNode(k)); return s; }));
+    const rows = d.data.slice().sort((a, b) => b.high_perils - a.high_perils || (b.planned_mw || 0) - (a.planned_mw || 0));
+    tbody.replaceChildren(...rows.map((r) => {
+      const tr = el('tr'); tr.dataset.key = r.id;
+      tr.appendChild(el('td', 'name', r.name));
+      tr.appendChild(el('td', null, r.state));
+      tr.appendChild(el('td', 'num', String(r.high_perils)));
+      ['overall', ...PERILS].forEach((k) => {
+        const v = r[k]; const [ab, lvl] = RATING[v] || ['—', 0];
+        const td = el('td', 'r', v == null ? '—' : v);
+        td.dataset.abbr = ab; td.title = (k === 'overall' ? 'Overall' : PERIL_LABEL[k]) + ': ' + (v || 'n/a');
+        td.style.background = color(lvl);
+        if (lvl >= 4) td.style.color = '#fff';
+        tr.appendChild(td);
+      });
+      return tr;
+    }));
+  }
+
+  // ---------- power ----------
+  function renderOnsite() {
+    const box = $('#onsite-chart');
+    const rows = ready('by_power', box); if (!rows) return;
+    hbar(box, $('#card-onsite'), rows, {
+      label: (d) => (d.onsite_generation === 'Yes' ? 'Own plant on site' : 'Grid supply only'), value: (d) => d.planned_gw,
+      color: (d) => (d.onsite_generation === 'Yes' ? dash.colors[1] : dash.colors[0]),
+      text: (d) => `${f1(d.planned_gw)} GW · ${d.projects}`,
+      tip: (d) => [[null, d.onsite_generation === 'Yes' ? 'Dedicated onsite generation' : 'Grid supply only'], ['Projects', f0(d.projects)], ['Planned', f1(d.planned_gw) + ' GW']],
+    });
+  }
+  function renderCooling() {
+    const box = $('#cooling-chart');
+    const rows = ready('by_cooling', box); if (!rows) return;
+    hbar(box, $('#card-cooling'), rows, {
+      label: (d) => d.cooling_type, value: (d) => d.planned_gw, color: (d, i) => dash.colors[2],
+      text: (d) => `${f1(d.planned_gw)} GW · ${d.projects}`,
+      tip: (d) => [[null, d.cooling_type], ['Projects', f0(d.projects)], ['Planned', f1(d.planned_gw) + ' GW']],
+    });
+  }
+  function renderPowerTable() {
+    const tbody = $('#pw tbody');
+    const d = dash.data('projects');
+    if (d.status !== 'ok') { tbody.replaceChildren(); return; }
+    tbody.replaceChildren(...d.data.slice().sort((a, b) => a.name.localeCompare(b.name)).map((r) => {
+      const tr = el('tr'); tr.dataset.key = r.id;
+      ['name', 'power_source', 'utility', 'cooling', 'water_source'].forEach((k) => tr.appendChild(el('td', null, r[k] == null ? '—' : r[k])));
+      return tr;
+    }));
+  }
+
+  // ---------- tabs ----------
+  const TABS = ['week', 'projects', 'natcat', 'power'];
+  function show(t) {
+    state.tab = t;
+    TABS.forEach((k) => { document.getElementById(k).hidden = k !== t; document.getElementById('btn-' + k).setAttribute('aria-selected', String(k === t)); });
+    dash.setLink(t);
+    render();
+  }
+  document.querySelectorAll('.dc-tab').forEach((b) => b.addEventListener('click', () => show(b.dataset.tab)));
+  $('#q').addEventListener('input', (e) => { state.q = e.target.value; renderTable(); });
+  $('#f-status').addEventListener('change', (e) => { state.status = e.target.value; renderTable(); });
+  $('#f-sponsor').addEventListener('change', (e) => { state.sponsor = e.target.value; renderTable(); });
+  document.querySelectorAll('#proj th button').forEach((b) => b.addEventListener('click', () => {
+    const k = b.dataset.sort; if (state.sort === k) state.dir = -state.dir; else { state.sort = k; state.dir = ['planned_mw', 'online_mw', 'est_cost_busd'].includes(k) ? -1 : 1; }
+    renderTable();
+  }));
+  $('#proj tbody').addEventListener('click', (e) => {
+    const tr = e.target.closest('tr[data-key]'); if (!tr) return;
+    state.sel = tr.dataset.key; renderTable(); renderDetail();
+  });
+
+  function render() {
+    renderTotals();
+    if (state.tab === 'week') { renderFeed(); renderMilestones(); }
+    if (state.tab === 'projects') { renderLegend(); renderTimeline(); renderStatus(); renderSponsor(); renderTable(); renderDetail(); }
+    if (state.tab === 'natcat') { renderPerils(); renderHeat(); }
+    if (state.tab === 'power') { renderOnsite(); renderCooling(); renderPowerTable(); }
+  }
+
+  const h = location.hash.slice(1);
+  state.tab = TABS.includes(h) ? h : 'week';
+  TABS.forEach((k) => { document.getElementById(k).hidden = k !== state.tab; document.getElementById('btn-' + k).setAttribute('aria-selected', String(k === state.tab)); });
+  dash.onData(render);
+})();
+</script>
+
+</div>
+
+<script>
+(function () {
+  function runPage() {
+    document.querySelectorAll('script[type="text/dc-deferred"]').forEach(function (old) {
+      var s = document.createElement('script'); s.text = old.textContent; old.replaceWith(s);
+    });
+  }
+  function start() {
+    if (!document.getElementById('dash-root')) return setTimeout(start, 50);
+    var DATA_URL = 'https://raw.githubusercontent.com/jdmunno/data-center-tracker/main/data.json';
+    var gotD3 = new Promise(function (ok) {
+      if (window.d3) return ok();
+      var s = document.createElement('script');
+      s.src = 'https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js';
+      s.onload = ok; document.head.appendChild(s);
+    });
+    var timeout = new Promise(function (ok) { setTimeout(function () { ok(null); }, 5000); });
+    var gotData = Promise.race([
+      fetch(DATA_URL, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }),
+      timeout
+    ]);
+    Promise.all([gotD3, gotData]).then(function (res) {
+      var live = res[1];
+      if (live && Array.isArray(live.projects) && live.projects.length) {
+        window.DC_DATA = { projects: live.projects, nri: live.nri, news: live.news };
+        window.DC_UPDATED = live.updated;
+      } else {
+        window.DC_DATA = window.DC_SNAPSHOT;
+        window.DC_UPDATED = '2026-10-10';
+      }
+      var u = document.getElementById('dc-updated');
+      if (u && window.DC_UPDATED) u.textContent = 'Updated ' + new Date(window.DC_UPDATED + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+      runPage();
+    });
+  }
+  start();
+})();
+</script>
