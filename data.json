@@ -2041,5 +2041,2739 @@
    "source": "Salem Reporter",
    "url": "https://www.salemreporter.com/2026/09/22/city-attorney-salem-data-center-moratorium-means-verrus-cant-build-until-it-expires/"
   }
+ ],
+ "permits": [
+  {
+   "id": "memphis-mayor-xai-guardrails-order",
+   "project_ids": [
+    "xai-colossus-1",
+    "xai-colossus-2"
+   ],
+   "date": "2026-10-09",
+   "date_precision": "day",
+   "type": "Environmental review",
+   "agency": "City of Memphis (Mayor's Office)",
+   "action": "Mayor announces 90-day executive-order review of xAI guardrails",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Mayor Paul Young said he would sign an executive order starting a 90-day review of guardrails for xAI covering land use, infrastructure, air, water and aquifer, utility costs and noise, separate from the council's moratorium debate.",
+   "schedule_impact": "May lead to new city conditions on xAI's Memphis operations and expansion once the 90 days end.",
+   "source": "Action News 5",
+   "url": "https://www.actionnews5.com/2026/10/09/mayor-young-address-public-after-recent-data-center-debate/"
+  },
+  {
+   "id": "memphis-data-center-moratorium-vote",
+   "project_ids": [
+    "xai-colossus-1",
+    "xai-colossus-2"
+   ],
+   "date": "2026-10-06",
+   "date_precision": "day",
+   "type": "Local moratorium",
+   "agency": "Memphis City Council",
+   "action": "Council again postpones vote on 12-month data center moratorium",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "The council again postponed a vote on a data center moratorium after members split and protests cut the October 6 meeting short before debate finished; the ordinance had been before the council for at least six weeks, and the council planned to resume the meeting on October 8.",
+   "schedule_impact": "A council member says the ordinance would stop new data centers and expansion of current ones; the source does not mention xAI, and the outcome of the resumed meeting is not reported there.",
+   "source": "Action News 5",
+   "url": "https://www.actionnews5.com/2026/10/07/tensions-were-high-memphis-city-council-members-reflect-tuesdays-ended-meeting-data-center-moratorium-vote-postponed-again/"
+  },
+  {
+   "id": "thunderbird-council-hearing-postponed",
+   "project_ids": [
+    "thunderbird-enid"
+   ],
+   "date": "2026-10-05",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Enid City Commission",
+   "action": "Rezoning vote pulled from Oct 6 agenda; special meeting set",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": "2026-10-27",
+   "summary": "The city took the rezoning items off the October 6 agenda to find a bigger venue, then scheduled a special 5 p.m. meeting and public hearing on October 27 at Stride Bank Center, where the commission will approve or deny them.",
+   "schedule_impact": "The binding zoning decision slips about three weeks, to October 27.",
+   "source": "FOX 25 (KOKH); City of Enid",
+   "url": "https://okcfox.com/news/local/proposed-project-thunderbird-data-center-in-enid-faces-rezoning-delay-after-item-canceled-oklahoma-rezone-public-input-discussion-developer-community-property-questions"
+  },
+  {
+   "id": "portwash-point-beach-subscription",
+   "project_ids": [
+    "stargate-port-washington-lighthouse"
+   ],
+   "date": "2026-10-02",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Public Service Commission of Wisconsin",
+   "action": "Oracle subscription to Point Beach nuclear output",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "We Energies announced a deal for Oracle to take 10% to 20% of Point Beach nuclear output for the Lighthouse campus, which needs PSC approval; on the same day it filed for a new gas plant at the Fox Energy Center.",
+   "schedule_impact": "Adds a power supply source for the campus if the PSC approves it.",
+   "source": "Wisconsin Watch",
+   "url": "https://wisconsinwatch.org/2026/10/wisconsin-we-energies-deal-oracle-data-center-nuclear-energy-power-point-beach-plant/"
+  },
+  {
+   "id": "thunderbird-mapc-recommends-rezoning",
+   "project_ids": [
+    "thunderbird-enid"
+   ],
+   "date": "2026-09-28",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Enid Metropolitan Area Planning Commission",
+   "action": "Planning commission recommends the three Thunderbird rezonings",
+   "status": "Approved",
+   "open": true,
+   "next_date": "2026-10-27",
+   "summary": "After a public hearing, the Enid MAPC voted to send favorable recommendations on all three rezoning requests to the City Commission, which makes the final decision.",
+   "schedule_impact": "Clears the advisory step, so the rezoning now goes to the City Commission for a binding vote.",
+   "source": "News 9 / City of Enid",
+   "url": "https://www.news9.com/data-centers-in-oklahoma/enid-rezoning-project-thunderbird"
+  },
+  {
+   "id": "in-stjoe-hyperscale-ban-resolution",
+   "project_ids": [
+    "aws-project-rainier"
+   ],
+   "date": "2026-09-22",
+   "date_precision": "day",
+   "type": "Local moratorium",
+   "agency": "St. Joseph County Council / Area Plan Commission",
+   "action": "Council votes 6-3 to draft ban on new hyperscale campuses",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "The county council voted 6-3 on a resolution telling the Area Plan Commission to amend zoning to stop additional hyperscale data centers; the measure is expected back before the council for a final vote within about 60 days. A sponsor said it is not technically a ban.",
+   "schedule_impact": "Could stop new hyperscale projects in the county. How already-approved or under-construction projects (Amazon in New Carlisle, Microsoft in Granger) would be treated has not been decided.",
+   "source": "ABC57; WVPE",
+   "url": "https://www.abc57.com/news/st-joseph-county-council-advances-plan-to-ban-new-data-centers"
+  },
+  {
+   "id": "pwc-overlay-district-shrunk",
+   "project_ids": [
+    "pw-digital-gateway"
+   ],
+   "date": "2026-09-22",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Prince William County Board of County Supervisors",
+   "action": "Supervisors shrink data center overlay district, end by-right development",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "The board voted unanimously to cut the data center opportunity zone overlay from about 9,700 to 3,500 acres and to require a special use permit for new data centers. The change takes effect after a 90-day grace period, and the roughly 2,100-acre former Digital Gateway site comes out of the overlay.",
+   "schedule_impact": "Any future data center on the former Gateway land would need a special use permit from the supervisors.",
+   "source": "Prince William Times",
+   "url": "https://www.princewilliamtimes.com/localnews/breaking-prince-william-county-moves-to-end-by-right-data-center-development/article_3582ae59-9a53-4505-b019-b5e43a16d310.html"
+  },
+  {
+   "id": "lancaster-rage-appeal-stayed",
+   "project_ids": [
+    "coreweave-lancaster"
+   ],
+   "date": "2026-09-21",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "Lancaster County Court of Common Pleas",
+   "action": "Judge stays zoning board hearing on residents' phase 2 appeal",
+   "status": "Stayed",
+   "open": true,
+   "next_date": null,
+   "summary": "Lancaster RAGE appealed the city planning commission's July 1 conditional approval of the second building. A county judge, Thomas Sponaugle, granted the developers' emergency request to halt the scheduled zoning hearing while their court action seeking to dismiss the appeal goes forward.",
+   "schedule_impact": "Freezes the residents' challenge for now. A ruling for the developers, like the 2025 ruling on an earlier appeal, would clear phase 2's path to final approval.",
+   "source": "LNP | LancasterOnline",
+   "url": "https://lancasteronline.com/news/local/judge-cancels-greenfield-road-data-center-zoning-hearing/article_467a9aa4-d9b4-4195-b838-e9c049eff84f.html"
+  },
+  {
+   "id": "tx-tceq-data-center-permit-pause",
+   "project_ids": [
+    "fermi-matador",
+    "stargate-abilene",
+    "stargate-shackelford-frontier",
+    "stargate-milam",
+    "meta-el-paso",
+    "msft-pecos",
+    "anthropic-barber-lake"
+   ],
+   "date": "2026-09-21",
+   "date_precision": "day",
+   "type": "State rule",
+   "agency": "Office of the Governor of Texas / Texas Commission on Environmental Quality",
+   "action": "TCEQ ordered to halt all data-center permit issuance",
+   "status": "In effect",
+   "open": true,
+   "next_date": "2026-10-19",
+   "summary": "Abbott ordered TCEQ to issue no permits sought by data centers until ERCOT's audit is finished. Law-firm analysis says this covers NSR air and TPDES wastewater permits statewide, including islanded behind-the-meter projects outside ERCOT. Sources date the directive September 21; commentary on it appeared September 23.",
+   "schedule_impact": "Blocks new air and water permits, such as Fermi's pending 5 GW application, likely until ERCOT's audit ends around mid-December 2026. TCEQ owes the governor a compliance update by October 19.",
+   "source": "Bracewell; FOX 4 News",
+   "url": "https://www.bracewell.com/resources/governor-abbott-orders-tceq-to-pause-all-permit-issuance-for-data-center-projects/"
+  },
+  {
+   "id": "va-eo22-data-center-accountability",
+   "project_ids": [
+    "pw-digital-gateway"
+   ],
+   "date": "2026-09-18",
+   "date_precision": "day",
+   "type": "State rule",
+   "agency": "Office of the Governor of Virginia",
+   "action": "Executive Order 22 sets Virginia Data Center Accountability Framework",
+   "status": "In effect",
+   "open": true,
+   "next_date": null,
+   "summary": "The order took effect on signing, September 18, 2026. State economic-development assistance, including the Business Ready Sites program and expedited permitting programs, may not go to new data centers expecting peak demand of 25 MW or more. Executive-branch agencies may not enter or enforce nondisclosure agreements that hide material information about proposed data centers; existing commitments are honored. DEQ must expedite noise and cooling-water-scarcity rules and review backup generators. The Chief Energy Officer's office is told to work with utilities, the SCC and PJM on shielding households from data-center grid costs.",
+   "schedule_impact": "Removes state fast-track assistance for new data centers of 25 MW or more. DEQ owes timelines, workplans and findings on noise, backup generators and cooling-water scarcity within 180 days.",
+   "source": "Office of the Governor of Virginia",
+   "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf"
+  },
+  {
+   "id": "jupiter-nm-supreme-court-stays",
+   "project_ids": [
+    "stargate-project-jupiter"
+   ],
+   "date": "2026-09-17",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "New Mexico Supreme Court",
+   "action": "Petitions against air hearing and emergency well denied; stays lifted",
+   "status": "Denied",
+   "open": false,
+   "next_date": null,
+   "summary": "The court rejected New Energy Economy's petition on the air permit proceeding and the Center for Biological Diversity's petition over a new well drilled without a public hearing, and ended the stays it imposed on Aug 23.",
+   "schedule_impact": "Let well water use and the air permit case resume after about a month's pause.",
+   "source": "KVIA",
+   "url": "https://kvia.com/news/2026/09/17/new-mexico-supreme-court-denies-petitions-regarding-project-jupiter-air-quality-permit-water-use/"
+  },
+  {
+   "id": "in-idem-spm-141-50312",
+   "project_ids": [
+    "aws-project-rainier"
+   ],
+   "date": "2026-09-16",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Indiana Department of Environmental Management",
+   "action": "Draft significant permit modification: two new generators",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "IDEM opened a 30-day comment period on SPM 141-50312-00650, which would add two generators, modify existing ones and revise permit conditions.",
+   "schedule_impact": "Generator additions for further buildings wait on the final modification.",
+   "source": "IDEM",
+   "url": "https://www.in.gov/idem/files/notice_20260916_air_50312pn-as.pdf"
+  },
+  {
+   "id": "tx-twdb-water-use-reporting-directive",
+   "project_ids": [
+    "fermi-matador",
+    "stargate-abilene",
+    "stargate-shackelford-frontier",
+    "stargate-milam",
+    "meta-el-paso",
+    "msft-pecos",
+    "anthropic-barber-lake"
+   ],
+   "date": "2026-09-14",
+   "date_precision": "day",
+   "type": "State rule",
+   "agency": "Office of the Governor of Texas / Texas Water Development Board",
+   "action": "TWDB told to enforce water-use reporting by data centers",
+   "status": "In effect",
+   "open": true,
+   "next_date": "2026-10-12",
+   "summary": "Abbott directed the TWDB to enforce water-use reporting requirements against major water users, including data centers, alongside an ERCOT state-and-community-impact RFI.",
+   "schedule_impact": "Campuses that miss water surveys can be flagged to the PUCT and the governor, and compliance feeds into when the permit pause lifts.",
+   "source": "Beveridge & Diamond",
+   "url": "https://www.bdlaw.com/publications/texas-pauses-all-environmental-permitting-for-data-centers/"
+  },
+  {
+   "id": "pwc-planning-commission-end-by-right",
+   "project_ids": [
+    "pw-digital-gateway"
+   ],
+   "date": "2026-09-09",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Prince William County Planning Commission",
+   "action": "Planning commission recommends ending by-right data centers",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "On a 5-3 vote, the commission recommended a zoning text amendment ending by-right data centers. It also recommended a 120-day filing window and a 500-foot setback from homes and schools.",
+   "schedule_impact": "Sent the overlay rollback to the Board of County Supervisors for a September 22 vote.",
+   "source": "Prince William Times",
+   "url": "https://www.princewilliamtimes.com/localnews/planning-commission-again-votes-to-end-by-right-data-centers/article_05e2533b-4711-483d-a44f-d5b2f9af9bd9.html"
+  },
+  {
+   "id": "portwash-atc-cpcn-137-ce-229",
+   "project_ids": [
+    "stargate-port-washington-lighthouse"
+   ],
+   "date": "2026-09-01",
+   "date_precision": "month",
+   "type": "Transmission",
+   "agency": "Public Service Commission of Wisconsin",
+   "action": "ATC submits revised Ozaukee County interconnection application (137-CE-229)",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "ATC's project page says a revised application went to the PSC in September 2026. It drops the earlier east-west route through parts of Trenton and Saukville; the Contingent Route remains part of the alternate South West Route.",
+   "schedule_impact": "PSC approval is listed as to be determined. ATC expects to start construction about 31 days after the PSC's written order and to be in service about 17 months after construction begins.",
+   "source": "American Transmission Co. / Wisconsin Watch",
+   "url": "https://www.atcllc.com/project/ozaukee-county-distribution-interconnection/"
+  },
+  {
+   "id": "hyperion-19th-jdc-subpoena-appeal",
+   "project_ids": [
+    "meta-hyperion"
+   ],
+   "date": "2026-09-01",
+   "date_precision": "month",
+   "type": "Litigation",
+   "agency": "19th Judicial District Court (Baton Rouge)",
+   "action": "Advocates appeal PSC's Meta subpoena ruling in state court",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Represented by Earthjustice, the Alliance for Affordable Energy and Union of Concerned Scientists asked the district court in late September to reverse the PSC's August decision as arbitrary and reinstate the subpoena.",
+   "schedule_impact": "If the court reinstates the subpoena, discovery could reopen in the seven-plant case and push back its final vote.",
+   "source": "Union of Concerned Scientists",
+   "url": "https://www.ucs.org/about/news/advocates-appeal-lpscs-arbitrary-and-capricious-decision-let-meta-hook-its-data-center"
+  },
+  {
+   "id": "elpaso-puct-mccloud-proposal-for-decision",
+   "project_ids": [
+    "meta-el-paso"
+   ],
+   "date": "2026-09-01",
+   "date_precision": "month",
+   "type": "Utility & rates",
+   "agency": "Public Utility Commission of Texas",
+   "action": "ALJs recommend conditional approval of McCloud plant",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "After a July hearing, administrative law judges issued a proposed decision finding El Paso Electric had not properly studied alternatives or run an RFP, and recommended approval only if ratepayers bear none of the capital or operating costs, otherwise denial; no commission vote had been set.",
+   "schedule_impact": "The five commissioners make the final decision on whether and on what cost terms the plant is approved; no vote date had been set as of the article.",
+   "source": "Inside Climate News",
+   "url": "https://insideclimatenews.org/news/24092026/el-paso-electric-only-considered-gas-to-power-meta-data-center/"
+  },
+  {
+   "id": "occ-alj-recommends-oge-google-settlement",
+   "project_ids": [
+    "google-stillwater"
+   ],
+   "date": "2026-09-01",
+   "date_precision": "month",
+   "type": "Utility & rates",
+   "agency": "Oklahoma Corporation Commission (administrative law judge)",
+   "action": "ALJ orally recommends approving OG&E–Google settlement",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "At a September 2026 hearing, the ALJ urged commissioners to approve the settlement. Nobody testified against it, and the Oklahoma Industrial Energy Consumers said it would not oppose. Under the settlement, OG&E must report any broader grid upgrades within 30 days so that cost allocation can be decided later. The recommendation was oral, not a written order.",
+   "schedule_impact": "A final commission order is still needed; no vote date has been reported.",
+   "source": "Oklahoma Energy Today",
+   "url": "https://okenergytoday.com/2026/09/judge-urges-regulator-approval-of-oge-google-power-agreement/"
+  },
+  {
+   "id": "apsc-entergy-rate-case-nov-2026",
+   "project_ids": [
+    "google-west-memphis"
+   ],
+   "date": "2026-09-01",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Arkansas Public Service Commission",
+   "action": "Entergy rate case session to probe Google-related buildout",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": "2026-11-04",
+   "summary": "Records released under FOIA show Google paying about $526M toward Cypress Solar and $190M for transmission upgrades. Entergy's pending base-rate case, opposed by Walmart and other businesses, comes before commissioners at a Nov 4–5 session. The date of this item is the date the payment figures were reported.",
+   "schedule_impact": "Commissioners could scrutinize who pays for the Google-related generation and transmission.",
+   "source": "Axios",
+   "url": "https://www.axios.com/local/nw-arkansas/2026/09/01/google-pay-716-million-data-center-power"
+  },
+  {
+   "id": "wy-psc-south-cheyenne-transmission-cpcn",
+   "project_ids": [
+    "google-tembo-cheyenne"
+   ],
+   "date": "2026-09-01",
+   "date_precision": "month",
+   "type": "Transmission",
+   "agency": "Wyoming regulator (not named in Black Hills release)",
+   "action": "South Cheyenne Transmission Expansion CPCN filed",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Black Hills filed for a certificate for the South Cheyenne Transmission Expansion in September 2026. A further Wyoming transmission expansion CPCN is planned for Q4 2026.",
+   "schedule_impact": "Transmission approval timing could affect the late-2027 energization and the ramp to peak load by 2030.",
+   "source": "Black Hills Corp.",
+   "url": "https://ir.blackhillscorp.com/news-releases/news-release-details/black-hills-corp-executes-definitive-agreements-serve-googles"
+  },
+  {
+   "id": "occ-oge-google-esa-review",
+   "project_ids": [
+    "google-stillwater"
+   ],
+   "date": "2026-09-01",
+   "date_precision": "month",
+   "type": "Utility & rates",
+   "agency": "Oklahoma Corporation Commission",
+   "action": "Commission review begins of OG&E–Google service agreements (Cause 2026-000031)",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "In September 2026, an administrative law judge was set to begin review of OG&E's electric service agreements to serve three Google data centers in Muskogee and Stillwater. Google pays all grid-connection costs and contracted costs regardless of usage, and plans solar generation from two arrays under construction. Commission staff testimony supported the agreements.",
+   "schedule_impact": "The agreements cannot take effect without formal commission approval.",
+   "source": "Oklahoma Energy Today",
+   "url": "https://okenergytoday.com/2026/09/regulators-start-review-of-oge-power-agreement-with-google-data-centers/"
+  },
+  {
+   "id": "nc-daq-amazon-backup-engines-permit",
+   "project_ids": [
+    "aws-richmond-county-nc"
+   ],
+   "date": "2026-08-28",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "NC DEQ Division of Air Quality",
+   "action": "Final permit for 588 AWS emergency backup engines",
+   "status": "Approved with conditions",
+   "open": true,
+   "next_date": null,
+   "summary": "NC DEQ's Division of Air Quality announced final permits for Amazon Data Services' 588 emergency backup engines at its Energy Way Tech Campus on Airport Road in Hamlet, Richmond County. After public comment, the Amazon permit clarifies fuel-use monitoring and both permits add recordkeeping and reporting requirements.",
+   "schedule_impact": "Final permits for the campus backup engines were announced Aug 28, 2026; the release does not discuss appeals.",
+   "source": "NC DEQ",
+   "url": "https://www.deq.nc.gov/news/press-releases/2026/08/28/ncdeqs-division-air-quality-requires-additional-monitoring-testing-final-air-quality-permits-amazon"
+  },
+  {
+   "id": "nc-daq-duke-bridge-power-permit",
+   "project_ids": [
+    "aws-richmond-county-nc"
+   ],
+   "date": "2026-08-28",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "NC DEQ Division of Air Quality",
+   "action": "Final permit for Duke's 57 bridge-power engines",
+   "status": "Approved with conditions",
+   "open": true,
+   "next_date": null,
+   "summary": "DAQ issued a final permit for Duke Energy Progress to run 57 temporary bridge-power engines in Richmond County to supply Amazon's facility until it connects to the grid. The final permit adds more initial generator testing, limits the bridge power to Amazon's facility, and requires Duke to retire the engines within a year of starting operation. DAQ also issued Amazon's permit for 588 emergency backup engines.",
+   "schedule_impact": "Provides temporary power to Amazon's facility until it connects to the grid; the engines must be retired within a year of starting operation.",
+   "source": "NC DEQ",
+   "url": "https://www.deq.nc.gov/news/press-releases/2026/08/28/ncdeqs-division-air-quality-requires-additional-monitoring-testing-final-air-quality-permits-amazon"
+  },
+  {
+   "id": "thunderbird-rezoning-applications-filed",
+   "project_ids": [
+    "thunderbird-enid"
+   ],
+   "date": "2026-08-27",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "City of Enid",
+   "action": "Plainsmen Holdings files three agricultural-to-industrial rezoning applications",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": "2026-10-27",
+   "summary": "Plainsmen Holdings asked the city to rezone the North Campus and part of the West Campus from agricultural to I-3, and another West Campus tract from agricultural to I-2.",
+   "schedule_impact": "Nothing can move to development agreements or permitting until the City Commission approves these rezonings.",
+   "source": "City of Enid – Project Thunderbird page",
+   "url": "https://www.enid.org/Home/Project-Thunderbird"
+  },
+  {
+   "id": "ms-mdeq-construction-permit-mod-2026",
+   "project_ids": [
+    "aws-madison-county-ms"
+   ],
+   "date": "2026-08-24",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Mississippi Department of Environmental Quality",
+   "action": "Further draft construction permit modification; comments closed",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "MDEQ's records for the Amazon Madison Mega Site in Canton list a draft air construction permit modification (1720-00098) whose public comment period ends August 24, 2026; no final action is shown.",
+   "schedule_impact": "Final action on the draft modification has not yet been shown in MDEQ's records.",
+   "source": "MDEQ enSearch Online",
+   "url": "https://opc.deq.state.ms.us/ai_info.aspx?ai=86219"
+  },
+  {
+   "id": "ms-madison-valuation-appeal-denied",
+   "project_ids": [
+    "aws-madison-county-ms"
+   ],
+   "date": "2026-08-17",
+   "date_precision": "day",
+   "type": "Incentives & tax",
+   "agency": "Madison County Board of Supervisors",
+   "action": "Denies Amazon's property valuation appeal for Canton buildings",
+   "status": "Denied",
+   "open": true,
+   "next_date": null,
+   "summary": "Supervisors kept the assessor's value of about $292 million per building for five Canton data centers, rejecting Amazon's proposed value of about $69 million, though Amazon can still go to court.",
+   "schedule_impact": "Protects about $5.8 million in county revenue this year, but a court appeal could reopen the FILOT valuation basis.",
+   "source": "Mississippi Free Press",
+   "url": "https://www.mississippifreepress.org/madison-county-denies-amazons-valuation-appeal-for-canton-data-centers-preserving-millions-in-tax-revenue/"
+  },
+  {
+   "id": "portwash-oracle-suit-psc",
+   "project_ids": [
+    "stargate-port-washington-lighthouse"
+   ],
+   "date": "2026-08-17",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "Ozaukee County Circuit Court",
+   "action": "Oracle moves to dismiss its suit against PSC credit rules",
+   "status": "Withdrawn",
+   "open": false,
+   "next_date": null,
+   "summary": "Oracle sued in Ozaukee County Circuit Court in June 2026 to set aside the PSC's credit-rating requirements for data center developers, then its attorneys filed a motion to voluntarily dismiss on Aug 17, 2026.",
+   "schedule_impact": "The credit rules now stand unchallenged in court. Oracle's S&P rating of BBB- is below the PSC's A- threshold, so it could face over $100 million a year in financial security for the Port Washington data center.",
+   "source": "Wisconsin Watch",
+   "url": "https://wisconsinwatch.org/2026/08/oracle-drops-lawsuit-challenging-wisconsin-data-center-credit-rules/"
+  },
+  {
+   "id": "laramie-county-tembo-office-cup",
+   "project_ids": [
+    "google-tembo-cheyenne"
+   ],
+   "date": "2026-08-13",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Laramie County Planning Commission",
+   "action": "Hearing on conditional use permit PZ-26-00057 for office complex",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "A Class B conditional use permit (PZ-26-00057) and commercial site plan for an office complex east of Switchgrass Industrial Park, next to US 85, were set for a Planning Commission public hearing on Aug 13, 2026. The memo does not report the outcome.",
+   "schedule_impact": "If approved, the office complex can be built alongside the data center.",
+   "source": "Laramie County Board of Commissioners memo",
+   "url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/county/public-notice/project-tembo-memo-07082026.pdf"
+  },
+  {
+   "id": "hyperion-psc-quashes-meta-subpoena",
+   "project_ids": [
+    "meta-hyperion"
+   ],
+   "date": "2026-08-12",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Louisiana Public Service Commission",
+   "action": "PSC overturns ALJ order compelling Meta disclosures",
+   "status": "Appealed / challenged",
+   "open": true,
+   "next_date": null,
+   "summary": "By a 3-1 vote the commission reversed an administrative law judge's interlocutory ruling that would have made Meta produce investment, job and load data for the U-37882 case, which made Meta's motion to quash the subpoena moot.",
+   "schedule_impact": "Kept the seven-plant docket on its fast schedule; the ruling is now under court challenge.",
+   "source": "Alliance for Affordable Energy",
+   "url": "https://www.all4energy.org/watchdog/lpsc-highlights-aug-2026/"
+  },
+  {
+   "id": "lebanon-hendricks-booster-site-plan",
+   "project_ids": [
+    "meta-lebanon-in"
+   ],
+   "date": "2026-08-11",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Hendricks County Area Plan Commission",
+   "action": "County reviews Citizens booster station and tanks for LEAP water",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": "2026-10-13",
+   "summary": "At an August public hearing, county planners criticized Citizens' booster station and storage tanks for the LEAP water line, which Citizens moved there after Whitestown denied a variance, but they said they control development standards and not location; site plan review is expected October 13.",
+   "schedule_impact": "Delays to this site plan could slow the pipeline that supplies water to Meta and Lilly in the LEAP district.",
+   "source": "WFYI / Free Press Indiana",
+   "url": "https://www.wfyi.org/statewide/2026-10-08/fight-over-water-for-leap-spreads-to-hendricks-county"
+  },
+  {
+   "id": "abilene-tceq-air-182126",
+   "project_ids": [
+    "stargate-abilene"
+   ],
+   "date": "2026-08-05",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Texas Commission on Environmental Quality",
+   "action": "TCEQ notice of application and preliminary decision for Crusoe's Abilene power generation air permits",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Crusoe Technologies applied on Nov 7, 2025 for air permits 182126, PSDTX1688 and GHGPSDTX263 to build an electric power generation facility at 615 FM 2404 in Abilene. TCEQ's notice of application and preliminary decision carries an issuance date of Aug 5, 2026.",
+   "schedule_impact": "Written requests for a contested case hearing are allowed within 30 days of the notice for permits 182126 and PSDTX1688 (not the greenhouse gas permit), so the permits are not final yet.",
+   "source": "TCEQ (Notice of Application and Preliminary Decision)",
+   "url": "https://www.tceq.texas.gov/downloads/permitting/air/bilingual/pending-permit-notices/182126-napd-english.pdf"
+  },
+  {
+   "id": "lake-mariner-250mw-interconnection",
+   "project_ids": [
+    "anthropic-lake-mariner"
+   ],
+   "date": "2026-08-05",
+   "date_precision": "day",
+   "type": "Transmission",
+   "agency": "Interconnection approval authority (not named in source)",
+   "action": "TeraWulf pursues 250 MW more power at Lake Mariner, subject to interconnection approval",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "In its Q2 2026 results, TeraWulf said it is pursuing 250 MW of additional power capacity at its New York platform, subject to interconnection approval, and gave no timeline. Construction continues on 336 MW across CB-4 and CB-5, with CB-5 targeted to begin phased delivery in early 2027. The date is the results announcement, not a filing date.",
+   "schedule_impact": "Growth beyond the CB-4/CB-5 build depends on the interconnection approval the company mentions.",
+   "source": "TeraWulf Inc.",
+   "url": "https://investors.terawulf.com/news-events/press-releases/detail/144/terawulf-reports-second-quarter-2026-results"
+  },
+  {
+   "id": "tx-ercot-interconnection-audit-pause",
+   "project_ids": [
+    "stargate-abilene",
+    "stargate-shackelford-frontier",
+    "stargate-milam",
+    "msft-pecos",
+    "anthropic-barber-lake"
+   ],
+   "date": "2026-08-03",
+   "date_precision": "day",
+   "type": "State rule",
+   "agency": "Office of the Governor of Texas / PUCT / ERCOT",
+   "action": "Audit and pause of data centers in ERCOT interconnection",
+   "status": "In effect",
+   "open": true,
+   "next_date": "2026-10-12",
+   "summary": "Abbott ordered the PUCT and ERCOT to audit every data center moving through ERCOT interconnection and to hold their advancement until the audit is done. Projects must disclose financial assistance received, power use and on-site generation, water use and cooling, community-impact steps, and ownership and control.",
+   "schedule_impact": "Freezes interconnection progress for queued campuses until the audit ends. ERCOT's impact RFI responses are due October 12, and ERCOT expects to report around December 10, 2026.",
+   "source": "DLA Piper; Beveridge & Diamond",
+   "url": "https://www.dlapiper.com/en-us/insights/publications/2026/09/governor-abbott-expands-data-center-permitting-pause"
+  },
+  {
+   "id": "wdeq-cheyenne-prairie-air-permit",
+   "project_ids": [
+    "google-tembo-cheyenne"
+   ],
+   "date": "2026-08-01",
+   "date_precision": "month",
+   "type": "Air permit",
+   "agency": "Wyoming regulator (not named in Black Hills release)",
+   "action": "Air permit approved for Cheyenne Prairie generation expansion",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "Black Hills reports that the air quality permit for its Cheyenne Prairie generation expansion serving Google was approved in August 2026.",
+   "schedule_impact": "Removes an air-permitting hurdle for the utility-owned generation behind the campus.",
+   "source": "Black Hills Corp.",
+   "url": "https://ir.blackhillscorp.com/news-releases/news-release-details/black-hills-corp-executes-definitive-agreements-serve-googles"
+  },
+  {
+   "id": "hyperion-ldeq-laidley-air-permit-challenge",
+   "project_ids": [
+    "meta-hyperion"
+   ],
+   "date": "2026-07-30",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Louisiana Department of Environmental Quality",
+   "action": "Sierra Club contests Meta campus minor-source air permit revision",
+   "status": "Appealed / challenged",
+   "open": true,
+   "next_date": null,
+   "summary": "Sierra Club told LDEQ that Meta affiliate Laidley's permit change, which adds 44 round-the-clock gas boilers to 31 diesel generators and was approved in June, puts the site over major-source thresholds, and it asked for a public hearing.",
+   "schedule_impact": "If LDEQ requires a major-source permit, the campus's on-site combustion equipment could face more review and delay.",
+   "source": "Louisiana Illuminator via News From The States",
+   "url": "https://www.newsfromthestates.com/node/420601"
+  },
+  {
+   "id": "colossus2-mdeq-temporary-turbine-retirement-order",
+   "project_ids": [
+    "xai-colossus-2"
+   ],
+   "date": "2026-07-30",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Mississippi Department of Environmental Quality",
+   "action": "MDEQ sets retirement schedule for 69 temporary xAI turbines",
+   "status": "In effect",
+   "open": true,
+   "next_date": null,
+   "summary": "MDEQ issued an order on July 30, 2026 setting dates for xAI to retire 69 temporary turbines in Southaven, starting Aug 18. Most are to be retired by April 2027, 13 may run past the original 12-month limit, and turbines that began running in early July must stop by July 14, 2027.",
+   "schedule_impact": "Sets hard retirement dates for xAI's temporary Southaven turbines. xAI cited supply-chain delays for 41 permanent turbines that are to hold air permits.",
+   "source": "DeSoto County News / Mississippi Today",
+   "url": "https://desotocountynews.com/mississippi-news/state-sets-dates-to-retire-temporary-xai-turbines-but-allows-some-to-go-past-original-deadline/"
+  },
+  {
+   "id": "pwdg-rezonings-voided",
+   "project_ids": [
+    "pw-digital-gateway"
+   ],
+   "date": "2026-07-29",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Court of Appeals of Virginia / Prince William County",
+   "action": "Digital Gateway rezonings void; land reverts to prior zoning",
+   "status": "In effect",
+   "open": false,
+   "next_date": null,
+   "summary": "When the stay ended, the Board's rezoning approvals became void and the land returned to its earlier zoning. On August 5, 2026, the county said it had updated the zoning maps and would reassess the parcels.",
+   "schedule_impact": "Takes away the data-center zoning, so any revived project would have to start a new land-use process.",
+   "source": "Prince William County Planning Office",
+   "url": "https://www.pwcva.gov/department/planning-office/pw-digital-gateway"
+  },
+  {
+   "id": "jupiter-ferc-green-chile-cp26-80",
+   "project_ids": [
+    "stargate-project-jupiter"
+   ],
+   "date": "2026-07-24",
+   "date_precision": "day",
+   "type": "Pipeline & right-of-way",
+   "agency": "Federal Energy Regulatory Commission",
+   "action": "Green Chile lateral moved to full section 7 review (CP26-80)",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": "2026-12-03",
+   "summary": "Transwestern's January 2026 prior-notice request under its blanket certificate for the roughly 17.8-mile Green Chile pipeline drew a FERC staff protest over a missing state historic-preservation finding, so it proceeds as a full section 7 application. FERC scheduled its environmental assessment for Sept 4 and a federal authorization decision deadline of Dec 3.",
+   "schedule_impact": "Gas for the fuel-cell microgrid waits on this decision, and filings already put service at February 2027.",
+   "source": "FERC Notice of Schedule (Accession 20260724-3042)",
+   "url": "https://www.sierraclub.org/sites/default/files/2026-07/20260724-3042.PDF"
+  },
+  {
+   "id": "wi-ferc-atc-wepco-mtca-er26-3265",
+   "project_ids": [
+    "msft-fairwater-wisconsin"
+   ],
+   "date": "2026-07-24",
+   "date_precision": "day",
+   "type": "Transmission",
+   "agency": "FERC",
+   "action": "ATC large-load commitment agreements and minimum transmission charge agreement filed at FERC",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "A July 24, 2026 transmittal letter, filed through MISO for ATC, asks FERC to accept four amended large-load project commitment agreements and a minimum transmission charge agreement, effective July 1, 2026, for a Microsoft data center campus in Racine County. Minimum charges begin when the transmission facilities enter service and run for 15 years.",
+   "schedule_impact": "FERC acceptance is needed for the agreements to take effect as filed; the letter asks for the 60-day notice requirement to be waived.",
+   "source": "ATC/WEPCo transmittal letter; Wisconsin Watch",
+   "url": "https://www.wpr.org/wp-content/uploads/2026/07/20260724-5251_Transmittal-Letter_ATC-WEPCo-Amended-LLPCAs_MTCA.pdf"
+  },
+  {
+   "id": "wi-microsoft-contract-correction",
+   "project_ids": [
+    "msft-fairwater-wisconsin"
+   ],
+   "date": "2026-07-16",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Public Service Commission of Wisconsin",
+   "action": "Signed contract keeps plant-siting clause PSC struck; fix pending",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Microsoft signed its 15-year Mount Pleasant service contract unchanged, including the eastern-Wisconsin/Upper Peninsula plant-location clause the PSC had removed, and We Energies says it will follow the order and correct the language with the PSC on no set timeline.",
+   "schedule_impact": "We Energies says it will follow the PSC order rather than the contract wording while it works with the commission to fix the language, with no timeline given.",
+   "source": "Civic Media",
+   "url": "https://civicmedia.us/news/2026/08/06/we-energies-says-microsoft-wont-be-held-to-contract-terms-that-conflict-with-state-regulators-order"
+  },
+  {
+   "id": "jupiter-slo-reconsideration-denied",
+   "project_ids": [
+    "stargate-project-jupiter"
+   ],
+   "date": "2026-07-14",
+   "date_precision": "day",
+   "type": "Pipeline & right-of-way",
+   "agency": "New Mexico State Land Office",
+   "action": "Reconsideration of pipeline ROW denial rejected",
+   "status": "Denied",
+   "open": false,
+   "next_date": null,
+   "summary": "The land commissioner refused Energy Transfer's request to reopen her denial of two rights-of-way and a lease for about 0.6 miles of pipeline across state land.",
+   "schedule_impact": "Keeps state trust land off the table for the gas route; the developer could still contest the decision administratively.",
+   "source": "KOB 4",
+   "url": "https://www.kob.com/news/top-news/new-mexico-land-commissioner-denies-project-jupiter-pipeline-request/"
+  },
+  {
+   "id": "jupiter-nmed-air-nsr-10883",
+   "project_ids": [
+    "stargate-project-jupiter"
+   ],
+   "date": "2026-07-02",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "NMED Air Quality Bureau (hearing AQB 26-57)",
+   "action": "Air permit for fuel-cell microgrid (NSR 10883)",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "NMED docketed a public hearing (AQB 26-57) on Yucca Growth Infrastructure's air permit application for the campus's fuel-cell microgrid, and its July 16 scheduling order set the hearing for Oct 19, 2026.",
+   "schedule_impact": "The microgrid that powers the campus has no air permit until this hearing and the decision after it are done; the August Supreme Court stay (lifted Sept 17) may have moved the hearing date.",
+   "source": "New Mexico Environment Department (scheduling order)",
+   "url": "https://www.env.nm.gov/opf/wp-content/uploads/sites/13/2026/07/2026-07-16-AQB-26-57-Scheduling-Order-filed.pdf"
+  },
+  {
+   "id": "saline-abatement-cap-removed",
+   "project_ids": [
+    "stargate-saline-township"
+   ],
+   "date": "2026-07-01",
+   "date_precision": "month",
+   "type": "Incentives & tax",
+   "agency": "Saline Township Board",
+   "action": "$4.8B valuation cap dropped from data center tax abatement",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "The township board voted 5-0 to remove a $4.8 billion valuation cap from its tax abatement for 'The Barn' after the township attorney warned the cap would violate a 2025 consent judgment. The clawback provision stays.",
+   "schedule_impact": "Resolves the consent-judgment conflict the attorney raised; the clawback provision remains in force.",
+   "source": "Planet Detroit",
+   "url": "https://planetdetroit.org/2026/07/data-center-news-saline-township/"
+  },
+  {
+   "id": "wi-mount-pleasant-noise-class-action",
+   "project_ids": [
+    "msft-fairwater-wisconsin"
+   ],
+   "date": "2026-07-01",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "U.S. District Court, Eastern District of Wisconsin",
+   "action": "Neighbors file noise class action against Microsoft",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Three Sturtevant residents sued Microsoft in federal court on behalf of a proposed class of people living within 1.5 miles of its Fairwater data center in Mount Pleasant (over 1,000 households alleged), saying noise from cooling fans physically invades their properties.",
+   "schedule_impact": "No relief sought is described in the article, so any effect on operations is unknown.",
+   "source": "WRJN / Civic Media",
+   "url": "https://wrjn.com/news/2026/07/02/sturtevant-residents-file-class-action-suit-over-microsoft-data-center-noise"
+  },
+  {
+   "id": "wy-isc-cheyenne-prairie-expansion",
+   "project_ids": [
+    "google-tembo-cheyenne"
+   ],
+   "date": "2026-07-01",
+   "date_precision": "month",
+   "type": "Construction permit",
+   "agency": "Wyoming Industrial Siting Council",
+   "action": "Industrial siting permit filed for Cheyenne Prairie gas expansion",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Black Hills filed for an industrial siting permit in July 2026 to add 564 MW of new gas generation at its Cheyenne Prairie station. The plant will serve Google's Cheyenne data center, with about $1.8B to be spent in 2027–2029. The release does not name the agency; this permit type in Wyoming is issued by the Industrial Siting Council.",
+   "schedule_impact": "Black Hills plans to start construction in 2027, with energy service for Google planned to begin in late 2027.",
+   "source": "Black Hills Corp.",
+   "url": "https://ir.blackhillscorp.com/news-releases/news-release-details/black-hills-corp-executes-definitive-agreements-serve-googles"
+  },
+  {
+   "id": "lancaster-phase2-prelim-approval",
+   "project_ids": [
+    "coreweave-lancaster"
+   ],
+   "date": "2026-07-01",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "City of Lancaster Planning Commission",
+   "action": "Conditional preliminary land-development approval for second Greenfield Rd building",
+   "status": "Approved with conditions",
+   "open": true,
+   "next_date": null,
+   "summary": "The planning commission gave conditional preliminary land-development approval to a second data center building at 216 Greenfield Road. A resident group, Lancaster RAGE, appealed the approval; developers sued to throw out the appeal, and a judge stayed the zoning hearing.",
+   "schedule_impact": "The approval is under resident appeal, and the zoning hearing has been put on hold by a judge's stay.",
+   "source": "LNP | LancasterOnline",
+   "url": "https://lancasteronline.com/news/local/judge-cancels-greenfield-road-data-center-zoning-hearing/article_467a9aa4-d9b4-4195-b838-e9c049eff84f.html"
+  },
+  {
+   "id": "ok-hb2992-ratepayer-protection-act",
+   "project_ids": [
+    "thunderbird-enid",
+    "iren-emerald-kiowa",
+    "google-stillwater"
+   ],
+   "date": "2026-07-01",
+   "date_precision": "day",
+   "type": "State rule",
+   "agency": "Oklahoma Corporation Commission",
+   "action": "Data Center Customer Ratepayer Protection Act of 2026 applies to new large loads contracted after July 1, 2026",
+   "status": "In effect",
+   "open": false,
+   "next_date": null,
+   "summary": "The act (17 O.S. 900-906) covers new data centers, crypto mining and AI computing facilities that contract for 75 MW or more per facility, or in aggregate behind one interconnection point, after July 1, 2026. For land bought outside an industrial park or municipality, the buyer must notify the OCC, county commissioners and abutting owners within 60 days, and large-load customers must file extra documentation before opening.",
+   "schedule_impact": "Adds land-purchase notice and pre-opening documentation steps for new large data center loads in Oklahoma.",
+   "source": "Oklahoma Corporation Commission; KGOU",
+   "url": "https://aem-prod.oklahoma.gov/occ/divisions/public-utility/energy/electric-utility/data-center-customer-ratepayer-protection-act.html"
+  },
+  {
+   "id": "ms-mdeq-title-v-application",
+   "project_ids": [
+    "aws-madison-county-ms"
+   ],
+   "date": "2026-06-29",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Mississippi Department of Environmental Quality",
+   "action": "Title V operating permit application acknowledged",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "MDEQ acknowledged receipt of Amazon's Title V application for the Madison megasite, and no decision is recorded.",
+   "schedule_impact": "MDEQ's record for Amazon's Madison site lists the Title V application as acknowledged on June 29, 2026, with no decision shown.",
+   "source": "MDEQ enSearch Online",
+   "url": "https://opc.deq.state.ms.us/ai_info.aspx?ai=86219"
+  },
+  {
+   "id": "emerald-tid-vote-tabled",
+   "project_ids": [
+    "iren-emerald-kiowa"
+   ],
+   "date": "2026-06-22",
+   "date_precision": "day",
+   "type": "Incentives & tax",
+   "agency": "Pittsburg County Board of Commissioners",
+   "action": "Commissioners table creation of the two incentive districts",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "About 200 people attended the final public hearing in McAlester on June 22, 2026, and a clear majority of those who spoke opposed the project. Commissioners voted to table creating the two tax incentive districts; the review committee will look at new cost estimates before commissioners act again.",
+   "schedule_impact": "The incentive districts remain uncreated until commissioners act again after the committee reviews new cost estimates.",
+   "source": "KJRH",
+   "url": "https://www.kjrh.com/news/local-news/commissioners-put-brakes-on-incentives-for-hyperscale-data-center"
+  },
+  {
+   "id": "occ-oge-large-load-tariff",
+   "project_ids": [
+    "google-stillwater"
+   ],
+   "date": "2026-06-17",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Oklahoma Corporation Commission",
+   "action": "OG&E files large-load tariff for data centers",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "OG&E filed a draft large-load tariff with the Oklahoma Corporation Commission covering customers planning to use 75 MW or more, who would pay for estimated usage and their own grid connections and pay monthly fees to fund credits for other customers. The review could take about six months, and OG&E will announce in-person public comment.",
+   "schedule_impact": "OG&E says no companies are affected right away; approval could take around six months.",
+   "source": "KGOU",
+   "url": "https://www.kgou.org/energy/2026-06-18/og-e-proposes-new-data-center-agreement-intended-to-prevent-residential-utility-cost-spikes"
+  },
+  {
+   "id": "lordstown-moratorium-extended",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "date": "2026-06-15",
+   "date_precision": "day",
+   "type": "Local moratorium",
+   "agency": "Lordstown Village Council",
+   "action": "180-day data center permit moratorium extended",
+   "status": "In effect",
+   "open": true,
+   "next_date": null,
+   "summary": "With the current 180-day data center moratorium about to expire, council approved by emergency reading another 180 days starting July 5, 2026. A village consultant has discussed zoning standards the village could adopt for data centers.",
+   "schedule_impact": "Keeps the village's data center moratorium in place for another 180 days while council reviews the issue and possible rules.",
+   "source": "The Vindicator",
+   "url": "https://www.vindy.com/news/local-news/2026/06/lordstown-extends-data-center-moratorium/"
+  },
+  {
+   "id": "tx-gov-directive-data-centers-fund-infrastructure",
+   "project_ids": [
+    "stargate-abilene",
+    "stargate-shackelford-frontier",
+    "stargate-milam",
+    "msft-pecos"
+   ],
+   "date": "2026-06-10",
+   "date_precision": "day",
+   "type": "State rule",
+   "agency": "Office of the Governor of Texas",
+   "action": "Governor directs data centers to fully fund grid infrastructure",
+   "status": "In effect",
+   "open": true,
+   "next_date": null,
+   "summary": "A June 10, 2026 gubernatorial directive says data centers must fully fund the costs of the electric infrastructure needed to serve them. The source does not say who received it.",
+   "schedule_impact": "Puts the cost of grid infrastructure for data centers on the data centers; the source does not describe how it applies to individual campuses.",
+   "source": "DLA Piper",
+   "url": "https://www.dlapiper.com/en-us/insights/publications/2026/09/governor-abbott-expands-data-center-permitting-pause"
+  },
+  {
+   "id": "colossus2-residents-nuisance-suit",
+   "project_ids": [
+    "xai-colossus-2"
+   ],
+   "date": "2026-06-09",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "Federal court (Mississippi)",
+   "action": "Southaven residents file class action against xAI over turbine noise and vibration",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Southaven residents sued xAI and its subsidiary MZX Tech in federal court, describing near-constant noise, vibration and other harms they say began in mid-2025 and hurt their quality of life and property values.",
+   "schedule_impact": "Comes after an earlier 2026 NAACP suit alleging the turbines run without environmental permits; no ruling is reported in the source.",
+   "source": "DeSoto County News / Mississippi Today",
+   "url": "https://desotocountynews.com/mississippi-news/southaven-residents-sue-elon-musks-xai-alleging-harm-from-gas-turbines/"
+  },
+  {
+   "id": "in-idem-air-violation-letter",
+   "project_ids": [
+    "aws-project-rainier"
+   ],
+   "date": "2026-06-08",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Indiana Department of Environmental Management",
+   "action": "IDEM cites air-permit violations; no enforcement yet",
+   "status": "In effect",
+   "open": false,
+   "next_date": null,
+   "summary": "IDEM's June 8 letter said Amazon installed two backup diesel generators rated 1,600 kW where the permit approved 1,500 kW units, operated emission units without first submitting an affidavit of construction, and had exhaust-temperature sensor failures in its emissions controls. IDEM said it will not take legal action now but may if violations recur.",
+   "schedule_impact": "No enforcement action now, but IDEM has signaled it could act if violations recur.",
+   "source": "WVPE",
+   "url": "https://www.wvpe.org/wvpe-news/2026-06-16/amazon-data-center-violates-air-permits-in-multiple-ways"
+  },
+  {
+   "id": "emerald-tid-hearings-noticed",
+   "project_ids": [
+    "iren-emerald-kiowa"
+   ],
+   "date": "2026-06-08",
+   "date_precision": "day",
+   "type": "Incentives & tax",
+   "agency": "Pittsburg County Board of Commissioners",
+   "action": "Informational hearing on Emerald project plan and incentive districts",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Pittsburg County commissioners noticed an informational hearing on June 8, 2026 and a public-comment hearing on June 22, 2026 (6 p.m., McAlester) on the Emerald ProjectCo Data Center project plan and Incentive Districts No. 1 and No. 2 (about 2,000 acres) under the Oklahoma Local Development Act, offering partial property-tax abatement.",
+   "schedule_impact": "The June 22 hearing is described as the chance to be heard before any votes are taken to adopt the plan and create the districts.",
+   "source": "Pittsburg County public hearing notice",
+   "url": "https://pittsburg.okcounties.org/file/widget/publication_for_public_hearings_20.pdf"
+  },
+  {
+   "id": "in-idem-401-corps-404-resubmittal",
+   "project_ids": [
+    "aws-project-rainier"
+   ],
+   "date": "2026-06-03",
+   "date_precision": "day",
+   "type": "Water & discharge",
+   "agency": "IDEM (401 WQC 2025-78-71-ENH-WQC-2) / U.S. Army Corps of Engineers (LRE-2024-00058-171-S25)",
+   "action": "IDEM notices public hearing on Amazon's resubmitted wetland/stream permit request",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "IDEM's notice describes Amazon's resubmitted request for its New Carlisle campus, utility pumping station and substations, with about 4.9 acres of wetland and 3,986 feet of stream permanently impacted. A virtual hearing was scheduled for July 8, 2026 and the comment deadline was extended to July 10; mitigation includes onsite wetland creation and purchased stream credits. The notice shows no decision.",
+   "schedule_impact": "The notice lists both IDEM and Army Corps numbers for the request; no decision appears in it.",
+   "source": "IDEM; Hoosier Environmental Council",
+   "url": "https://www.in.gov/idem/files/notice_20260710_401_2025-78-71-enh-wqc-2.pdf"
+  },
+  {
+   "id": "laramie-county-tembo-site-plan-revision",
+   "project_ids": [
+    "google-tembo-cheyenne"
+   ],
+   "date": "2026-06-01",
+   "date_precision": "month",
+   "type": "Zoning & land use",
+   "agency": "Laramie County Planning & Development",
+   "action": "Google (Jupiter Star Holdings) files reduced site plan revision",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "With Crusoe withdrawn, Google (Jupiter Star Holdings) is seeking re-approval with a smaller plan: four buildings instead of five (3,080,000 sq ft, down from 4,025,500), two permanent entrances on US 85 instead of one, and a peak construction workforce of 2,500 instead of 5,000. The county said it will handle the revision administratively because the plan is much smaller.",
+   "schedule_impact": "Administrative handling means the revision is not routed through a new public hearing in the county's description.",
+   "source": "Laramie County Board of Commissioners memo",
+   "url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/county/public-notice/project-tembo-memo-07082026.pdf"
+  },
+  {
+   "id": "prometheus-socrates-younger-opsb",
+   "project_ids": [
+    "meta-prometheus"
+   ],
+   "date": "2026-06-01",
+   "date_precision": "month",
+   "type": "Construction permit",
+   "agency": "Ohio Power Siting Board",
+   "action": "OPSB approves 250 MW Socrates the Younger plant plus battery",
+   "status": "Approved with conditions",
+   "open": false,
+   "next_date": null,
+   "summary": "The Ohio Power Siting Board approved Will-Power OH's Socrates the Younger facility, a 250 MW gas plant with 116 MW of batteries on 109 acres in New Albany, to serve Meta affiliate Sidecat behind the meter, subject to 36 conditions (Case 26-0169-EL-BLN).",
+   "schedule_impact": "Adds approved off-grid capacity for growth at the New Albany campus.",
+   "source": "Knox Pages",
+   "url": "https://www.knoxpages.com/2026/06/26/opsb-authorizes-construction-of-licking-county-power-plant/"
+  },
+  {
+   "id": "wi-psc-microsoft-reopen-request",
+   "project_ids": [
+    "msft-fairwater-wisconsin"
+   ],
+   "date": "2026-06-01",
+   "date_precision": "month",
+   "type": "Utility & rates",
+   "agency": "Public Service Commission of Wisconsin",
+   "action": "Microsoft request to reopen tariff case declined",
+   "status": "Denied",
+   "open": false,
+   "next_date": null,
+   "summary": "Microsoft asked the PSC in June 2026 to reopen the tariff case over what it called errors and inconsistencies in the We Energies contract, and the commission refused.",
+   "schedule_impact": "Left the tariff order as decided, so Microsoft went ahead and signed the contract.",
+   "source": "PBS Wisconsin",
+   "url": "https://pbswisconsin.org/news-item/mount-pleasant-data-center-contract-retains-power-plant-provision-struck-down-by-wisconsin-regulators/"
+  },
+  {
+   "id": "wy-psc-black-hills-lctcam",
+   "project_ids": [
+    "google-tembo-cheyenne"
+   ],
+   "date": "2026-06-01",
+   "date_precision": "month",
+   "type": "Utility & rates",
+   "agency": "Wyoming regulator (not named in Black Hills release)",
+   "action": "Black Hills files Large Customer Transmission Cost Adjustment Mechanism",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Black Hills filed a Large Customer Transmission Cost Adjustment Mechanism in June 2026; its Sept 30, 2026 agreements with Google run through 2048, covering up to 590 MW of grid service and a 2.1 GW third-party microgrid.",
+   "schedule_impact": "Decides how transmission costs for the 2.7 GW load are recovered.",
+   "source": "Black Hills Corp.",
+   "url": "https://ir.blackhillscorp.com/news-releases/news-release-details/black-hills-corp-executes-definitive-agreements-serve-googles"
+  },
+  {
+   "id": "jupiter-blm-green-chile-row",
+   "project_ids": [
+    "stargate-project-jupiter"
+   ],
+   "date": "2026-05-01",
+   "date_precision": "month",
+   "type": "Pipeline & right-of-way",
+   "agency": "Bureau of Land Management",
+   "action": "Federal right-of-way for Green Chile gas lateral",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "After a 14-day expedited environmental review by Interior, BLM approved a right-of-way across about 16 miles of federal land for Transwestern's 24-inch gas pipeline to feed Project Jupiter, and said it is still finalizing the right-of-way authorizations.",
+   "schedule_impact": "Construction follows once approvals are complete; Energy Transfer filed the project with FERC under its blanket certificate process, and the article does not say whether FERC has authorized it.",
+   "source": "Underground Infrastructure",
+   "url": "https://undergroundinfrastructure.com/news/2026/may/green-chile-pipeline-wins-federal-approval-in-new-mexico"
+  },
+  {
+   "id": "wy-psc-robinson-substation-cpcn",
+   "project_ids": [
+    "google-tembo-cheyenne"
+   ],
+   "date": "2026-05-01",
+   "date_precision": "month",
+   "type": "Transmission",
+   "agency": "Wyoming Public Service Commission",
+   "action": "Robinson substation CPCN approved",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "Black Hills reports that the certificate for the Robinson substation, needed to serve Google's planned Cheyenne data center, was approved in May 2026. The release does not name the regulator; for a CPCN in Wyoming that is the PSC.",
+   "schedule_impact": "Clears a grid-connection piece for service starting late 2027.",
+   "source": "Black Hills Corp.",
+   "url": "https://ir.blackhillscorp.com/news-releases/news-release-details/black-hills-corp-executes-definitive-agreements-serve-googles"
+  },
+  {
+   "id": "pa-puc-large-load-model-tariff",
+   "project_ids": [
+    "coreweave-lancaster",
+    "aws-salem-susquehanna"
+   ],
+   "date": "2026-04-30",
+   "date_precision": "day",
+   "type": "State rule",
+   "agency": "Pennsylvania Public Utility Commission",
+   "action": "PUC adopts large load customer model tariff",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "In docket M-2025-3054271, the PUC adopted a model tariff for interconnecting and serving large-load customers such as hyperscale data centers. The final order was served May 12, and the PUC ruled on reconsideration petitions on June 4 and July 16, 2026.",
+   "schedule_impact": "Sets the template for collateral, minimum-load and exit terms that Pennsylvania utilities will apply to new data-center service.",
+   "source": "Pennsylvania PUC docket",
+   "url": "https://www.puc.pa.gov/docket/M-2025-3054271"
+  },
+  {
+   "id": "wi-psc-vlc-tariff-decision",
+   "project_ids": [
+    "msft-fairwater-wisconsin"
+   ],
+   "date": "2026-04-24",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Public Service Commission of Wisconsin",
+   "action": "Modifies and approves We Energies VLC and bespoke tariffs",
+   "status": "Approved with conditions",
+   "open": false,
+   "next_date": null,
+   "summary": "Commissioners amended We Energies' very large customer and bespoke resource tariffs: eligibility dropped from 500 MW to 100 MW, a capacity-only option that let data centers pay 75% of generating costs was removed so they pay 100%, minimum terms became 15 years, and the utility must address the risk of shifting transmission costs to other customers.",
+   "schedule_impact": "Sets tougher cost terms for large data center customers of We Energies; the source does not mention Microsoft.",
+   "source": "WBAY / Clean Wisconsin",
+   "url": "https://www.wearegreenbay.com/news/local-news/wisconsin-amends-we-energies-data-center-tariff-to-put-full-costs-on-tech-companies/amp/"
+  },
+  {
+   "id": "emerald-tid-review-committee-endorses",
+   "project_ids": [
+    "iren-emerald-kiowa"
+   ],
+   "date": "2026-04-21",
+   "date_precision": "day",
+   "type": "Incentives & tax",
+   "agency": "Pittsburg County Tax Incentive District Review Committee",
+   "action": "Review committee unanimously endorses project plan and two districts",
+   "status": "Approved",
+   "open": true,
+   "next_date": null,
+   "summary": "On April 21, 2026 the Pittsburg County tax incentive district review committee voted to advance the Project Emerald tax plans, a roughly 2,000-acre development south of Kiowa, to the participating taxing boards and the county commission.",
+   "schedule_impact": "Moved the plan to the taxing boards and county commission; no final vote date was set, though public meetings were planned for May.",
+   "source": "KJRH / NonDoc",
+   "url": "https://www.kjrh.com/news/local-news/project-emerald-ai-data-center-plan-in-pittsburg-county-moving-forward"
+  },
+  {
+   "id": "hyperion-u37882-seven-plants-fast-track",
+   "project_ids": [
+    "meta-hyperion"
+   ],
+   "date": "2026-04-15",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Louisiana Public Service Commission",
+   "action": "PSC fast-tracks Entergy request for seven more gas plants",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": "2026-11-18",
+   "summary": "On a 4-1 vote the PSC put Entergy's application for seven more gas plants for a second Meta data center in Richland Parish on an accelerated schedule of under eight months, skipping competitive bidding. A final vote is set for Nov. 18; the plants would bring the total to ten with the three already approved.",
+   "schedule_impact": "The Nov. 18 final PSC vote decides whether the gas plants for Meta's second Richland Parish data center go ahead.",
+   "source": "WWNO",
+   "url": "https://www.wwno.org/coastal-desk/2026-04-21/advocates-cite-lack-of-transparency-rising-costs-as-regulators-fast-track-second-meta-data-center"
+  },
+  {
+   "id": "colossus2-naacp-caa-suit",
+   "project_ids": [
+    "xai-colossus-2"
+   ],
+   "date": "2026-04-14",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "U.S. District Court, N.D. Mississippi",
+   "action": "NAACP Clean Air Act suit over unpermitted Southaven turbines",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "In case 3:26-cv-00074, the NAACP alleges xAI and MZX Tech ran 'temporary' turbines in Southaven without the required permits, and it seeks an injunction, best-available control technology and daily penalties.",
+   "schedule_impact": "An injunction could shut down the interim turbines that power Colossus 2 before permanent units or grid power are available.",
+   "source": "Mississippi Today (complaint)",
+   "url": "https://cdn.mississippitoday.org/uploads/2026/04/21223416/xAI-Southaven-Complaint.pdf"
+  },
+  {
+   "id": "colossus2-selc-evidentiary-hearing-request",
+   "project_ids": [
+    "xai-colossus-2"
+   ],
+   "date": "2026-04-09",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Mississippi Environmental Quality Permit Board (MDEQ)",
+   "action": "SELC requests evidentiary hearing to vacate xAI PSD permit",
+   "status": "Appealed / challenged",
+   "open": true,
+   "next_date": null,
+   "summary": "For the NAACP, Safe and Sound Coalition and Young, Gifted & Green, SELC asked MDEQ to reverse, stay or vacate the PSD permit, citing emission offsets, modeling, BACT and Open Meetings Act defects.",
+   "schedule_impact": "A stay or remand would hold up the permanent turbine build-out in Southaven.",
+   "source": "Mississippi Today (hearing request letter)",
+   "url": "https://cdn.mississippitoday.org/uploads/2026/04/21223458/MZX-Tech-LLC-Hearing-Request.pdf"
+  },
+  {
+   "id": "portwash-tif-referendum",
+   "project_ids": [
+    "stargate-port-washington-lighthouse"
+   ],
+   "date": "2026-04-07",
+   "date_precision": "day",
+   "type": "Incentives & tax",
+   "agency": "City of Port Washington (voter referendum)",
+   "action": "Voters require referendum on future TIFs over $10M",
+   "status": "Appealed / challenged",
+   "open": true,
+   "next_date": null,
+   "summary": "Voters passed a measure giving residents a vote on TIF districts over $10 million, and business and trade groups have sued to overturn it.",
+   "schedule_impact": "Does not reach the TIF already approved for this campus, but would apply to any new TIF for later phases.",
+   "source": "Wisconsin Watch",
+   "url": "https://wisconsinwatch.org/2026/04/port-washington-data-center-project-voters-referendum-tif-district-wisconsin/"
+  },
+  {
+   "id": "saline-coa-appeal-mpsc",
+   "project_ids": [
+    "stargate-saline-township"
+   ],
+   "date": "2026-04-01",
+   "date_precision": "month",
+   "type": "Litigation",
+   "agency": "Michigan Court of Appeals",
+   "action": "AG and environmental groups appeal MPSC contract approval",
+   "status": "Appealed / challenged",
+   "open": true,
+   "next_date": null,
+   "summary": "Attorney General Nessel appealed the MPSC approval without a contested case hearing, and Earthjustice, Sierra Club, MEC and NRDC filed their own separate brief; the court consolidated the appeals and briefs were filed in August 2026.",
+   "schedule_impact": "A remand to a contested case could reopen the terms of the campus's power contracts.",
+   "source": "Planet Detroit",
+   "url": "https://planetdetroit.org/2026/08/dte-oracle-contract-appeal-michigan/"
+  },
+  {
+   "id": "jupiter-gas-plant-permits-withdrawn",
+   "project_ids": [
+    "stargate-project-jupiter"
+   ],
+   "date": "2026-04-01",
+   "date_precision": "month",
+   "type": "Air permit",
+   "agency": "NMED Air Quality Bureau",
+   "action": "Gas-fired power plant air permit applications withdrawn",
+   "status": "Withdrawn",
+   "open": false,
+   "next_date": null,
+   "summary": "In April the developer, Yucca Growth Infrastructure, withdrew its first air quality applications for natural gas plants and proposed a fuel-cell microgrid instead. NMED has said it will hold a public hearing on the new application, with no date set.",
+   "schedule_impact": "Air permitting restarted on the new fuel-cell design; the source gives no decision date.",
+   "source": "KANW / Source NM",
+   "url": "https://www.kanw.org/new-mexico-news/2026-07-08/new-mexico-environment-department-to-hold-hearing-for-project-jupiter-data-center-air-quality-permit"
+  },
+  {
+   "id": "portwash-psc-vlc-tariff",
+   "project_ids": [
+    "stargate-port-washington-lighthouse"
+   ],
+   "date": "2026-04-01",
+   "date_precision": "month",
+   "type": "Utility & rates",
+   "agency": "Public Service Commission of Wisconsin",
+   "action": "We Energies very-large-customer rate with credit-rating collateral rule",
+   "status": "Approved with conditions",
+   "open": false,
+   "next_date": null,
+   "summary": "In April 2026 the PSC approved a rate structure for We Energies' very large customers that requires data center operators to cover the cost of new power plants and post collateral if their credit rating falls below a set threshold. The PSC declined We Energies' June request to reconsider.",
+   "schedule_impact": "Oracle, whose rating S&P cut to BBB- on July 9, could owe over $100 million a year in collateral; We Energies said the project remains on track.",
+   "source": "Wisconsin Watch",
+   "url": "https://wisconsinwatch.org/2026/07/wisconsin-we-energies-oracle-dispute-port-washington-data-center-on-schedule-legal-challenge-credit-rating/"
+  },
+  {
+   "id": "pwdg-court-of-appeals-decision",
+   "project_ids": [
+    "pw-digital-gateway"
+   ],
+   "date": "2026-03-31",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "Court of Appeals of Virginia",
+   "action": "Appeals court rules against Digital Gateway rezonings",
+   "status": "In effect",
+   "open": false,
+   "next_date": null,
+   "summary": "The Court of Appeals decided the rezoning cases against the Digital Gateway approvals but stayed its decision until July 29, 2026. It upheld the separate comprehensive plan amendment.",
+   "schedule_impact": "The rezonings stayed in effect only until the stay ended on July 29.",
+   "source": "Prince William County Planning Office",
+   "url": "https://www.pwcva.gov/department/planning-office/pw-digital-gateway"
+  },
+  {
+   "id": "fermi-second-air-permit-application",
+   "project_ids": [
+    "fermi-matador"
+   ],
+   "date": "2026-03-27",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Texas Commission on Environmental Quality",
+   "action": "Fermi files second air permit application for 5 GW more",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Fermi filed a second clean-air permit application with TCEQ for another 5 GW of on-site generation, which would bring the campus target to about 17 GW.",
+   "schedule_impact": "The filing adds 5 GW to the campus's air permit requests; the source gives no decision date.",
+   "source": "Fermi America press release (via Finviz)",
+   "url": "https://finviz.com/news/340655/fermi-america-files-second-clean-air-permit-application-with-tceq-for-5-gw-of-additional-power-for-its-project-matador-private-grid"
+  },
+  {
+   "id": "ga-fulton-superior-certification-appeal",
+   "project_ids": [
+    "msft-fairwater-atlanta",
+    "aws-butts-county-ga"
+   ],
+   "date": "2026-03-25",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "Fulton County Superior Court",
+   "action": "Groups petition to overturn Georgia Power certification",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Environmental and faith groups represented by SELC and the Sierra Club asked the court to reverse the PSC certification order and the reconsideration denial, seeking decertification of at least 757 MW.",
+   "schedule_impact": "A reversal could shrink or delay capacity Georgia Power is building for new data-center load.",
+   "source": "Southern Environmental Law Center; AJC",
+   "url": "https://feeds.ajc.com/business/2026/03/environmental-groups-take-psc-to-court-over-georgia-power-data-center-expansion"
+  },
+  {
+   "id": "homer-city-ehb-denies-consolidation",
+   "project_ids": [
+    "homer-city"
+   ],
+   "date": "2026-03-23",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "PA Environmental Hearing Board",
+   "action": "EHB refuses to consolidate the two permit appeals",
+   "status": "Denied",
+   "open": false,
+   "next_date": null,
+   "summary": "Judge Labuskes denied Homer City's motion, backed by DEP, to merge the youth appeal with the Clean Air Council appeal, finding the claims distinct.",
+   "schedule_impact": "The two appeals proceed on separate tracks, which could prolong permit uncertainty.",
+   "source": "Our Children's Trust",
+   "url": "https://www.ourchildrenstrust.org/timeline-pennsylvania/march-23-2026nbspenvironmental-hearing-board-denies-permittees-motion-to-consolidate-appeals-nbsp"
+  },
+  {
+   "id": "jupiter-slo-row-denial",
+   "project_ids": [
+    "stargate-project-jupiter"
+   ],
+   "date": "2026-03-20",
+   "date_precision": "day",
+   "type": "Pipeline & right-of-way",
+   "agency": "New Mexico State Land Office",
+   "action": "Five state-trust-land applications for pipeline, power line rejected",
+   "status": "Denied",
+   "open": false,
+   "next_date": null,
+   "summary": "The land commissioner turned down four rights-of-way, including one for the gas pipeline and one for a transmission line, plus a meter-station business lease across about 1.1 miles of trust land.",
+   "schedule_impact": "Forced the Green Chile lateral to find a route around state trust land, adding to the delay in gas supply.",
+   "source": "Santa Fe New Mexican",
+   "url": "https://www.santafenewmexican.com/news/local_news/new-mexico-agency-rejects-project-jupiter-data-centers-applications-for-gas-pipeline-right-of-way/article_00f190f7-2328-4e2e-82c0-012651387638.html"
+  },
+  {
+   "id": "fermi-nrc-eis-scoping-noi",
+   "project_ids": [
+    "fermi-matador"
+   ],
+   "date": "2026-03-20",
+   "date_precision": "day",
+   "type": "Environmental review",
+   "agency": "US Nuclear Regulatory Commission",
+   "action": "NRC notice of intent to prepare EIS; scoping opens",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "In a Federal Register notice (docket NRC-2026-0100), the NRC said it will prepare an EIS for Fermi America's four AP1000 reactors (Project Matador, Carson County, Texas), under a pilot in which the applicant prepares the draft EIS under NRC supervision. Scoping comments were due April 20, 2026.",
+   "schedule_impact": "The notice gives no dates for the draft or final EIS; the NRC will publish the draft for comment after reviewing the applicant's draft.",
+   "source": "Federal Register (NRC)",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-03-20/html/2026-05487.htm"
+  },
+  {
+   "id": "pa-srbc-consumptive-use-mod-2026",
+   "project_ids": [
+    "aws-salem-susquehanna"
+   ],
+   "date": "2026-03-12",
+   "date_precision": "day",
+   "type": "Water & discharge",
+   "agency": "Susquehanna River Basin Commission (Docket 20240901 modification)",
+   "action": "Raises PHL100 consumptive use to 0.129 mgd",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "At its March 12, 2026 meeting SRBC approved a modification of Amazon's PHL100 data center campus approval (Docket 20240901) in Salem Township, Luzerne County, raising total consumptive use to up to 0.129 mgd on a 30-day average.",
+   "schedule_impact": "Raises the campus's approved consumptive water use limit to 0.129 mgd.",
+   "source": "Federal Register (SRBC actions notice)",
+   "url": "https://www.federalregister.gov/documents/full_text/xml/2026/03/25/2026-05822.xml"
+  },
+  {
+   "id": "colossus2-mdeq-psd-permit-41-turbines",
+   "project_ids": [
+    "xai-colossus-2"
+   ],
+   "date": "2026-03-10",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Mississippi Environmental Quality Permit Board (MDEQ)",
+   "action": "Permit Board approves air permit for 41 permanent turbines",
+   "status": "Approved",
+   "open": true,
+   "next_date": null,
+   "summary": "After a February 17 public hearing, the Permit Board voted unanimously to allow xAI subsidiary MZX Tech to build 41 permanent gas turbines at the Southaven site.",
+   "schedule_impact": "Approves permanent on-site turbine power for the Southaven facility.",
+   "source": "Mississippi Today",
+   "url": "https://mississippitoday.org/2026/03/10/xai-permit-approved-southaven/"
+  },
+  {
+   "id": "jupiter-irb-lawsuit-proceeds",
+   "project_ids": [
+    "stargate-project-jupiter"
+   ],
+   "date": "2026-03-01",
+   "date_precision": "month",
+   "type": "Litigation",
+   "agency": "Third Judicial District Court (Judge Jennifer DeLaney)",
+   "action": "Judge lets challenge to IRB ordinances proceed, orders county record",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Two residents represented by the NM Environmental Law Center sued in October 2025 over the county's $165 billion in industrial revenue bonds and incentives. State District Judge Jennifer DeLaney did not dismiss the case, said the petitioners may be entitled to relief, and ordered the county to provide the full administrative record.",
+   "schedule_impact": "The petitioners argue the ordinances are void; the case continues and no further proceedings had been scheduled.",
+   "source": "Albuquerque Journal",
+   "url": "https://www.abqjournal.com/news/judge-project-jupiter-lawsuit-to-proceed/3007891"
+  },
+  {
+   "id": "apsc-cypress-solar-cecpn",
+   "project_ids": [
+    "google-west-memphis"
+   ],
+   "date": "2026-03-01",
+   "date_precision": "month",
+   "type": "Utility & rates",
+   "agency": "Arkansas Public Service Commission",
+   "action": "PSC approves 600 MW Cypress Solar + storage and cost recovery",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "Entergy Arkansas applied in September 2025 for a certificate for a 600 MW solar and 350 MW battery project interconnecting at the White Bluff substation. The PSC approved the facility in March 2026, with cost recovery through the Generating Arkansas Jobs Act rider and an independent monitor to oversee costs.",
+   "schedule_impact": "Expected in service by the end of 2028; the filing does not link the project to Google.",
+   "source": "Entergy Corp. SEC filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/66901/000006598426000222/R11.htm"
+  },
+  {
+   "id": "fermi-tceq-air-permits-approved",
+   "project_ids": [
+    "fermi-matador"
+   ],
+   "date": "2026-02-25",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Texas Commission on Environmental Quality",
+   "action": "TCEQ approves air permits for gas plant, denies contested-case hearing requests",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "On February 25, 2026 TCEQ commissioners approved air permits for the gas power plant serving Fermi America's data center project and voted not to grant contested-case hearings sought by groups including the Panhandle First Coalition, citing lack of standing.",
+   "schedule_impact": "Clears the air-permit step for the gas plant; the coalition has retained legal counsel.",
+   "source": "ABC 7 Amarillo",
+   "url": "https://www.abc7amarillo.com/news/local/tceq-approves-air-permits-for-fermi-americas-proposed-data-center-power-plant-texas-commission-on-environmental-quality-panhandle-first-coalition-kendra-seawright-catarina-gonzalez"
+  },
+  {
+   "id": "saline-intervention-denied",
+   "project_ids": [
+    "stargate-saline-township"
+   ],
+   "date": "2026-02-20",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "Washtenaw County Circuit Court (Judge Julia Owdziej)",
+   "action": "Resident's bid to intervene in consent judgment denied",
+   "status": "Denied",
+   "open": false,
+   "next_date": null,
+   "summary": "The judge ruled that a neighbor's motion to intervene came too late and that her Open Meetings Act claim had no merit because the board voted in public.",
+   "schedule_impact": "Keeps the consent judgment, and the nearly 200-worker build, in place.",
+   "source": "Crain's Detroit Business",
+   "url": "https://prod.crainsdetroit.com/node/935671"
+  },
+  {
+   "id": "ga-psc-reconsideration-denied",
+   "project_ids": [
+    "msft-fairwater-atlanta",
+    "aws-butts-county-ga"
+   ],
+   "date": "2026-02-18",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Georgia Public Service Commission",
+   "action": "Denies reconsideration of 10 GW certification, 3-2",
+   "status": "Denied",
+   "open": false,
+   "next_date": null,
+   "summary": "On a 3-2 vote, the PSC rejected the SELC and Sierra Club request to reconsider the December certification, including their request to deny several gas plants such as the two new McIntosh units.",
+   "schedule_impact": "Closed out the agency stage, so challengers turned to superior court.",
+   "source": "Southern Environmental Law Center; AJC",
+   "url": "https://www.selc.org/press-release/groups-challenge-pscs-approval-of-massive-georgia-power-gas-expansion/"
+  },
+  {
+   "id": "emerald-mcalester-water-contract-declined",
+   "project_ids": [
+    "iren-emerald-kiowa"
+   ],
+   "date": "2026-02-10",
+   "date_precision": "day",
+   "type": "Water & discharge",
+   "agency": "McAlester City Council",
+   "action": "Council declines raw-water sale contract for data center cooling",
+   "status": "Denied",
+   "open": false,
+   "next_date": null,
+   "summary": "McAlester councilors would not authorize the mayor to sign a contract selling raw water at $1 per 1,000 gallons for cooling at the IREN site, even though they had authorized negotiations in August 2025.",
+   "schedule_impact": "The project has no cooling-water contract with McAlester. IREN says the City of Kiowa has enough water for operations.",
+   "source": "NonDoc",
+   "url": "https://nondoc.com/2026/05/14/pittsburg-county-committee-endorses-deal-tied-to-2000-acre-50-billion-data-center-site/"
+  },
+  {
+   "id": "jupiter-open-meetings-suit",
+   "project_ids": [
+    "stargate-project-jupiter"
+   ],
+   "date": "2026-02-01",
+   "date_precision": "month",
+   "type": "Litigation",
+   "agency": "Doña Ana County litigation (court not named in source)",
+   "action": "Open Meetings Act suit over Sept 19 closed session",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "The NM Environmental Law Center filed a second suit in February 2026 alleging commissioners went into closed session shortly before the Sept 19 IRB vote without making the specific declaration the Open Meetings Act requires. The suit is still pending.",
+   "schedule_impact": "Pending; the source does not say what remedy is sought.",
+   "source": "Albuquerque Journal",
+   "url": "https://www.abqjournal.com/news/judge-project-jupiter-lawsuit-to-proceed/3007891"
+  },
+  {
+   "id": "lebanon-iedc-sales-tax-exemption",
+   "project_ids": [
+    "meta-lebanon-in"
+   ],
+   "date": "2026-02-01",
+   "date_precision": "month",
+   "type": "Incentives & tax",
+   "agency": "Indiana Economic Development Corporation",
+   "action": "IEDC grants 35-year data center sales tax exemption",
+   "status": "Approved with conditions",
+   "open": false,
+   "next_date": null,
+   "summary": "At the February 2026 groundbreaking, the state disclosed a 35-year sales tax exemption for the $10 billion campus that depends on at least $1 billion invested within six years, with possible extensions up to 50 years.",
+   "schedule_impact": "The exemption requires at least $1 billion invested within six years, with five-year extensions up to 50 years total for further investment within 17 years; Meta hopes the first phase is online in late 2027 or early 2028.",
+   "source": "WFYI / Indiana Capital Chronicle",
+   "url": "https://www.wfyi.org/wfyi-news/2026-02-12/details-on-long-expected-meta-data-center-campus-unveiled"
+  },
+  {
+   "id": "tx-jeti-energy-forge-one",
+   "project_ids": [
+    "msft-pecos"
+   ],
+   "date": "2026-02-01",
+   "date_precision": "month",
+   "type": "Incentives & tax",
+   "agency": "Pecos-Barstow-Toyah ISD / Texas Comptroller (JETI J0022)",
+   "action": "School board approves JETI abatement for Kilby plant",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "After the comptroller's office recommended approval in late January 2026, the Pecos-Barstow-Toyah school board approved Chevron subsidiary Energy Forge One's JETI tax-abatement application for a West Texas gas plant intended for data center use in February 2026. Microsoft says it has no definitive agreement with Chevron.",
+   "schedule_impact": "Grants the state-funded tax abatement sought for the plant; Microsoft's role is still under discussion.",
+   "source": "Grist; Texas Comptroller",
+   "url": "https://grist.org/energy/chevron-wants-a-school-district-tax-break-for-a-data-center-power-plant/"
+  },
+  {
+   "id": "saline-mandamus-zba",
+   "project_ids": [
+    "stargate-saline-township"
+   ],
+   "date": "2026-01-28",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "Washtenaw County Circuit Court",
+   "action": "Residents' mandamus suit over permit hearing and rezoning notice",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Kathryn Haushalter and other residents sued Saline Township on Jan. 28, 2026 in Washtenaw County Circuit Court, saying the ZBA failed to hold a required hearing on a permit for temporary structures and fencing at the data center site and that the clerk refused to publish notice of the township board's Jan. 14 rezoning approval.",
+   "schedule_impact": "Pending before Judge Julia Owdziej; no ruling reported as of the Feb. 20, 2026 article.",
+   "source": "Planet Detroit",
+   "url": "https://planetdetroit.org/2026/02/judge-denies-data-center-intervention/"
+  },
+  {
+   "id": "pa-susquehanna-v-ferc-dismissed",
+   "project_ids": [
+    "aws-salem-susquehanna"
+   ],
+   "date": "2026-01-28",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "U.S. Court of Appeals for the Third Circuit (transferred from Fifth Circuit)",
+   "action": "Susquehanna's appeal of FERC ISA orders voluntarily dismissed",
+   "status": "Withdrawn",
+   "open": false,
+   "next_date": null,
+   "summary": "Susquehanna Nuclear's petitions against FERC, filed in the Fifth Circuit and transferred to the Third Circuit, were dismissed on Jan 28, 2026 after the company filed an unopposed motion to dismiss on Jan 23.",
+   "schedule_impact": "Ends the court challenge without a ruling on the merits.",
+   "source": "Justia (Third Circuit docket 25-3166/25-3167)",
+   "url": "https://dockets.justia.com/docket/circuit-courts/ca3/25-3166"
+  },
+  {
+   "id": "saline-egle-wetland-permit",
+   "project_ids": [
+    "stargate-saline-township"
+   ],
+   "date": "2026-01-16",
+   "date_precision": "day",
+   "type": "Water & discharge",
+   "agency": "Michigan EGLE",
+   "action": "Wetland, stream and floodplain permit",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "EGLE issued the permit on January 16, 2026 allowing loss of 9.12 acres of wetland, with 13.68 acres of wetland to be acquired as mitigation. It also covers temporary stream disturbance, a culvert, stormwater structures discharging to the Saline River and other waters, and outfalls in the 100-year floodplain.",
+   "schedule_impact": "Authorizes wetland, stream and floodplain work at the site.",
+   "source": "Planet Detroit",
+   "url": "https://planetdetroit.org/2026/02/saline-data-center-air-wetlands-permits/"
+  },
+  {
+   "id": "saline-egle-air-permit",
+   "project_ids": [
+    "stargate-saline-township"
+   ],
+   "date": "2026-01-13",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Michigan EGLE Air Quality Division",
+   "action": "Permit to install for diesel backup generators",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "EGLE issued the air permit for 14 diesel backup generators and a fire pump about three months after granting an Oct 17, 2025 waiver that let construction begin early.",
+   "schedule_impact": "Closed out the site's main air permit, so backup power is not a schedule constraint.",
+   "source": "Planet Detroit",
+   "url": "https://planetdetroit.org/2026/02/saline-data-center-air-wetlands-permits/"
+  },
+  {
+   "id": "elpaso-city-intervenes-puct",
+   "project_ids": [
+    "meta-el-paso"
+   ],
+   "date": "2026-01-01",
+   "date_precision": "month",
+   "type": "Utility & rates",
+   "agency": "El Paso City Council",
+   "action": "City council votes to intervene in McCloud PUC case",
+   "status": "In effect",
+   "open": true,
+   "next_date": null,
+   "summary": "El Paso City Council voted in mid-January 2026 to take part in El Paso Electric's application to the Public Utility Commission of Texas for the McCloud plant, and asked for more information about the project.",
+   "schedule_impact": "The city becomes a participant in the case; some sources say the aim is to keep residents from paying for the plant.",
+   "source": "Construction Reporter",
+   "url": "https://constructionreporter.com/el-paso-electric-announces-plans-for-366-megawatt-electric-plant-to-support-meta-data-center/"
+  },
+  {
+   "id": "ga-dca-qts-atl2-east-dri",
+   "project_ids": [
+    "msft-fairwater-atlanta"
+   ],
+   "date": "2026-01-01",
+   "date_precision": "month",
+   "type": "Environmental review",
+   "agency": "Georgia Department of Community Affairs (DRI)",
+   "action": "QTS files DRI for 313-acre ATL2 East expansion",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "In mid-January 2026, QTS filed a Development of Regional Impact with the Georgia Department of Community Affairs for ATL2 East, a roughly 2 million sq ft data center on about 313 acres in Fayetteville; no outcome was found in the source.",
+   "schedule_impact": "The regional impact review is the pending step reported for the expansion.",
+   "source": "DatacenterDynamics",
+   "url": "https://www.datacenterdynamics.com/en/news/qts-files-to-expand-fayetteville-data-center-campus-in-georgia/"
+  },
+  {
+   "id": "pa-dep-npdes-cooling-discharge",
+   "project_ids": [
+    "aws-salem-susquehanna"
+   ],
+   "date": "2026-01-01",
+   "date_precision": "month",
+   "type": "Water & discharge",
+   "agency": "Pennsylvania DEP",
+   "action": "NPDES application for cooling-water discharge to Susquehanna",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "As of January 26, 2026, Amazon Data Services had applied to DEP for an NPDES permit to discharge used cooling water, described as continuous but intermittent, into the Susquehanna River near Salem Township, Luzerne County. The article gives no decision timeline.",
+   "schedule_impact": "The discharge is not authorized until DEP acts on the permit.",
+   "source": "Outdoor News; FOX56",
+   "url": "https://www.outdoornews.com/2026/01/26/data-center-in-pennsylvania-seeks-approval-to-discharge-cooling-water-into-susquehanna-river/"
+  },
+  {
+   "id": "laramie-county-project-jade-approvals",
+   "project_ids": [
+    "google-tembo-cheyenne"
+   ],
+   "date": "2026-01-01",
+   "date_precision": "month",
+   "type": "Zoning & land use",
+   "agency": "Laramie County Board of Commissioners",
+   "action": "County approves original Project Jade (Crusoe) campus",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "Laramie County commissioners voted unanimously in early January 2026 to approve Project Jade, the Tallgrass-Crusoe AI data center south of Cheyenne on Terry Bison Road, now planned at up to 2.7 GW. Neighbors criticized the project and asked commissioners to reconsider.",
+   "schedule_impact": "Gave the original Project Jade campus county approval; neighbors asked for reconsideration.",
+   "source": "Cowboy State Daily",
+   "url": "https://cowboystatedaily.com/2026/01/08/huge-cheyenne-data-center-grows-to-2-7-gigawatts-nearly-triple-state-power-use"
+  },
+  {
+   "id": "ga-psc-10gw-certification",
+   "project_ids": [
+    "msft-fairwater-atlanta",
+    "aws-butts-county-ga"
+   ],
+   "date": "2025-12-19",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Georgia Public Service Commission",
+   "action": "Certifies ~10 GW of new Georgia Power resources",
+   "status": "Appealed / challenged",
+   "open": true,
+   "next_date": null,
+   "summary": "The PSC unanimously certified nearly 10,000 MW of new gas, battery and solar resources sought mainly to serve data-center load growth, and that certification is now challenged in court.",
+   "schedule_impact": "This is the generation backbone for new large loads on Georgia Power's system, so a court-ordered decertification would cut into planned supply.",
+   "source": "Atlanta Journal-Constitution",
+   "url": "https://www.selc.org/press-release/groups-challenge-pscs-approval-of-massive-georgia-power-gas-expansion/"
+  },
+  {
+   "id": "saline-mpsc-dte-contracts",
+   "project_ids": [
+    "stargate-saline-township"
+   ],
+   "date": "2025-12-18",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Michigan Public Service Commission",
+   "action": "MPSC approves DTE 1.4 GW data center contracts without a contested case",
+   "status": "Approved with conditions",
+   "open": true,
+   "next_date": null,
+   "summary": "Without a contested case, the MPSC approved DTE's roughly 19-year power supply and 15-year storage contracts, leaving DTE shareholders exposed to unrecovered costs and requiring a general data center tariff.",
+   "schedule_impact": "Approves power supply and storage contracts for the campus, with the condition that a generally applicable data center tariff be developed and reviewed in a contested case.",
+   "source": "Planet Detroit",
+   "url": "https://planetdetroit.org/2025/12/dte-data-center-contracts-approved/"
+  },
+  {
+   "id": "homer-city-youth-ehb-appeal",
+   "project_ids": [
+    "homer-city"
+   ],
+   "date": "2025-12-18",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "PA Environmental Hearing Board",
+   "action": "Youth constitutional appeal of Homer City air permit",
+   "status": "Appealed / challenged",
+   "open": true,
+   "next_date": null,
+   "summary": "Thirteen young Pennsylvanians represented by Our Children's Trust appealed the plan approval for the Homer City project as a violation of their constitutional rights to life, health and safety, and filed an amended notice of appeal on December 28, 2025.",
+   "schedule_impact": "A second, separate appeal that could also send the permit back to DEP.",
+   "source": "Our Children's Trust",
+   "url": "https://www.ourchildrenstrust.org/timeline-pennsylvania/case-filed"
+  },
+  {
+   "id": "pa-ferc-pjm-colocation-order",
+   "project_ids": [
+    "aws-salem-susquehanna"
+   ],
+   "date": "2025-12-18",
+   "date_precision": "day",
+   "type": "Transmission",
+   "agency": "FERC (Docket EL25-49)",
+   "action": "Orders PJM co-location rules; BTM generation rules revised",
+   "status": "In effect",
+   "open": true,
+   "next_date": null,
+   "summary": "FERC found PJM's tariff unjust without co-location rules, ordered three new transmission service options and changes to behind-the-meter generation rules with grandfathering, and set a paper hearing on final terms that ran through spring 2026.",
+   "schedule_impact": "Final PJM rules will govern how the Susquehanna-AWS arrangement is classified and charged during the transition.",
+   "source": "Beveridge & Diamond",
+   "url": "https://www.bdlaw.com/publications/ferc-orders-pjm-to-create-clear-rules-for-co-located-data-centers-and-large-loads/"
+  },
+  {
+   "id": "homer-city-cac-ehb-appeal",
+   "project_ids": [
+    "homer-city"
+   ],
+   "date": "2025-12-17",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "PA Environmental Hearing Board",
+   "action": "Clean Air Council, PennFuture, Sierra Club appeal air permit",
+   "status": "Appealed / challenged",
+   "open": true,
+   "next_date": null,
+   "summary": "The three groups appealed the plan approval to the EHB, claiming violations of the Clean Air Act, the state Air Pollution Control Act, the Environmental Rights Amendment and DEP's environmental justice policy.",
+   "schedule_impact": "An EHB ruling against the permit could require DEP to redo the permit and delay construction of the plant.",
+   "source": "PennFuture (Notice of Appeal)",
+   "url": "https://pennfuture.org/files/galleries/Notice-of-Appeal_Plan-Approval-No_-32-00457A.pdf"
+  },
+  {
+   "id": "ms-mdeq-construction-permit-mod-2025",
+   "project_ids": [
+    "aws-madison-county-ms"
+   ],
+   "date": "2025-12-16",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Mississippi Department of Environmental Quality",
+   "action": "Air construction permit modification 1720-00098 issued",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "MDEQ's records show a final air construction permit modification (1720-00098) issued December 16, 2025 for the Amazon Madison Mega Site at 1978 Highway 22, Canton.",
+   "schedule_impact": "A final modified air construction permit is on file for the site.",
+   "source": "MDEQ enSearch Online",
+   "url": "https://opc.deq.state.ms.us/ai_info.aspx?ai=86219"
+  },
+  {
+   "id": "frontier-voltagrid-air-182467",
+   "project_ids": [
+    "stargate-shackelford-frontier"
+   ],
+   "date": "2025-12-12",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Texas Commission on Environmental Quality",
+   "action": "Major (PSD) air permit for VoltaGrid power plant",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "VoltaGrid LLC applied to TCEQ on Dec 12, 2025 for air permit 182467 plus PSD permits PSDTX1692 and GHGPSDTX266 for an electric power generation facility at 299 FM 604, Shackelford County; TCEQ issued notice on Dec 17, 2025.",
+   "schedule_impact": "TCEQ found the application administratively complete and is reviewing it on an expedited basis. Contested case hearing requests are possible for permits 182467 and PSDTX1692 but not for GHGPSDTX266.",
+   "source": "TCEQ (Notice of Receipt and Intent)",
+   "url": "https://www.tceq.texas.gov/downloads/permitting/air/bilingual/pending-permit-notices/182467-nori-english.pdf"
+  },
+  {
+   "id": "elpaso-puct-mccloud-application",
+   "project_ids": [
+    "meta-el-paso"
+   ],
+   "date": "2025-12-01",
+   "date_precision": "month",
+   "type": "Utility & rates",
+   "agency": "Public Utility Commission of Texas",
+   "action": "El Paso Electric applies to build 366 MW McCloud plant",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "El Paso Electric applied to the PUC in December for a $499 million, 366 MW natural gas plant made of 813 modular generators to power Meta's planned 1 GW El Paso data center.",
+   "schedule_impact": "The plant needs PUC approval; an administrative law judge proposal has recommended conditions, and no commission vote had been set.",
+   "source": "Inside Climate News",
+   "url": "https://insideclimatenews.org/news/24092026/el-paso-electric-only-considered-gas-to-power-meta-data-center/"
+  },
+  {
+   "id": "wi-psc-red-oak-ridge-cpcn",
+   "project_ids": [
+    "msft-fairwater-wisconsin"
+   ],
+   "date": "2025-12-01",
+   "date_precision": "month",
+   "type": "Utility & rates",
+   "agency": "Public Service Commission of Wisconsin (Docket 9837-CE-100)",
+   "action": "Invenergy Red Oak Ridge gas plant application under review",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Red Oak Ridge Energy Center LLC, an Invenergy subsidiary, applied in December 2025 for a certificate for a gas plant of up to 1,186 MW in the Town of Paris, Kenosha County. The PSC issued a draft environmental impact statement in April 2026. No decision date is listed.",
+   "schedule_impact": "Construction is expected to begin in October 2026 only if approved, with operation estimated for June 30, 2030.",
+   "source": "Public Service Commission of Wisconsin; Civic Media",
+   "url": "https://psc.wi.gov/Pages/CommissionActions/CasePages/RedOakRidge.aspx"
+  },
+  {
+   "id": "ga-fayetteville-qts-east-rezoning",
+   "project_ids": [
+    "msft-fairwater-atlanta"
+   ],
+   "date": "2025-12-01",
+   "date_precision": "month",
+   "type": "Zoning & land use",
+   "agency": "Fayetteville City Council",
+   "action": "FLUM amendment and rezoning to business park for QTS expansion",
+   "status": "Approved with conditions",
+   "open": false,
+   "next_date": null,
+   "summary": "The council approved a future land use map amendment and rezoning to business park for two parcels that had been designated an innovation mixed-use activity center and zoned planned community district, growing the QTS east campus area from about 615 to 900 acres; the plan includes four new buildings of about two million sq ft.",
+   "schedule_impact": "No building permit will be issued until the state DRI review is finished and the council approves a revised development agreement.",
+   "source": "Fayette News",
+   "url": "https://www.fayette-news.net/news/fayetteville-updates-city-s-future-land-use-map-for-qts-east-campus/article_0e53c7d2-4977-49e7-99ea-18f52136c62e.html"
+  },
+  {
+   "id": "apsc-entergy-google-contract",
+   "project_ids": [
+    "google-west-memphis"
+   ],
+   "date": "2025-12-01",
+   "date_precision": "month",
+   "type": "Utility & rates",
+   "agency": "Arkansas Public Service Commission",
+   "action": "PSC approves Entergy Arkansas–Google power contract",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "In December, the Arkansas PSC approved an Entergy contract to supply power to Google's planned $4 billion West Memphis data center.",
+   "schedule_impact": "Approves the power supply contract for the planned West Memphis data center.",
+   "source": "Arkansas Business",
+   "url": "https://www.arkansasbusiness.com/article/arkansas-power-rates-poised-to-rise-statewide/"
+  },
+  {
+   "id": "homer-city-dep-plan-approval-32-00457a",
+   "project_ids": [
+    "homer-city"
+   ],
+   "date": "2025-11-18",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Pennsylvania Department of Environmental Protection",
+   "action": "DEP issues air plan approval 32-00457A for Homer City Redevelopment",
+   "status": "Approved",
+   "open": true,
+   "next_date": null,
+   "summary": "DEP issued air plan approval 32-00457A on November 18, 2025 for the Homer City Redevelopment gas plant. Clean Air Council, PennFuture and Sierra Club jointly appealed it to the Environmental Hearing Board, with a press release dated December 17, 2025.",
+   "schedule_impact": "The air approval is under appeal at the Environmental Hearing Board.",
+   "source": "PennFuture",
+   "url": "https://pennfuture.org/post/Clean-Air-Council-PennFuture-and-Sierra-Club-Appeal-Air-Pollution-Permit-for-Nations-Largest-Proposed-Fracked-Gas-Power-Plant-for-Homer-City-Data-Center"
+  },
+  {
+   "id": "lordstown-ohio-epa-401",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "date": "2025-11-17",
+   "date_precision": "day",
+   "type": "Water & discharge",
+   "agency": "Ohio EPA",
+   "action": "Ohio EPA water quality certification documents submitted for plant expansion",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "SoftBank-affiliated Crescent Dune LLC submitted water quality certification documents to Ohio EPA on Nov. 17, with a wetland and stream delineation report covering about 160 acres behind the Lordstown plant, for an expansion described as making modular data centers and server racks.",
+   "schedule_impact": "The article does not say whether Ohio EPA has approved, denied or is still reviewing the application.",
+   "source": "Business Journal Daily",
+   "url": "https://businessjournaldaily.com/documents-shed-light-on-potential-expansion-at-foxconns-lordstown-plant/"
+  },
+  {
+   "id": "emerald-review-committee-formed",
+   "project_ids": [
+    "iren-emerald-kiowa"
+   ],
+   "date": "2025-11-10",
+   "date_precision": "day",
+   "type": "Incentives & tax",
+   "agency": "Pittsburg County Board of Commissioners",
+   "action": "County forms review committee for IREN incentive districts",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "Pittsburg County commissioners voted to form the county review committee that vets the incentive-district plan for IREN's site south of Kiowa. The committee first met on December 8, 2025.",
+   "schedule_impact": "Started the statutory review that has to finish before the county can create the incentive districts.",
+   "source": "NonDoc",
+   "url": "https://nondoc.com/2026/05/14/pittsburg-county-committee-endorses-deal-tied-to-2000-acre-50-billion-data-center-site/"
+  },
+  {
+   "id": "lordstown-data-center-ban-repealed",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "date": "2025-11-03",
+   "date_precision": "day",
+   "type": "Local moratorium",
+   "agency": "Lordstown Village Council",
+   "action": "Village council passes ban on data center proposals",
+   "status": "Lifted / expired",
+   "open": false,
+   "next_date": null,
+   "summary": "The Lordstown Village Council voted on Nov 3, 2025 for an ordinance banning all data center proposals in the village; a developer's attorney argued the council skipped a required 30-day notice. By 2026 the village was operating under a temporary 180-day moratorium instead (see the June 2026 extension).",
+   "schedule_impact": "Superseded by the village's temporary moratorium, which is the rule now in force.",
+   "source": "DatacenterDynamics",
+   "url": "https://www.datacenterdynamics.com/en/news/data-centers-now-banned-in-lordstown-ohio/"
+  },
+  {
+   "id": "portwash-tif-approval",
+   "project_ids": [
+    "stargate-port-washington-lighthouse"
+   ],
+   "date": "2025-11-01",
+   "date_precision": "month",
+   "type": "Incentives & tax",
+   "agency": "Port Washington Common Council",
+   "action": "$458 million TIF for the data center campus",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "The city approved a $458 million tax increment financing package for the data center in November 2025.",
+   "schedule_impact": "Provides TIF support for the campus, which was already under construction when the article was published.",
+   "source": "Wisconsin Watch",
+   "url": "https://wisconsinwatch.org/2026/04/port-washington-data-center-project-voters-referendum-tif-district-wisconsin/"
+  },
+  {
+   "id": "stillwater-final-plat-lots-1-3",
+   "project_ids": [
+    "google-stillwater"
+   ],
+   "date": "2025-11-01",
+   "date_precision": "month",
+   "type": "Zoning & land use",
+   "agency": "Stillwater Planning Commission",
+   "action": "Final plat for first three industrial lots approved 4-0",
+   "status": "Approved",
+   "open": true,
+   "next_date": null,
+   "summary": "The Stillwater Planning Commission voted 4-0 to approve the final plat for three industrial lots (202 acres), the first phase of an eight-lot site for Google's data center, as reported Nov. 18, 2025. Building permits for Lots 1 and 2 were already approved, and the City Council must still accept the plat before it is recorded; that acceptance is not confirmed.",
+   "schedule_impact": "The remaining five lots will be platted later.",
+   "source": "Southwest Ledger",
+   "url": "https://www.southwestledger.news/node/21082"
+  },
+  {
+   "id": "jupiter-ose-emergency-well",
+   "project_ids": [
+    "stargate-project-jupiter"
+   ],
+   "date": "2025-10-23",
+   "date_precision": "day",
+   "type": "Water & discharge",
+   "agency": "NM Office of the State Engineer",
+   "action": "Emergency authorization of construction-water well",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "On October 23, 2025 the State Engineer issued an emergency authorization letting Santa Teresa Capital use a new well to supply water for building Project Jupiter.",
+   "schedule_impact": "On August 23, 2026 the New Mexico Supreme Court stayed the authorization until further order, in a case brought by the Center for Biological Diversity.",
+   "source": "NM Supreme Court order, S-1-SC-41580 (via Center for Biological Diversity)",
+   "url": "https://biologicaldiversity.org/programs/climate_law_institute/pdfs/41580_order_requesting_response_and_granting_stay.pdf"
+  },
+  {
+   "id": "tx-tceq-kilby-air-permit",
+   "project_ids": [
+    "msft-pecos"
+   ],
+   "date": "2025-10-17",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Texas Commission on Environmental Quality",
+   "action": "Energy Forge One files NSR/PSD air permits for Kilby plant",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Energy Forge One LLC applied to TCEQ on Oct 17, 2025 for air permit 181895 and PSD permits PSDTX1684 and GHGPSDTX260 for an electric power generation facility in Pecos, Reeves County; TCEQ issued its notice on Oct 24, 2025.",
+   "schedule_impact": "The notice lists no public meeting date; a meeting is held if the executive director finds significant interest or one is requested.",
+   "source": "TCEQ",
+   "url": "https://www.tceq.texas.gov/downloads/permitting/air/bilingual/pending-permit-notices/181895-nori-english.pdf"
+  },
+  {
+   "id": "saline-consent-judgment",
+   "project_ids": [
+    "stargate-saline-township"
+   ],
+   "date": "2025-10-15",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Washtenaw County Circuit Court / Saline Township Board",
+   "action": "Consent judgment allows data center after rezoning denial",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "The township board denied rezoning 4-1 on Sept 10 and Related Digital sued two days later. A consent judgment filed Oct 15 in Washtenaw County Circuit Court includes about $14 million in payments, a 55 dB noise limit, and no water use for cooling.",
+   "schedule_impact": "Settles the lawsuit and lets the project proceed; Related Digital planned to begin work in fall 2025.",
+   "source": "Planet Detroit",
+   "url": "https://planetdetroit.org/2025/10/saline-data-center-settlement/"
+  },
+  {
+   "id": "fermi-amarillo-water-agreement",
+   "project_ids": [
+    "fermi-matador"
+   ],
+   "date": "2025-10-01",
+   "date_precision": "month",
+   "type": "Water & discharge",
+   "agency": "Amarillo City Council",
+   "action": "Council approves Fermi water supply agreement",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "Amarillo's council approved on first reading a water supply agreement letting Fermi America buy up to 2.5 million gallons a day at double the standard rate, with second reading set for Oct 28, 2025; Fermi's later SEC filings list the City of Amarillo supply as in place.",
+   "schedule_impact": "Gives the campus a municipal water supply for its first phases.",
+   "source": "City of Amarillo; ABC 7 Amarillo",
+   "url": "https://www.amarillo.gov/fermi-project/"
+  },
+  {
+   "id": "adeq-google-west-memphis-air-permit",
+   "project_ids": [
+    "google-west-memphis"
+   ],
+   "date": "2025-09-25",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Arkansas Division of Environmental Quality",
+   "action": "Google applies for major-source air permit for backup generators",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Google applied on September 25 to Arkansas DEQ for a Clean Air Act major emissions permit covering backup generators, which Google says would run only if the grid goes down. The article does not say whether a draft or final permit exists.",
+   "schedule_impact": "Generator operation depends on DEQ's action on this permit.",
+   "source": "Arkansas Advocate",
+   "url": "https://arkansasadvocate.com/2025/10/02/google-state-and-local-officials-mark-start-of-4-billion-ai-data-center-in-west-memphis/"
+  },
+  {
+   "id": "jupiter-dona-ana-irb",
+   "project_ids": [
+    "stargate-project-jupiter"
+   ],
+   "date": "2025-09-19",
+   "date_precision": "day",
+   "type": "Incentives & tax",
+   "agency": "Doña Ana County Board of County Commissioners",
+   "action": "Up to $165B industrial revenue bonds and LEDA support",
+   "status": "Appealed / challenged",
+   "open": true,
+   "next_date": null,
+   "summary": "Commissioners passed ordinances authorizing up to $165 billion in taxable IRBs and related incentives for Project Jupiter, and residents quickly sued to void them.",
+   "schedule_impact": "The tax structure stays in place but could be voided if the court challenges succeed.",
+   "source": "The Bond Buyer",
+   "url": "https://www.bondbuyer.com/news/bond-approval-for-new-mexico-data-center-challenged"
+  },
+  {
+   "id": "lordstown-foxconn-site-plan",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "date": "2025-09-16",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Lordstown Village Planning Commission",
+   "action": "Final site plan for plant expansion and data center showroom",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "The commission voted 4-0 (mayor abstaining for a stated conflict of interest) to approve three building additions and a new 145,337 sq ft proof-of-concept modular data center showroom, about 1.24 million sq ft in total, on I-1 land. A Foxconn representative said the showroom building would not be used as a working data center, only for engineering and customer demonstrations.",
+   "schedule_impact": "Cleared local construction of the expansion, tentatively scheduled for September 2025 through at least February 2027.",
+   "source": "Village of Lordstown (meeting minutes)",
+   "url": "https://www.lordstown.com/wp-content/uploads/2025-9-16-Minutes.pdf"
+  },
+  {
+   "id": "fermi-nrc-col-docketed",
+   "project_ids": [
+    "fermi-matador"
+   ],
+   "date": "2025-09-05",
+   "date_precision": "day",
+   "type": "Environmental review",
+   "agency": "US Nuclear Regulatory Commission",
+   "action": "NRC accepts Parts 1–2 of four-unit AP1000 COL application",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "The NRC finished its acceptance review and docketed Parts 1 and 2 of Fermi's combined license application for four AP1000 units. Dates for the safety evaluations, the mandatory hearing and the licensing decision are still listed as TBD.",
+   "schedule_impact": "NRC lists safety evaluations, the mandatory hearing and the licensing decision as TBD; its environmental review targets a draft EIS in September 2026 and a final EIS in December 2026.",
+   "source": "US NRC",
+   "url": "https://www.nrc.gov/facilities-safety/new-reactors/large-light-water-reactors/combined-license-applications-for-new-reactors/fermi-america-president-donald-j-trump-advanced-energy-and-intelligence-campus-units-1-4"
+  },
+  {
+   "id": "prometheus-socrates-north-opsb",
+   "project_ids": [
+    "meta-prometheus"
+   ],
+   "date": "2025-09-01",
+   "date_precision": "month",
+   "type": "Construction permit",
+   "agency": "Ohio Power Siting Board",
+   "action": "OPSB approves 200 MW Socrates North gas plant",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "The board approved Will-Power OH's 200 MW gas plant on about 20 acres in the New Albany International Business Park (Case 25-188-EL-BGN), to serve Meta affiliate Sidecat behind the meter, with 30 conditions.",
+   "schedule_impact": "Authorizes construction of an on-site gas plant to supply an adjacent data center without a grid connection.",
+   "source": "Mount Vernon News",
+   "url": "https://mountvernonnews.com/stories/675445301-ohio-approves-new-natural-gas-power-plant-for-data-center"
+  },
+  {
+   "id": "hyperion-lpsc-u37425-approval",
+   "project_ids": [
+    "meta-hyperion"
+   ],
+   "date": "2025-08-20",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Louisiana Public Service Commission",
+   "action": "LPSC approves Entergy settlement for three Meta gas plants",
+   "status": "Approved with conditions",
+   "open": false,
+   "next_date": null,
+   "summary": "Commissioners voted 4-1 for a settlement letting Entergy Louisiana build three gas generating facilities and new transmission to serve Meta's data center, with Meta's contract said to cover the generation costs it causes.",
+   "schedule_impact": "Allows Entergy to proceed with three gas units and new transmission lines for Meta.",
+   "source": "KNOE / Louisiana Public Service Commission",
+   "url": "https://www.knoe.com/2025/08/20/louisiana-public-service-commission-approves-settlement-meta-data-center-gas-plant/"
+  },
+  {
+   "id": "in-idem-wetland-noncompliance-withdrawal",
+   "project_ids": [
+    "aws-project-rainier"
+   ],
+   "date": "2025-08-01",
+   "date_precision": "month",
+   "type": "Water & discharge",
+   "agency": "Indiana Department of Environmental Management",
+   "action": "Wetland fill application withdrawn after unauthorized impact",
+   "status": "Withdrawn",
+   "open": false,
+   "next_date": null,
+   "summary": "Because a contractor had filled nearly an acre of wetland without authorization, IDEM issued a noncompliance and stop-work notice for state waters in July 2025, and Amazon withdrew its roughly 10-acre wetland application the following month.",
+   "schedule_impact": "IDEM ordered work stopped in state-regulated waters; a revised application must include 30% additional mitigation for the impacted wetland, and work continued elsewhere on the site.",
+   "source": "WVPE",
+   "url": "https://www.wvpe.org/wvpe-news/2025-08-14/amazon-looking-to-resubmit-idem-application-after-contractors-unauthorized-wetland-impact"
+  },
+  {
+   "id": "polaris-variance-withdrawn",
+   "project_ids": [
+    "polaris-forge-1"
+   ],
+   "date": "2025-08-01",
+   "date_precision": "day",
+   "type": "Construction permit",
+   "agency": "North Dakota Public Service Commission",
+   "action": "Applied Digital withdraws backup-generator siting variance request",
+   "status": "Withdrawn",
+   "open": false,
+   "next_date": null,
+   "summary": "On August 1, 2025 Applied Digital filed a variance withdrawal request in North Dakota PSC docket PU-24-359.",
+   "schedule_impact": "Ends the variance request in that docket.",
+   "source": "North Dakota PSC",
+   "url": "https://www.psc.nd.gov/webdocs/case/24-0359/008-010.pdf"
+  },
+  {
+   "id": "prometheus-aep-ohio-data-center-tariff",
+   "project_ids": [
+    "meta-prometheus"
+   ],
+   "date": "2025-07-09",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Public Utilities Commission of Ohio",
+   "action": "PUCO adopts AEP Ohio data center tariff",
+   "status": "Approved with conditions",
+   "open": false,
+   "next_date": null,
+   "summary": "PUCO adopted AEP Ohio's tariff for data centers over 25 MW, which requires them to pay for at least 85% of subscribed capacity for up to 12 years and sets out a phased end to AEP's moratorium on new data center service.",
+   "schedule_impact": "Sets terms and timing for new data center service from AEP Ohio in central Ohio; existing facilities are grandfathered unless they expand capacity beyond 25 MW.",
+   "source": "POWER Magazine",
+   "url": "https://www.powermag.com/regulator-approves-aep-ohios-landmark-data-center-tariff/"
+  },
+  {
+   "id": "frontier-shackelford-abatement",
+   "project_ids": [
+    "stargate-shackelford-frontier"
+   ],
+   "date": "2025-07-01",
+   "date_precision": "month",
+   "type": "Incentives & tax",
+   "agency": "Shackelford County Commissioners Court",
+   "action": "Reinvestment zone and Vantage tax abatement application approved",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "At a special meeting the court unanimously created Reinvestment Zone 2025-1, accepted Vantage's abatement application, and agreed to sign a 10-year deal with about $10 million a year in payments once the land closed.",
+   "schedule_impact": "The county stated its intent to sign a formal agreement once Vantage buys the land; if the purchase does not close within 30 days, the county would need to restart the process.",
+   "source": "The Albany News",
+   "url": "https://www.thealbanynews.net/node/203902"
+  },
+  {
+   "id": "colossus1-schd-turbine-permit",
+   "project_ids": [
+    "xai-colossus-1"
+   ],
+   "date": "2025-07-01",
+   "date_precision": "month",
+   "type": "Air permit",
+   "agency": "Shelby County Health Department",
+   "action": "Health department permits 15 permanent xAI turbines",
+   "status": "Approved with conditions",
+   "open": false,
+   "next_date": null,
+   "summary": "In early July 2025 the Shelby County Health Department approved xAI's permit for 15 permanently installed turbines, with 12-month rolling emission caps that xAI must record monthly. SELC and the NAACP appealed the approval.",
+   "schedule_impact": "Authorizes the permanent turbines, but the approval is being challenged on appeal.",
+   "source": "Action News 5",
+   "url": "https://www.actionnews5.com/2025/07/16/selc-naacp-appeal-health-dept-approval-xai-turbines/"
+  },
+  {
+   "id": "tx-sb6-large-load-law",
+   "project_ids": [
+    "stargate-abilene",
+    "stargate-shackelford-frontier",
+    "stargate-milam",
+    "msft-pecos",
+    "anthropic-barber-lake"
+   ],
+   "date": "2025-06-20",
+   "date_precision": "day",
+   "type": "State rule",
+   "agency": "Texas Legislature / Governor",
+   "action": "SB 6 on interconnection and cost of service for certain electrical loads signed",
+   "status": "In effect",
+   "open": false,
+   "next_date": null,
+   "summary": "Texas enacted SB 6, signed June 20, 2025 and effective immediately. Its title covers planning for, interconnection and operation of, and costs of serving certain electrical loads.",
+   "schedule_impact": "Sets the legal framework for how certain electrical loads are connected and charged in Texas; the bill's subjects include the PUC and ERCOT.",
+   "source": "LegiScan (Texas Legislature record)",
+   "url": "https://legiscan.com/TX/bill/SB6/2025"
+  },
+  {
+   "id": "prometheus-socrates-south-opsb",
+   "project_ids": [
+    "meta-prometheus"
+   ],
+   "date": "2025-06-09",
+   "date_precision": "day",
+   "type": "Construction permit",
+   "agency": "Ohio Power Siting Board",
+   "action": "OPSB certifies 200 MW Socrates South behind-the-meter gas plant",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "The siting board approved Williams-backed Socrates South, a 200 MW gas plant serving Meta's New Albany data center without connecting to the grid.",
+   "schedule_impact": "Allowed construction of the 200 MW plant, which the article says is due for completion in Q3 2026.",
+   "source": "DatacenterDynamics",
+   "url": "https://www.datacenterdynamics.com/en/news/ohio-regulators-approve-construction-of-200mw-gas-power-plant-to-serve-meta-data-center-in-new-albany-ohio/"
+  },
+  {
+   "id": "wi-psc-oak-creek-paris-gas-cpcn",
+   "project_ids": [
+    "msft-fairwater-wisconsin"
+   ],
+   "date": "2025-05-22",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Public Service Commission of Wisconsin",
+   "action": "Approves We Energies Oak Creek and Paris gas plants",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "On May 22, 2025 the PSC approved We Energies' proposal for two gas plants, at Oak Creek and in the Town of Paris, adding about 1,200 MW for southeast Wisconsin, largely driven by Microsoft's Mount Pleasant data center.",
+   "schedule_impact": "Approves new utility generation meant to meet demand largely driven by the Microsoft campus.",
+   "source": "Clean Wisconsin",
+   "url": "https://www.cleanwisconsin.org/psc-approves-plan-to-power-ai-data-center-with-gas-plants-bringing-1200-mw-of-new-dirty-power-to-southeast-wisconsin/"
+  },
+  {
+   "id": "ga-fayette-qts-water-billing",
+   "project_ids": [
+    "msft-fairwater-atlanta"
+   ],
+   "date": "2025-05-01",
+   "date_precision": "month",
+   "type": "Water & discharge",
+   "agency": "Fayette County Water System",
+   "action": "County back-bills QTS for unmetered construction water",
+   "status": "In effect",
+   "open": false,
+   "next_date": null,
+   "summary": "After low-pressure complaints in May 2025, Fayette County found QTS water lines it said had been installed without its staff's knowledge. The county later walked that claim back, blaming a smart-meter upgrade that left some QTS meters off the billing system, and billed QTS $147,000.",
+   "schedule_impact": "QTS says its water use is temporary and tied to construction; a closed-loop cooling system is not expected until construction ends in 2030.",
+   "source": "Atlanta News First; Fayette County statement",
+   "url": "https://www.atlantanewsfirst.com/2026/07/13/records-raise-questions-about-georgias-largest-data-center-its-water-use/"
+  },
+  {
+   "id": "in-idem-part70-permit-2025",
+   "project_ids": [
+    "aws-project-rainier"
+   ],
+   "date": "2025-05-01",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "Indiana Department of Environmental Management",
+   "action": "Part 70 operating permit issued for Amazon New Carlisle source",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "IDEM issued a Part 70 operating permit for Amazon Data Services' generators at 31100 State Road 2 in New Carlisle.",
+   "schedule_impact": "Authorized backup-generator operation for the campus, and it is the base permit for the pending modification.",
+   "source": "IDEM",
+   "url": "https://www.in.gov/idem/files/notice_20260916_air_50312pn-as.pdf"
+  },
+  {
+   "id": "west-memphis-council-groot-pilot",
+   "project_ids": [
+    "google-west-memphis"
+   ],
+   "date": "2025-05-01",
+   "date_precision": "month",
+   "type": "Incentives & tax",
+   "agency": "West Memphis City Council",
+   "action": "Council approves Groot LLC agreements incl. $10B PILOT",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "In May 2025 the council approved several agreements with Groot LLC, reported to be a Google-linked entity, including a $10 billion payment-in-lieu-of-taxes arrangement for a campus on about 1,178 acres.",
+   "schedule_impact": "Sets local tax treatment for the proposed campus.",
+   "source": "Arkansas Money & Politics",
+   "url": "https://armoneyandpolitics.com/10b-data-center-west-memphis/"
+  },
+  {
+   "id": "pa-ferc-isa-rehearing",
+   "project_ids": [
+    "aws-salem-susquehanna"
+   ],
+   "date": "2025-04-10",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "FERC",
+   "action": "Rehearing order upholds ISA rejection",
+   "status": "Denied",
+   "open": false,
+   "next_date": null,
+   "summary": "On rehearing, FERC affirmed its rejection, finding PJM had not shown the non-conforming agreement was both unique and necessary.",
+   "schedule_impact": "Ended the agency route for the original co-location deal.",
+   "source": "FERC brief, Susquehanna Nuclear v. FERC",
+   "url": "https://www.ferc.gov/sites/default/files/2025-10/25-60019_DocumentsSusquehanna.pdf"
+  },
+  {
+   "id": "nd-hb1539-backup-generation-siting",
+   "project_ids": [
+    "polaris-forge-1"
+   ],
+   "date": "2025-03-19",
+   "date_precision": "day",
+   "type": "State rule",
+   "agency": "North Dakota Legislature / Governor",
+   "action": "HB 1539 exempts on-site backup generation from PSC siting",
+   "status": "In effect",
+   "open": false,
+   "next_date": null,
+   "summary": "Gov. Armstrong signed a law, effective August 1, 2025, that removes off-grid on-site backup generation over 50 MW from the PSC Siting Act and leaves approval to local authorities. Applied Digital testified in support.",
+   "schedule_impact": "Removes PSC siting review for large off-grid on-site backup generation, leaving approval to local authorities; environmental protections still apply.",
+   "source": "Office of the Governor of North Dakota",
+   "url": "https://www.governor.nd.gov/news/armstrong-inspects-applied-digital-expansion-housing-project-ellendale-signs-backup-power"
+  },
+  {
+   "id": "in-iurc-im-large-load-settlement",
+   "project_ids": [
+    "aws-project-rainier"
+   ],
+   "date": "2025-02-19",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "Indiana Utility Regulatory Commission",
+   "action": "Approves I&M large-load tariff settlement",
+   "status": "Approved with conditions",
+   "open": false,
+   "next_date": null,
+   "summary": "The IURC approved I&M's settlement, signed by Amazon among others, that sets interconnection and tariff terms for loads of at least 70 MW, and added a rule that cuts of more than 20% in contracted capacity need commission approval.",
+   "schedule_impact": "Sets the service terms for the New Carlisle campus load and leaves cost allocation to later rate cases.",
+   "source": "Utility Dive",
+   "url": "https://utilitydive.com/news/indiana-iurc-large-load-interconnection-data-center-aep-amazon-google/740452"
+  },
+  {
+   "id": "polaris-mdu-service-certificate",
+   "project_ids": [
+    "polaris-forge-1"
+   ],
+   "date": "2025-02-05",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "North Dakota Public Service Commission",
+   "action": "PSC grants MDU certificate to serve Applied Digital expansion",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "In case PU-24-330, the PSC issued Certificate of Public Convenience and Necessity No. 6006 to Montana-Dakota Utilities to serve Applied Digital in Dickey County. No objections were received.",
+   "schedule_impact": "Cleared retail electric service for the expanded campus.",
+   "source": "North Dakota PSC",
+   "url": "https://www.psc.nd.gov/webdocs/case/24-0330/018-010.pdf"
+  },
+  {
+   "id": "ga-psc-large-load-rule",
+   "project_ids": [
+    "msft-fairwater-atlanta",
+    "aws-butts-county-ga"
+   ],
+   "date": "2025-01-23",
+   "date_precision": "day",
+   "type": "State rule",
+   "agency": "Georgia Public Service Commission (Docket 55378)",
+   "action": "Adopts large-load (>100 MW) billing rule for Georgia Power",
+   "status": "In effect",
+   "open": false,
+   "next_date": null,
+   "summary": "In a unanimous vote, the PSC let Georgia Power bill new customers above 100 MW on special terms, including upstream cost recovery, contracts of up to 15 years and minimum bills, and required those contracts to be filed with the commission for review.",
+   "schedule_impact": "New Georgia Power data-center service contracts now go through PSC review and carry minimum-bill terms.",
+   "source": "Georgia Public Service Commission",
+   "url": "https://psc.ga.gov/site/assets/files/8617/media_advisory_data_centers_rule_1-23-2025.pdf"
+  },
+  {
+   "id": "usace-memphis-404-groot",
+   "project_ids": [
+    "google-west-memphis"
+   ],
+   "date": "2024-12-01",
+   "date_precision": "month",
+   "type": "Environmental review",
+   "agency": "U.S. Army Corps of Engineers, Memphis District",
+   "action": "Groot submits site plans for Corps water-mitigation approval",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Groot, developing a $1 billion, 900,000 sq ft data center at the south end of Bollinger Road in West Memphis, submitted plans in December 2024 to the Corps' Memphis office for water-mitigation approval.",
+   "schedule_impact": "Corps approval of the water mitigation is part of the permitting; the article reports no decision.",
+   "source": "Daily Memphian",
+   "url": "https://dailymemphian.com/section/businessreal-estate/article/54862/google-west-memphis-data-center-entergy-arkansas-groot"
+  },
+  {
+   "id": "stillwater-oge-franchise-election",
+   "project_ids": [
+    "google-stillwater"
+   ],
+   "date": "2024-11-05",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "City of Stillwater voters (municipal ballot)",
+   "action": "Voters approve OG&E franchise to serve data center",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "About 72% of Stillwater voters (10,250 of 14,180) approved a measure letting OG&E, rather than the city electric utility, serve Kipper LLC's data center campus, with a city franchise fee of about $2.25 million per data center per year once operating.",
+   "schedule_impact": "Settled OG&E as the power provider for the campus.",
+   "source": "Data Center Dynamics",
+   "url": "https://www.datacenterdynamics.com/en/news/stillwater-residents-vote-in-favor-of-power-agreement-for-oklahoma-data-center-campus"
+  },
+  {
+   "id": "lebanon-council-meta-tif-abatement",
+   "project_ids": [
+    "meta-lebanon-in"
+   ],
+   "date": "2024-11-01",
+   "date_precision": "month",
+   "type": "Incentives & tax",
+   "agency": "Lebanon City Council",
+   "action": "Council approves TIF district, abatements and water service for Meta",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "Lebanon's council unanimously approved a new TIF district and property tax abatements for Meta's roughly 1,400-acre LEAP site, along with a plan to meet Meta's request for 3 MGD of water and 1.5 MGD of wastewater service.",
+   "schedule_impact": "Unblocked the land purchase and phased construction in the LEAP district.",
+   "source": "WFYI",
+   "url": "https://www.wfyi.org/wfyi-news/2024-11-27/council-approves-plans-to-incentivize-meta-to-build-in-leap-district"
+  },
+  {
+   "id": "pa-ferc-isa-rejection",
+   "project_ids": [
+    "aws-salem-susquehanna"
+   ],
+   "date": "2024-11-01",
+   "date_precision": "day",
+   "type": "Utility & rates",
+   "agency": "FERC (Docket ER24-2172)",
+   "action": "Rejects amended Susquehanna ISA for co-located load",
+   "status": "Denied",
+   "open": false,
+   "next_date": null,
+   "summary": "FERC rejected PJM's amended interconnection service agreement that would have expanded behind-the-meter supply from Susquehanna to the AWS campus.",
+   "schedule_impact": "Capped behind-the-meter supply and pushed Talen and AWS toward a front-of-meter design.",
+   "source": "FERC brief, Susquehanna Nuclear v. FERC",
+   "url": "https://www.ferc.gov/sites/default/files/2025-10/25-60019_DocumentsSusquehanna.pdf"
+  },
+  {
+   "id": "pa-srbc-consumptive-use-2024",
+   "project_ids": [
+    "aws-salem-susquehanna"
+   ],
+   "date": "2024-09-12",
+   "date_precision": "day",
+   "type": "Water & discharge",
+   "agency": "Susquehanna River Basin Commission (Docket 20240901)",
+   "action": "Approves 60,000 gpd consumptive use, first three buildings",
+   "status": "Approved with conditions",
+   "open": false,
+   "next_date": null,
+   "summary": "SRBC approved consumptive use of 60,000 gallons per day for the first three buildings and required Amazon to return before expanding.",
+   "schedule_impact": "Covered water for phase one only, so later buildings needed a modification.",
+   "source": "Susquehanna River Basin Commission",
+   "url": "https://www.srbc.gov/about/news/docs/2025-159-final-public-comment-responses-20260128.pdf"
+  },
+  {
+   "id": "lebanon-citizens-srf-water-bonds",
+   "project_ids": [
+    "meta-lebanon-in"
+   ],
+   "date": "2024-08-21",
+   "date_precision": "day",
+   "type": "Water & discharge",
+   "agency": "Citizens Energy Group Board of Directors",
+   "action": "Citizens board authorizes up to $700M SRF bonds for LEAP water",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "Citizens' board approved a resolution allowing up to $700 million in state revolving fund borrowing for the Citizens–Lebanon water supply program, which is planned to deliver up to 25 MGD to Lebanon Utilities by 2031.",
+   "schedule_impact": "Funds the wholesale water supply program for Lebanon Utilities, which serves customers including those in the LEAP district; Citizens will not deliver water directly to LEAP.",
+   "source": "Citizens Energy Group",
+   "url": "https://info.citizensenergygroup.com/clws"
+  },
+  {
+   "id": "stillwater-planning-commission-project-2024",
+   "project_ids": [
+    "google-stillwater"
+   ],
+   "date": "2024-07-01",
+   "date_precision": "month",
+   "type": "Incentives & tax",
+   "agency": "Stillwater Planning Commission",
+   "action": "Planning Commission unanimously backs data center campus plan",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "After city staff presented the campus plan on July 16, 2024, the Planning Commission voted unanimously in favor. The project, planned over up to six phases, seeks a tax incentive district of up to 25 years with payments in lieu of taxes for each phase. The land is already zoned General Industrial.",
+   "schedule_impact": "The taxing jurisdictions must still agree to form the incentive district.",
+   "source": "Data Center Dynamics",
+   "url": "https://www.datacenterdynamics.com/en/news/oklahomas-stillwater-planning-commission-recommends-approval-for-3bn-data-center-campus/"
+  },
+  {
+   "id": "ms-madison-bos-site-plan",
+   "project_ids": [
+    "aws-madison-county-ms"
+   ],
+   "date": "2024-02-26",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Madison County Board of Supervisors",
+   "action": "Approves AWS megasite site plan",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "After the Planning and Zoning Board's Feb. 8 approval, supervisors unanimously approved the AWS site plan, with five buildings in the first phase and seven more possible later.",
+   "schedule_impact": "Cleared the supervisors' site-plan approval for the AWS Madison County Megasite; no schedule has been set for the seven later buildings.",
+   "source": "WLBT",
+   "url": "https://www.wlbt.com/2024/02/26/board-supervisors-approves-site-plan-amazon-web-services"
+  },
+  {
+   "id": "ms-legislature-amazon-package",
+   "project_ids": [
+    "aws-madison-county-ms"
+   ],
+   "date": "2024-01-25",
+   "date_precision": "day",
+   "type": "Incentives & tax",
+   "agency": "Mississippi Legislature (special session)",
+   "action": "Amazon incentive law; Entergy plants exempt from PSC preapproval",
+   "status": "In effect",
+   "open": false,
+   "next_date": null,
+   "summary": "Lawmakers passed the AWS incentive package in special session, including a $215 million infrastructure loan, tax exemptions and rebates, and authority for Entergy to build power plants for the project without PSC certification; the PSC still regulates the rates Entergy charges for the project.",
+   "schedule_impact": "Entergy can build serving generation without PSC certification, though the PSC still regulates its rates for the project.",
+   "source": "Mississippi Today",
+   "url": "https://mississippitoday.org/2024/01/25/amazon-data-center-mississippi-entergy/"
+  },
+  {
+   "id": "elpaso-city-incentive-agreement",
+   "project_ids": [
+    "meta-el-paso"
+   ],
+   "date": "2023-12-01",
+   "date_precision": "month",
+   "type": "Incentives & tax",
+   "agency": "City of El Paso",
+   "action": "City incentive agreement with Meta affiliate Wurldwide LLC",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "The city signed an incentive agreement with Meta affiliate Wurldwide LLC for a data center on about 1,000 acres in Northeast El Paso, and El Paso County offered a property tax abatement.",
+   "schedule_impact": "Baseline local incentives behind the campus; the Sembrando Esperanza Coalition is urging the city, county and utilities to end their contracts with Meta.",
+   "source": "Texas Tribune",
+   "url": "https://www.texastribune.org/2026/01/26/texas-el-paso-meta-data-center-natural-gas-power-plant/"
+  }
  ]
 }
