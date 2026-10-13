@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10",
+ "updated": "2026-10-13",
  "note": "Data for the US AI Data Center Tracker at energyriskengineering.com/data-center-tracker. Edit this file to update the live page.",
  "projects": [
   {
@@ -999,8 +999,8 @@
    "water_source": "Raw water from Kaw Lake pipeline (agreement pending)",
    "est_cost_busd": 35,
    "cost_note": "Developer's estimate of up to $35B. 2.75 GW is IT load.",
-   "next_milestone": "Rezoning hearings (planning commission and city commission)",
-   "next_milestone_date": "2026-11",
+   "next_milestone": "City Council special meeting and rezoning vote (Stride Bank Center)",
+   "next_milestone_date": "2026-10",
    "key_risks": "Needs zoning, a water deal, a tenant, financing and air permits for a 3.3 GW gas plant; organized local opposition.",
    "sources": [
     "https://www.news9.com/oklahoma-city-news/enid-oklahoma-proposed-thunderbird-data-center",
@@ -2044,6 +2044,26 @@
  ],
  "permits": [
   {
+   "id": "hubbard-data-center-ban-ballot-2026",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "scope": "Local area",
+   "date": "2026-11-03",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Trumbull County Board of Elections (City of Hubbard issue)",
+   "action": "Hubbard voters decide proposed citywide data center ban ordinance",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": "2026-11-03",
+   "summary": "The county's issues list for the November 3, 2026 election includes a City of Hubbard proposed ordinance asking whether a ban on data centers within city limits should be passed.",
+   "schedule_impact": "A yes vote would put a standing ban on data centers in Hubbard; the list does not connect it to the Lordstown campus.",
+   "source": "Trumbull County Board of Elections",
+   "url": "https://boe.co.trumbull.oh.gov/pdfs/Questions%20and%20Issues%20Running%20List%2011-3-26.pdf",
+   "source_kind": "Original"
+  },
+  {
    "id": "memphis-mayor-xai-guardrails-order",
    "project_ids": [
     "xai-colossus-1",
@@ -2099,12 +2119,32 @@
    "status": "Filed / pending",
    "open": true,
    "next_date": "2026-10-27",
-   "summary": "The city took the rezoning items off the October 6 agenda to find a bigger venue, then scheduled a special 5 p.m. meeting and public hearing on October 27 at Stride Bank Center, where the commission will approve or deny them.",
+   "summary": "The city removed the rezoning items from the October 5-6 commission agenda to move to a larger venue and set an October 27 City Council special meeting and public hearing at Stride Bank Center, where the council may approve or deny the rezonings; the city notes approval would not automatically approve intensive uses under the industrial zoning ordinance.",
    "schedule_impact": "The binding zoning decision slips about three weeks, to October 27.",
-   "source": "FOX 25 (KOKH); City of Enid",
-   "url": "https://okcfox.com/news/local/proposed-project-thunderbird-data-center-in-enid-faces-rezoning-delay-after-item-canceled-oklahoma-rezone-public-input-discussion-developer-community-property-questions",
-   "source_kind": "Reported",
+   "source": "City of Enid - Project Thunderbird page",
+   "url": "https://www.enid.org/Home/Project-Thunderbird",
+   "source_kind": "Original",
    "scope": "Site"
+  },
+  {
+   "id": "lordstown-crescent-dune-master-funding-agreement",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "scope": "Site",
+   "date": "2026-10-05",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Lordstown Village Council",
+   "action": "Approves Crescent Dune master agreement funding village review costs",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "Council voted 6-0 to adopt Ordinance 57-2026, authorizing a master agreement with Crescent Dune, LLC for funding legal, engineering and construction costs, effective 30 days after passage; the solicitor said it incorporates the village's zoning and moratorium and does not supersede local site-planning rules.",
+   "schedule_impact": "Sets up developer funding of village review costs but does not itself approve any site plan; the minutes are not yet formally approved.",
+   "source": "Village of Lordstown (council minutes, draft)",
+   "url": "https://www.lordstown.com/wp-content/uploads/October-5-2026-1.pdf",
+   "source_kind": "Original"
   },
   {
    "id": "portwash-point-beach-subscription",
@@ -2639,6 +2679,26 @@
    "source_kind": "Reported"
   },
   {
+   "id": "weathersfield-township-data-center-moratorium-extended-2026",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "scope": "Local area",
+   "date": "2026-09-01",
+   "date_precision": "month",
+   "type": "Local moratorium",
+   "agency": "Weathersfield Township Board of Trustees",
+   "action": "Extends data center moratorium six months, into April",
+   "status": "In effect",
+   "open": true,
+   "next_date": "2027-04-01",
+   "summary": "Weathersfield trustees extended the township's data center moratorium, which was due to expire in October, by six months into April while the zoning commission and law director finish drafting data center regulations.",
+   "schedule_impact": "Keeps Weathersfield closed to data center proposals into spring 2027; the article does not tie it to the Lordstown campus.",
+   "source": "Tribune Chronicle",
+   "url": "https://www.tribtoday.com/news/local-news/2026/09/data-center-rules-not-yet-ready/",
+   "source_kind": "Reported"
+  },
+  {
    "id": "nc-daq-amazon-backup-engines-permit",
    "project_ids": [
     "aws-richmond-county-nc"
@@ -2697,6 +2757,26 @@
    "url": "https://www.enid.org/Home/Project-Thunderbird",
    "source_kind": "Original",
    "scope": "Site"
+  },
+  {
+   "id": "lordstown-data-center-zoning-standards-proposed",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "scope": "Local area",
+   "date": "2026-08-27",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Lordstown Village Council (moratorium committee)",
+   "action": "Committee presents proposed data center zoning standards to council",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "The village's moratorium committee and planning consultant Brian Frantz presented proposed data center zoning requirements covering water-system capacity, generator disclosure, sound and acoustic impact studies, and engineer-prepared site plans; council has not yet voted.",
+   "schedule_impact": "If adopted, future data center applications in Lordstown would face added water, noise and site-plan requirements; no vote date was given.",
+   "source": "WFMJ 21 News",
+   "url": "https://www.wfmj.com/news/local-news/lordstown-data-center-moratorium-committee-proposes-zoning-changes/article_467a3c69-e752-4450-b0fe-28ba4bec673f.html",
+   "source_kind": "Reported"
   },
   {
    "id": "ms-mdeq-construction-permit-mod-2026",
@@ -2758,6 +2838,26 @@
    "source": "The Daily Memphian",
    "url": "https://dailymemphian.com/article/65789/olive-branch-data-centers-ai-artificial-intelligence-mississippi",
    "source_kind": "Reported"
+  },
+  {
+   "id": "thunderbird-enid-ordinance-2026-17-intensive-use-review",
+   "project_ids": [
+    "thunderbird-enid"
+   ],
+   "scope": "Local area",
+   "date": "2026-08-18",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Enid Mayor and Board of Commissioners",
+   "action": "Ordinance 2026-17 requires Intensive Use Review for data centers",
+   "status": "In effect",
+   "open": false,
+   "next_date": null,
+   "summary": "Enid amended its zoning code so that data centers and other intensive industrial uses, including natural gas or traditional power generation classed as hazardous industrial, in the I-3 heavy industrial article need staff review, a planning commission recommendation and Mayor and Board approval, followed by an Intensive Use Agreement before permits issue; the agreement may include curtailment, water and load limits and annual reporting.",
+   "schedule_impact": "Adds a separate city review and agreement step that any data center would likely need after rezoning, before city permits are issued.",
+   "source": "City of Enid Municipal Code (American Legal Publishing)",
+   "url": "https://codelibrary.amlegal.com/codes/enidok/latest/enid_ok/0-0-0-19458",
+   "source_kind": "Original"
   },
   {
    "id": "ms-madison-valuation-appeal-denied",
@@ -3041,6 +3141,26 @@
    "schedule_impact": "The source does not mention the Saline campus; the vote shows strong voter opposition to a data center rezoning in this township.",
    "source": "WEMU 89.1",
    "url": "https://www.wemu.org/wemu-news/2026-08-05/augusta-township-voters-overturn-data-center-rezoning",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "vienna-township-data-center-moratorium-extended-2026",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "scope": "Local area",
+   "date": "2026-08-01",
+   "date_precision": "month",
+   "type": "Local moratorium",
+   "agency": "Vienna Township Board of Trustees",
+   "action": "Extends data center moratorium 60 days, to Oct. 16",
+   "status": "In effect",
+   "open": true,
+   "next_date": "2026-10-16",
+   "summary": "Vienna Township trustees extended the 180-day data center moratorium they adopted February 17 by another 60 days, from Aug. 16 to Oct. 16, while the township's data center zoning language goes through Trumbull County Planning Commission review.",
+   "schedule_impact": "Keeps Vienna Township closed to data centers until mid-October while its zoning rules are finished; the article does not tie it to the Lordstown campus.",
+   "source": "Tribune Chronicle",
+   "url": "https://www.tribtoday.com/news/local-news/2026/08/vienna-extends-data-center-moratorium/",
    "source_kind": "Reported"
   },
   {
@@ -3515,7 +3635,7 @@
    "date_precision": "day",
    "type": "Litigation",
    "agency": "Ohio Supreme Court",
-   "action": "Developers of a Lordstown-area data center project ask Ohio Supreme Court to order site-plan review",
+   "action": "Developers ask Ohio Supreme Court to order site-plan review now",
    "status": "Filed / pending",
    "open": true,
    "next_date": null,
@@ -3557,7 +3677,7 @@
    "action": "180-day data center permit moratorium extended",
    "status": "In effect",
    "open": true,
-   "next_date": null,
+   "next_date": "2027-01-01",
    "summary": "With the current 180-day data center moratorium about to expire, council approved by emergency reading another 180 days starting July 5, 2026. A village consultant has discussed zoning standards the village could adopt for data centers.",
    "schedule_impact": "Keeps the village's data center moratorium in place for another 180 days while council reviews the issue and possible rules.",
    "source": "The Vindicator",
@@ -3930,6 +4050,26 @@
    "source_kind": "Reported"
   },
   {
+   "id": "cortland-data-center-moratorium-2026",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "scope": "Local area",
+   "date": "2026-06-01",
+   "date_precision": "day",
+   "type": "Local moratorium",
+   "agency": "Cortland City Council",
+   "action": "Passes emergency moratorium of up to one year on data centers",
+   "status": "In effect",
+   "open": true,
+   "next_date": null,
+   "summary": "Cortland City Council passed Ordinance O-21-26 as an emergency, 6-0 with one abstention, imposing a moratorium of up to one year on accepting and processing zoning, building or occupancy permit applications for data centers.",
+   "schedule_impact": "Another Trumbull County city is closed to new data center permits for up to a year; the minutes do not tie it to the Lordstown campus.",
+   "source": "City of Cortland (council minutes)",
+   "url": "https://www.cortlandoh.gov/wp-content/uploads/M060126.pdf",
+   "source_kind": "Original"
+  },
+  {
    "id": "cheyenne-12-month-data-center-moratorium-rejected",
    "project_ids": [
     "google-tembo-cheyenne"
@@ -4150,6 +4290,26 @@
    "source_kind": "Reported"
   },
   {
+   "id": "bazetta-township-data-center-moratorium-2026",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "scope": "Local area",
+   "date": "2026-05-01",
+   "date_precision": "month",
+   "type": "Local moratorium",
+   "agency": "Bazetta Township Board of Trustees",
+   "action": "Approves 180-day moratorium on data center development",
+   "status": "In effect",
+   "open": true,
+   "next_date": null,
+   "summary": "Bazetta Township trustees approved a 180-day moratorium on any development related to data centers so the zoning commission can write data center rules the township code currently lacks.",
+   "schedule_impact": "Pauses data center development in Bazetta Township for about six months; the article gives no end date and does not tie it to the Lordstown campus.",
+   "source": "Tribune Chronicle",
+   "url": "https://www.tribtoday.com/news/local-news/2026/05/bazetta-trustees-ok-180-day-moratorium-on-data-centers/",
+   "source_kind": "Reported"
+  },
+  {
    "id": "pa-puc-large-load-model-tariff",
    "project_ids": [
     "coreweave-lancaster",
@@ -4182,7 +4342,7 @@
    "agency": "Weathersfield Township Board of Trustees",
    "action": "Adopts six-month moratorium on data center proposals",
    "status": "In effect",
-   "open": true,
+   "open": false,
    "next_date": null,
    "summary": "Weathersfield Township trustees unanimously approved a six-month moratorium on data center proposals in the township so the zoning commission can review data center impacts and recommend zoning amendments, restrictions or prohibitions; Niles separately halted annexation talks over a Belmont Avenue data center property.",
    "schedule_impact": "The source does not link this to the Lordstown campus; it shows a township pause on data center proposals, with nearby Niles also halting annexation talks and keeping its own pause on data center permits.",
@@ -4973,6 +5133,26 @@
    "source_kind": "Reported"
   },
   {
+   "id": "lordstown-data-center-moratorium-ordinance-1-2026",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "scope": "Local area",
+   "date": "2026-01-05",
+   "date_precision": "day",
+   "type": "Local moratorium",
+   "agency": "Lordstown Village Council",
+   "action": "Adopts Ordinance 1-2026, 180-day data center permit moratorium",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "After suspending the rules 6-0, council adopted Ordinance 1-2026 by a 6-0 roll call as an emergency measure placing a temporary moratorium of up to 180 days on data center permits and applications in the village.",
+   "schedule_impact": "Started the village-wide pause on new data center permits; its later extension is tracked as a separate item.",
+   "source": "Village of Lordstown (council minutes)",
+   "url": "https://www.lordstown.com/agendas/attachment/january-5-2026-2/",
+   "source_kind": "Original"
+  },
+  {
    "id": "elpaso-city-intervenes-puct",
    "project_ids": [
     "meta-el-paso"
@@ -5051,6 +5231,26 @@
    "url": "https://cowboystatedaily.com/2026/01/08/huge-cheyenne-data-center-grows-to-2-7-gigawatts-nearly-triple-state-power-use",
    "source_kind": "Reported",
    "scope": "Site"
+  },
+  {
+   "id": "bristolville-lordstown-ohio-supreme-court-alternative-writ",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "scope": "Local area",
+   "date": "2025-12-24",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "Supreme Court of Ohio",
+   "action": "Court denies Lordstown's dismissal motion, grants alternative writ",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "In mandamus case 2025-1497, State ex rel. Bristolville 25 Developer v. Lordstown, the court dismissed the claim against Matthew Ries but denied dismissal for the Village and Kellie Bordner, ordered them to answer within 14 days, granted an alternative writ and set a briefing schedule.",
+   "schedule_impact": "Keeps the developer's mandamus case against the village and its zoning official alive, with evidence and briefs to follow; the court had not ruled on the merits.",
+   "source": "Supreme Court of Ohio (case announcements, 2025-Ohio-5682)",
+   "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2025/2025-Ohio-5682.pdf",
+   "source_kind": "Original"
   },
   {
    "id": "ga-psc-10gw-certification",
@@ -5294,6 +5494,26 @@
    "source_kind": "Reported"
   },
   {
+   "id": "lordstown-data-center-ban-repealed",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "date": "2025-12-01",
+   "date_precision": "day",
+   "type": "Local moratorium",
+   "agency": "Lordstown Village Council",
+   "action": "Council repeals Ordinance 57-2025 data center ban",
+   "status": "Lifted / expired",
+   "open": false,
+   "next_date": null,
+   "summary": "On legal advice, council voted 6-0 by emergency to adopt Ordinance 63-2025 repealing Ordinance 57-2025, which had prohibited data centers in the village, and pulled a proposed 180-day moratorium pending a January 5 public hearing.",
+   "schedule_impact": "Replaced the outright ban with a path to a temporary moratorium, which council took up after the January 5 hearing.",
+   "source": "Village of Lordstown (council minutes)",
+   "url": "https://www.lordstown.com/agendas/attachment/december-1-2025-3/",
+   "source_kind": "Original",
+   "scope": "Local area"
+  },
+  {
    "id": "homer-city-dep-plan-approval-32-00457a",
    "project_ids": [
     "homer-city"
@@ -5352,26 +5572,6 @@
    "url": "https://nondoc.com/2026/05/14/pittsburg-county-committee-endorses-deal-tied-to-2000-acre-50-billion-data-center-site/",
    "source_kind": "Reported",
    "scope": "Site"
-  },
-  {
-   "id": "lordstown-data-center-ban-repealed",
-   "project_ids": [
-    "stargate-lordstown"
-   ],
-   "date": "2025-11-03",
-   "date_precision": "day",
-   "type": "Local moratorium",
-   "agency": "Lordstown Village Council",
-   "action": "Village council passes ban on data center proposals",
-   "status": "Lifted / expired",
-   "open": false,
-   "next_date": null,
-   "summary": "The Lordstown Village Council voted on Nov 3, 2025 for an ordinance banning all data center proposals in the village; a developer's attorney argued the council skipped a required 30-day notice. By 2026 the village was operating under a temporary 180-day moratorium instead (see the June 2026 extension).",
-   "schedule_impact": "Superseded by the village's temporary moratorium, which is the rule now in force.",
-   "source": "DatacenterDynamics",
-   "url": "https://www.datacenterdynamics.com/en/news/data-centers-now-banned-in-lordstown-ohio/",
-   "source_kind": "Reported",
-   "scope": "Local area"
   },
   {
    "id": "portwash-tif-approval",
