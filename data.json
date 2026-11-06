@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-06",
  "note": "Data for the US AI Data Center Tracker at energyriskengineering.com/data-center-tracker. Edit this file to update the live page.",
  "projects": [
   {
@@ -156,7 +156,7 @@
    "lat": 31.85,
    "lon": -106.72,
    "status": "Under construction",
-   "status_note": "Construction continues on the data-center buildings, which have no power yet. On Oct 26 the new hearing officer refused New Energy Economy's motion to dismiss the fuel-cell microgrid air permit application and kept the Dec 7 public hearing start; NMED's deputy secretary will make the permit decision. On Oct 27 county commissioners voted to notify the developers of a potential breach of the IRB agreement over their power plan.",
+   "status_note": "The buildings already put up still have no power. On Nov 3 NMED's Air Quality Bureau and developer Yucca Growth jointly asked the hearing officer to vacate the Dec 7 microgrid air permit hearing, and Yucca Growth waived the Nov 23 decision deadline; no new date was proposed and the hearing officer had not ruled as of Nov 5. Bloom says it will use 1,600 of 2,462 allocated MW. New Energy Economy filed a new motion to dismiss. Governor-elect Haaland has pledged a day-one executive order pausing large data center development.",
    "planned_mw": 2450,
    "online_mw": 0,
    "first_power": "2028",
@@ -169,16 +169,16 @@
    "water_source": "Non-potable industrial well water (purchased farm water rights)",
    "est_cost_busd": 165,
    "cost_note": "$165B is the developers' full-buildout estimate and county IRB authorization. 2.45 GW is campus design draw.",
-   "next_milestone": "Public hearing on the microgrid air permit begins in Sunland Park",
-   "next_milestone_date": "2026-12-07",
-   "key_risks": "Contested microgrid air permit: the hearing does not start until Dec 7 and NMED has no timeline for reviewing the revised modeling. The county has flagged a potential IRB agreement breach over the power plan, including any El Paso Electric tie-in. Also the State Land Office pipeline right-of-way denial, a pending FERC authorization that the state AG has challenged, litigation over county bonds and incentives, and strong local opposition.",
+   "next_milestone": "Rescheduled public hearing on the microgrid air permit (after NMED files revised recommendation)",
+   "next_milestone_date": "2027",
+   "key_risks": "Contested microgrid air permit with no hearing date if the Dec 7 hearing is vacated, and NMED gives no timeline for its technical review. Governor-elect Haaland plans a day-one executive order pausing large data center development. The county has flagged a potential IRB agreement breach over the power plan, including any El Paso Electric tie-in. Also the State Land Office pipeline right-of-way denial, a pending FERC authorization that the state AG has challenged, litigation over county bonds and incentives, and strong local opposition.",
    "sources": [
+    "https://searchlightnm.org/state-developers-ask-to-delay-public-hearing-on-project-jupiter-air-quality-permit/",
     "https://www.abqjournal.com/business/hearing-officer-rejects-bid-to-toss-revised-project-jupiter-air-permit/3150570",
     "https://sourcenm.com/2026/10/19/data-center-project-jupiter-air-quality-permit-hearing-set-for-early-december/",
-    "https://sourcenm.com/2026/10/15/oracle-says-it-will-cut-project-jupiter-emissions-after-new-mexico-org-seeks-to-toss-permit-case/",
-    "https://www.enr.com/articles/63720-oracle-invokes-force-majeure-as-new-mexico-project-jupiter-power-work-faces-hurdles"
+    "https://sourcenm.com/2026/10/15/oracle-says-it-will-cut-project-jupiter-emissions-after-new-mexico-org-seeks-to-toss-permit-case/"
    ],
-   "as_of": "2026-10-27"
+   "as_of": "2026-11-05"
   },
   {
    "id": "stargate-saline-township",
@@ -441,7 +441,7 @@
    "lat": 34.995,
    "lon": -90.03,
    "status": "Partially operational",
-   "status_note": "Two large clusters on Tulane Road run close to 1 GW and a third building is under construction, powered by temporary gas turbines in Southaven, MS, until a permitted 1.2 GW plant is built. In October 2026 a federal judge refused the Justice Department's request to dismiss the NAACP's Clean Air Act suit over those turbines.",
+   "status_note": "Two large clusters on Tulane Road run close to 1 GW, powered by temporary gas turbines in Southaven, MS, until a permitted 1.2 GW plant is built. On Nov 2, 2026 Musk said two added Colossus 2 sites, Gun Range and Spam, should be operational by end of November and in December. On Oct 30 a federal judge denied xAI's motion to dismiss the NAACP's Clean Air Act suit over the Southaven turbines.",
    "planned_mw": 1531,
    "online_mw": 946,
    "first_power": "2025-Q4",
@@ -454,16 +454,16 @@
    "water_source": "Not disclosed",
    "est_cost_busd": 58,
    "cost_note": "Epoch AI's projected capex. MW are Epoch IT estimates; Musk has claimed 2 GW eventually.",
-   "next_milestone": "Permanent Southaven gas plant in service; temporary turbines retired by July 2027",
-   "next_milestone_date": "2027-03",
+   "next_milestone": "Gun Range (end Nov) and Spam (Dec) expansion sites operational; permanent Southaven gas plant in service; temporary turbines retired by July 2027",
+   "next_milestone_date": "2026-11",
    "key_risks": "NAACP Clean Air Act suit (federal judge rejected DOJ's dismissal bid in Oct 2026, while letting DOJ intervene), a residents' class action and an appeal of the MDEQ permit target the Southaven turbines; new Memphis data center rules and a 135-day city permitting pause; continuing local opposition to air pollution.",
    "sources": [
+    "https://thenextweb.com/news/colossus-2-musk-spam-gun-range-memphis",
     "https://mississippitoday.org/2026/10/21/judge-trump-administration-xai-naacp-lawsuit-southaven/",
     "https://epoch.ai/data/ai-data-centers/directory/colossus-2",
-    "https://www.actionnews5.com/2026/07/31/xai-announces-fourth-data-center-turbines-be-removed-southaven-site/",
-    "https://www.datacenterdynamics.com/en/news/musks-xai-gets-go-ahead-for-41-natural-gas-turbines-in-mississippi-to-power-colossus-data-centers"
+    "https://www.actionnews5.com/2026/07/31/xai-announces-fourth-data-center-turbines-be-removed-southaven-site/"
    ],
-   "as_of": "2026-10-21"
+   "as_of": "2026-11-02"
   },
   {
    "id": "msft-fairwater-wisconsin",
@@ -861,7 +861,7 @@
    "lat": 35.12,
    "lon": -90.18,
    "status": "Under construction",
-   "status_note": "Ground broken October 2025 on a five-building campus with an 18-24 month build. In October 2026 Entergy filed a heavily redacted amended application with the PSC for a Google-funded expansion of about $600M in grid work: 1,400 MWh of batteries, a 440 MW solar PPA, a Galet substation expansion and two 230 kV lines, targeted for 2028 if approved; the added data center load is not disclosed.",
+   "status_note": "Ground broken October 2025 on a five-building campus with an 18-24 month build. In October 2026 Entergy filed a heavily redacted amended Google contract with the PSC adding 350 MW of batteries at two sites (Google paying about $600M toward them) and a 440 MW Big Island solar purchase; the added data center load is redacted. The PSC is set to hear it in January 2027, with 2028 in-service targeted if approved.",
    "planned_mw": null,
    "online_mw": null,
    "first_power": "2027",
@@ -874,15 +874,16 @@
    "water_source": "Onsite graywater reuse plant",
    "est_cost_busd": 4,
    "cost_note": "Google's announced $4B Arkansas investment through 2027.",
-   "next_milestone": "First building completed",
-   "next_milestone_date": "2027-06",
+   "next_milestone": "First building completed; PSC hearing on amended Entergy-Google contract (Jan 2027)",
+   "next_milestone_date": "2027-01",
    "key_risks": "Depends on Entergy's new solar, storage and PSC approval of the amended expansion application; secrecy disputes over contract terms; pending Army Corps review of the floodplain site; 30-year PILOT deal under scrutiny.",
    "sources": [
+    "https://utilitydive.com/news/entergy-makes-progress-on-arkansas-data-center-reports-strong-q3-sales/873873",
     "https://okenergytoday.com/2026/10/google-makes-big-power-deal-with-entergy-arkansas/",
     "https://www.kait8.com/2025/10/02/google-breaks-ground-4b-data-center-west-memphis",
     "https://now.solar/2026/03/06/plans-approved-for-entergys-1-6b-cypress-solar-project-the-arkansas-democrat-gazette/"
    ],
-   "as_of": "2026-10-21"
+   "as_of": "2026-11-05"
   },
   {
    "id": "google-tembo-cheyenne",
@@ -1001,7 +1002,7 @@
    "lat": 36.4,
    "lon": -97.88,
    "status": "Announced",
-   "status_note": "Proposed September 2026 as four campuses around Enid on about 1,750 acres. At a special meeting the Enid Board of Commissioners passed all three Plainsmen rezoning requests 6-1, covering two of the four potential campuses; there is still no city water agreement and no tenant.",
+   "status_note": "Proposed September 2026 as four campuses around Enid on about 1,750 acres. The Enid commission passed all three Plainsmen rezoning requests 6-1, but the emergency clause failed, so the rezonings take effect 30 days after passage. Opponents (No Data Centers in Enid) are working on a referendum petition to overturn two rezonings and have started recall efforts against the mayor and most commissioners; there is still no city water agreement and no tenant.",
    "planned_mw": 2750,
    "online_mw": null,
    "first_power": null,
@@ -1014,16 +1015,16 @@
    "water_source": "Raw water from Kaw Lake pipeline (agreement pending)",
    "est_cost_busd": 35,
    "cost_note": "Developer's estimate of up to $35B. 2.75 GW is IT load.",
-   "next_milestone": "Further City of Enid approvals (rezonings took effect without emergency clause)",
+   "next_milestone": "Rezonings take effect; possible referendum petition filing with the city clerk",
    "next_milestone_date": null,
-   "key_risks": "Needs zoning, a water deal, a tenant, financing and air permits for a 3.3 GW gas plant; organized local opposition.",
+   "key_risks": "Needs zoning, a water deal, a tenant, financing and air permits for a 3.3 GW gas plant; organized local opposition including a referendum petition on the rezonings and recall efforts.",
    "sources": [
+    "https://www.enidnews.com/news/data-center-foes-target-city-leaders-for-recall-seek-to-undo-rezoning/article_6017ffa4-1cf3-4e7d-8148-9ca4d9d2ff2a.html",
     "https://www.enidlive.com/news/city-commission-passes-project-thunderbird-rezoning-requests-in-special-meeting/",
     "https://www.enidlive.com/news/special-commission-meeting-for-project-thunderbird-rezoning-to-be-held-at-stride-bank-center/",
-    "https://www.news9.com/oklahoma-city-news/enid-oklahoma-proposed-thunderbird-data-center",
-    "https://hoodline.com/2026/09/enid-faces-1-735-acre-data-center-plan-with-on-site-power/"
+    "https://www.news9.com/oklahoma-city-news/enid-oklahoma-proposed-thunderbird-data-center"
    ],
-   "as_of": "2026-10-28"
+   "as_of": "2026-10-30"
   },
   {
    "id": "iren-emerald-kiowa",
@@ -1073,7 +1074,7 @@
    "lat": 35.33,
    "lon": -101.56,
    "status": "Under construction",
-   "status_note": "Site and power-plant groundwork is under way for six Siemens SGT-800 turbines. TensorWave signed the first lease in August 2026, and in October AMD signed a credit support agreement, acting as guarantor while Fermi looks for financing for the first 222 MW building, which is expected online in the second half of 2027. Nothing is in service yet.",
+   "status_note": "Site and power-plant groundwork is under way for six Siemens SGT-800 turbines. TensorWave signed the first lease in August 2026 and AMD signed a credit support agreement in October, but the lease's October 31 closing date passed without extension: the lease is not yet effective because closing conditions, including project-level construction financing, are unmet. Neither side has terminated and both say they remain committed. Nothing is in service yet.",
    "planned_mw": 11000,
    "online_mw": 0,
    "first_power": "2027-Q4",
@@ -1086,15 +1087,16 @@
    "water_source": "City of Amarillo (up to 2.5 MGD) plus Ogallala-region groundwater leases",
    "est_cost_busd": 80,
    "cost_note": "Midpoint of a reported $70-90B+ estimate. Planned MW is the stated up-to-11 GW project; generation plans have grown to about 17 GW.",
-   "next_milestone": "Project financing for the first 222 MW building (AMD-guaranteed) and TensorWave lease closing",
+   "next_milestone": "TensorWave lease closing and project-level financing for the first building (update promised with Q3 earnings)",
    "next_milestone_date": "2026-11",
-   "key_risks": "No revenue and dependent on new capital; CEO firing litigation and a securities class action; air-permit challenges; Ogallala water scrutiny; unlicensed nuclear plans.",
+   "key_risks": "No revenue and dependent on new capital; first lease not yet effective pending financing; CEO firing litigation and a securities class action; air-permit challenges; Ogallala water scrutiny; unlicensed nuclear plans.",
    "sources": [
+    "https://www.stocktitan.net/news/FRMI/fermi-provides-update-on-lease-agreement-as-parties-work-toward-s55mo4hurwnb.html",
     "https://www.datacenterdynamics.com/en/news/fermi-and-amd-sign-credit-support-deal-for-build-out-of-project-matador-campus-in-amarillo-texas/",
     "https://www.sec.gov/Archives/edgar/data/0002071778/000207177826000051/frmi-20260630.htm",
     "https://www.datacenterdynamics.com/en/news/fermi-taps-hillcore-to-construct-26gw-gas-plant-for-up-to-11gw-project-matador-in-amarillo-texas/"
    ],
-   "as_of": "2026-10-14"
+   "as_of": "2026-11-03"
   },
   {
    "id": "polaris-forge-1",
@@ -1209,8 +1211,8 @@
    "state": "MI",
    "lat": 42.22,
    "lon": -83.43,
-   "status": "Site prep / permitting",
-   "status_note": "The township planning commission approved the final site plan 5-1 on October 14, 2026, after state regulators approved the 20-year DTE power contracts on October 1. Six buildings and a substation are planned on 150 of the site's 282 acres, and neighbors report construction dust since August.",
+   "status": "Under construction",
+   "status_note": "Township planners approved the final site plan 5-1 on Oct. 14, 2026, after state regulators approved the 20-year DTE contracts on Oct. 1. Construction has already started: underground utility work is running in eight phases, with early phases through end-2026 and Haggerty Road work set for March 2027. Six buildings and a substation are planned on 150 of 282 acres.",
    "planned_mw": 1000,
    "online_mw": null,
    "first_power": "2027-12",
@@ -1227,6 +1229,7 @@
    "next_milestone_date": "2027-12",
    "key_risks": "Neighbor complaints about construction dust, noise and vibration and a recall drive against the township board; contract requires 80% minimum billing; proposed state bills could repeal data-center tax breaks.",
    "sources": [
+    "https://www.wxyz.com/news/van-buren-township-officials-approve-plans-for-controversial-google-data-center-campus",
     "https://www.michiganpublic.org/politics-government/2026-10-15/google-wins-zoning-approval-for-huge-data-center-near-detroit-airport",
     "https://bridgemi.com/michigan-environment-watch/township-vote-paves-way-for-michigans-second-hyperscale-data-center/",
     "https://www.michigan.gov/mpsc/commission/news-releases/2026/10/01/mpsc-approves-dte-electric-google-data-center-and-contracts-protects-customers-from-project-cost"
@@ -1351,7 +1354,7 @@
    "lat": 40.53,
    "lon": -86.13,
    "status": "Announced",
-   "status_note": "Proposed; full site plan not yet filed; economic development agreement still needs Common Council approval.",
+   "status_note": "Proposed at Industrial Park North; full site plan not yet filed and the economic development agreement still needs Common Council approval. Digital Realty said in late October that groundbreaking is roughly 18 months away, with up to 4,000 construction workers over five to eight years.",
    "planned_mw": 1000,
    "online_mw": null,
    "first_power": "Not disclosed",
@@ -1364,13 +1367,14 @@
    "water_source": "Indiana American Water",
    "est_cost_busd": null,
    "cost_note": "Estimated $1B-$3B; no tax incentives sought",
-   "next_milestone": "Site plan filing and Common Council vote on economic development agreement",
+   "next_milestone": "Common Council vote on economic development agreement; site plan filing; groundbreaking about 18 months out",
    "next_milestone_date": null,
    "key_risks": "Duke Energy service agreements not finalized; ratepayer-cost opposition; four-to-six-year phased construction on greenfield site.",
    "sources": [
+    "https://kokomolantern.substack.com/p/city-moves-to-expand-industrial-land",
     "https://baxtel.com/news/digital-realty-picks-kokomo-for-1gw-campus-its-first-in-indiana"
    ],
-   "as_of": "2026-10-17"
+   "as_of": "2026-10-29"
   }
  ],
  "nri": [
@@ -2023,279 +2027,279 @@
  ],
  "news": [
   {
-   "date": "2026-10-29",
+   "date": "2026-11-05",
    "project": "Project Jupiter (Doña Ana)",
    "project_id": "stargate-project-jupiter",
    "state": "NM",
-   "category": "Financing",
-   "headline": "Doña Ana commissioners move to warn Project Jupiter developers of potential bond agreement breach over power plan",
-   "why_it_matters": "Puts the $165B IRB financing structure and any grid backup arrangement in question for a site still without power.",
+   "category": "Opposition & permits",
+   "headline": "Regulators and Project Jupiter developer ask to scrap Dec. 7 air permit hearing for fuel-cell microgrid",
+   "why_it_matters": "Delays the permit for the campus's only planned power source, extending the period when finished buildings sit unpowered.",
    "source": "Searchlight New Mexico",
-   "url": "https://searchlightnm.org/commissioners-to-notify-project-jupiter-developers-of-potential-breach-of-bond-agreement/"
+   "url": "https://searchlightnm.org/state-developers-ask-to-delay-public-hearing-on-project-jupiter-air-quality-permit/"
   },
   {
-   "date": "2026-10-29",
-   "project": "Google West Creek (Goochland)",
-   "project_id": null,
-   "state": "VA",
-   "category": "New project",
-   "headline": "Goochland County names Google as the buyer eyeing a 1,000-acre, 1.2 GW campus in West Creek Business Park",
-   "why_it_matters": "A by-right site lets a gigawatt-scale builder's-risk exposure move quickly once Dominion clears the load.",
-   "source": "Baxtel",
-   "url": "https://baxtel.com/news/google-identified-as-user-behind-1-200mw-goochland-data-center-campus"
-  },
-  {
-   "date": "2026-10-29",
-   "project": "Beltline Energy OKC campus",
-   "project_id": null,
-   "state": "OK",
-   "category": "Opposition & permits",
-   "headline": "Oklahoma City council rezones ~294 acres along I-40 for Beltline Energy's $9B data center, 6-3, with water and noise caps",
-   "why_it_matters": "Zoning caps daily water at 75,000 gallons, pushing designs toward low-water cooling.",
-   "source": "OK Energy Today",
-   "url": "https://okenergytoday.com/2026/10/okc-council-okays-zoning-for-major-data-center-project/"
-  },
-  {
-   "date": "2026-10-28",
-   "project": "Stargate Lordstown",
-   "project_id": "stargate-lordstown",
-   "state": "OH",
-   "category": "Opposition & permits",
-   "headline": "Hubbard Township trustees vote down data center zoning rules, keeping moratorium in place",
-   "why_it_matters": "Another Trumbull-area community stays closed to data centers, narrowing siting options near Lordstown.",
-   "source": "WFMJ",
-   "url": "https://www.wfmj.com/news/local-news/hubbard-township-trustees-vote-down-proposed-data-center-regulations/article_1e0dd4f9-66f6-481c-b235-5c66f3edb08c.html"
-  },
-  {
-   "date": "2026-10-28",
-   "project": "Meta Prometheus",
-   "project_id": "meta-prometheus",
-   "state": "OH",
-   "category": "Opposition & permits",
-   "headline": "Heath residents clear signature threshold for a special election on banning data centers using 23 MW or more",
-   "why_it_matters": "Licking County towns near the New Albany cluster keep moving toward local bans, which narrows sites open for expansion.",
-   "source": "Newark Advocate (via Yahoo News)",
-   "url": "https://www.yahoo.com/news/politics/articles/heath-group-clears-signature-bar-133919047.html"
-  },
-  {
-   "date": "2026-10-28",
-   "project": "AWS Salem Twp (Susquehanna)",
-   "project_id": "aws-salem-susquehanna",
-   "state": "PA",
-   "category": "New project",
-   "headline": "Salem Township supervisors widen data center overlay by more than 3,000 acres for two new campus proposals",
-   "why_it_matters": "More hyperscale construction near the AWS campus raises local concentration of builder's-risk and property exposure on the same grid and river.",
-   "source": "FOX56",
-   "url": "https://fox56.com/data-centers/salem-township-approves-expansion-of-data-center-district-by-more-than-3000-acres"
-  },
-  {
-   "date": "2026-10-28",
-   "project": "Project Thunderbird (Enid)",
-   "project_id": "thunderbird-enid",
-   "state": "OK",
-   "category": "Opposition & permits",
-   "headline": "Enid commissioners approve all three Project Thunderbird rezonings on 6-1 votes",
-   "why_it_matters": "The 2.75 GW off-grid campus clears zoning on two sites but still lacks water, tenant and financing.",
-   "source": "EnidLIVE!",
-   "url": "https://www.enidlive.com/news/city-commission-passes-project-thunderbird-rezoning-requests-in-special-meeting/"
-  },
-  {
-   "date": "2026-10-28",
-   "project": "DCIP Group Arcadia campus",
-   "project_id": null,
-   "state": "FL",
-   "category": "Opposition & permits",
-   "headline": "DeSoto County commissioners deadlock 2-2, sinking a 238-acre rezoning for DCIP Group's proposed Arcadia data center complex",
-   "why_it_matters": "Shows local votes can stall large Florida campuses before any construction risk attaches.",
-   "source": "WGCU / Suncoast Searchlight",
-   "url": "https://www.wgcu.org/government-politics/2026-10-28/desoto-county-rejects-data-center-rezoning-with-another-vote-ahead"
-  },
-  {
-   "date": "2026-10-27",
-   "project": "xAI Colossus 2",
-   "project_id": "xai-colossus-2",
-   "state": "MS",
-   "category": "Opposition & permits",
-   "headline": "Mississippi regulators cite SpaceXAI affiliate for building at three Southaven sites without stormwater permits; exposure about $6.1M",
-   "why_it_matters": "Shows permitting shortcuts at the Colossus 2 power and data center sites are drawing state enforcement on top of the turbine litigation.",
-   "source": "DeSoto County News",
-   "url": "https://desotocountynews.com/mississippi-news/spacexai-mdeq-penalties-southaven"
-  },
-  {
-   "date": "2026-10-27",
-   "project": "Project Jupiter (Doña Ana)",
-   "project_id": "stargate-project-jupiter",
-   "state": "NM",
-   "category": "Construction",
-   "headline": "Clayco-Kiewit JV tops out the first 855,000 sq ft hall of four at the Oracle/OpenAI Santa Teresa campus",
-   "why_it_matters": "Building enclosure is advancing while the fuel-cell microgrid air permit remains contested.",
-   "source": "Baxtel",
-   "url": "https://baxtel.com/news/clayco-and-kiewit-top-out-first-building-at-project-jupiter-in-new-mexico"
-  },
-  {
-   "date": "2026-10-27",
-   "project": "xAI Colossus 1",
-   "project_id": "xai-colossus-1",
-   "state": "TN",
-   "category": "Financing",
-   "headline": "Anthropic's IPO filing discloses about $417B in compute commitments, including all of SpaceX's 300 MW Colossus 1",
-   "why_it_matters": "Tenant concentration and lease terms now shape revenue at major AI campuses.",
-   "source": "Baxtel",
-   "url": "https://baxtel.com/news/anthropic-files-for-ipo-disclosing-417b-in-compute-commitments"
-  },
-  {
-   "date": "2026-10-26",
-   "project": "Project Jupiter (Doña Ana)",
-   "project_id": "stargate-project-jupiter",
-   "state": "NM",
-   "category": "Opposition & permits",
-   "headline": "Hearing officer refuses to dismiss Project Jupiter microgrid air permit application; December hearing stays on",
-   "why_it_matters": "The campus has no power until this permit is decided, so the timeline drives when buildings can be energized.",
-   "source": "Santa Fe New Mexican",
-   "url": "https://www.santafenewmexican.com/las_cruces/local_news/project-jupiter-foes-dealt-blow-in-data-center-permit-fight/article_46aaffbf-da8b-4166-85d9-6e1f6dc277cf.html"
-  },
-  {
-   "date": "2026-10-25",
-   "project": null,
-   "project_id": null,
-   "state": "OR",
-   "category": "Policy",
-   "headline": "Umatilla declares an emergency after Oregon pauses air and water permits for new data centers through July 2027",
-   "why_it_matters": "Pause can strand projects mid-development and shift Pacific Northwest builds elsewhere.",
-   "source": "Baxtel",
-   "url": "https://baxtel.com/news/umatilla-declares-emergency-over-oregon-data-center-permit-pause"
-  },
-  {
-   "date": "2026-10-22",
-   "project": "Stargate Lighthouse (Port Washington)",
-   "project_id": "stargate-port-washington-lighthouse",
-   "state": "WI",
-   "category": "Power",
-   "headline": "Wisconsin regulators again find ATC's power line application for Port Washington campus incomplete",
-   "why_it_matters": "More transmission delay extends the gap between finished buildings and usable power, lengthening builder's-risk exposure.",
-   "source": "Daily News (Conley Media)",
-   "url": "https://www.gmtoday.com/daily_news/news/psc-deems-atc-s-revised-application-incomplete/article_62fcb757-8dee-53b6-92dd-093556ca8e21.html"
-  },
-  {
-   "date": "2026-10-22",
-   "project": "Texas data center campuses",
-   "project_id": "fermi-matador",
-   "state": "TX",
-   "category": "Policy",
-   "headline": "TCEQ shuts its automatic permit portal and suspends data-center stormwater permits issued despite Abbott's pause",
-   "why_it_matters": "Construction that relied on automatic stormwater coverage may have to stop, delaying sitework at Texas campuses.",
-   "source": "High Plains Public Radio (Texas Tribune)",
-   "url": "https://www.hppr.org/hppr-news/2026-10-22/texas-environmental-agency-shuts-down-online-permit-filing-system-after-data-center-controversy"
-  },
-  {
-   "date": "2026-10-22",
-   "project": "Microsoft Rome (ATL80)",
-   "project_id": null,
-   "state": "GA",
-   "category": "New project",
-   "headline": "Microsoft files regional review for a 422 MW, three-building campus on 349 acres in Rome, Georgia",
-   "why_it_matters": "Diesel-only backup and an onsite substation define the fire-load profile.",
-   "source": "Baxtel",
-   "url": "https://baxtel.com/news/microsoft-files-for-422mw-three-building-data-center-campus-in-rome-georgia"
-  },
-  {
-   "date": "2026-10-21",
-   "project": "xAI Colossus 2",
-   "project_id": "xai-colossus-2",
-   "state": "MS",
-   "category": "Opposition & permits",
-   "headline": "Federal judge refuses DOJ request to dismiss NAACP Clean Air Act suit over xAI Southaven turbines",
-   "why_it_matters": "Keeps alive a suit that could curb the temporary turbines powering Colossus 2.",
-   "source": "Mississippi Today",
-   "url": "https://mississippitoday.org/2026/10/21/judge-trump-administration-xai-naacp-lawsuit-southaven/"
-  },
-  {
-   "date": "2026-10-21",
-   "project": "Bridgefield Tech Center (Ashburn)",
-   "project_id": null,
-   "state": "VA",
-   "category": "Opposition & permits",
-   "headline": "Amazon drops its 800,000 sq ft data center plan on the former GWU Ashburn campus after county opposition",
-   "why_it_matters": "Even in Loudoun County, local opposition can now kill a hyperscaler site plan after the land is bought.",
-   "source": "Fortune",
-   "url": "https://fortune.com/2026/10/21/amazon-427-million-gw-campus-data-center-65-million/"
-  },
-  {
-   "date": "2026-10-21",
-   "project": "Cleveland (citywide)",
-   "project_id": null,
-   "state": "OH",
-   "category": "Policy",
-   "headline": "Cleveland extends its pause on new standalone data centers to Jan. 29 while it writes permanent rules",
-   "why_it_matters": "Ohio cities keep stacking temporary bans, which narrows site options and adds permit-timing risk.",
-   "source": "GovTech",
-   "url": "https://www.govtech.com/artificial-intelligence/cleveland-extends-data-center-moratorium-through-january"
-  },
-  {
-   "date": "2026-10-20",
+   "date": "2026-11-05",
    "project": "Google West Memphis",
    "project_id": "google-west-memphis",
    "state": "AR",
    "category": "Power",
-   "headline": "Entergy Arkansas files $600M phase-two package for Google West Memphis: 440 MW solar PPA, batteries, two 230 kV lines",
-   "why_it_matters": "Battery and substation additions add new fire and equipment exposures near the campus.",
-   "source": "Baxtel",
-   "url": "https://baxtel.com/news/entergy-adds-440mw-solar-ppa-for-google-west-memphis-expansion"
+   "headline": "Entergy says Google will fund about $600M of batteries under amended West Memphis power deal; Arkansas regulators to hear it in January",
+   "why_it_matters": "Large new battery storage and solar tied to the campus add energy-storage fire exposure and leave the expansion's power supply dependent on a 2027 regulatory ruling.",
+   "source": "Utility Dive",
+   "url": "https://utilitydive.com/news/entergy-makes-progress-on-arkansas-data-center-reports-strong-q3-sales/873873"
   },
   {
-   "date": "2026-10-20",
-   "project": "Stargate Lordstown (area)",
+   "date": "2026-11-05",
+   "project": "Project Tembo (Cheyenne)",
+   "project_id": "google-tembo-cheyenne",
+   "state": "WY",
+   "category": "Opposition & permits",
+   "headline": "Cheyenne planners send data center rules on noise, water use and power generation to City Council",
+   "why_it_matters": "New city limits on noise, water and onsite generation could shape design, operating conditions and permitting for data centers in and around Cheyenne.",
+   "source": "KGAB AM 650",
+   "url": "https://kgab.com/cheyenne-data-center-regulations/"
+  },
+  {
+   "date": "2026-11-05",
+   "project": "Nov. 3 local data center ballot measures",
+   "project_id": null,
+   "state": "Multi",
+   "category": "Policy",
+   "headline": "Voters in at least eight states backed data center limits; Ohio towns passed bans, Illinois advisory votes all went against data centers",
+   "why_it_matters": "Local bans and voter-approval rules raise cancellation and delay risk for campuses still in entitlement.",
+   "source": "Newsweek",
+   "url": "https://www.newsweek.com/map-shows-how-data-center-measures-fared-across-10-states-12670558"
+  },
+  {
+   "date": "2026-11-05",
+   "project": "Project Red Clay (Cloverleaf/Lambda, Lowndes County)",
+   "project_id": null,
+   "state": "AL",
+   "category": "Opposition & permits",
+   "headline": "Second lawsuit seeks to void Lowndes County's $2.7B tax breaks for 1.5 GW, $33B Lambda campus over open-meetings claims",
+   "why_it_matters": "Litigation over incentives could stall Alabama's largest proposed campus; hearing set Dec. 2.",
+   "source": "GovTech",
+   "url": "https://www.govtech.com/products/second-lawsuit-filed-over-alabama-data-center-deal"
+  },
+  {
+   "date": "2026-11-04",
+   "project": "Project Jupiter (Doña Ana)",
+   "project_id": "stargate-project-jupiter",
+   "state": "NM",
+   "category": "Policy",
+   "headline": "Project Jupiter critic wins Doña Ana County commission seat as governor-elect Haaland pledges data center pause",
+   "why_it_matters": "A more skeptical county commission and a possible statewide pause raise the odds of further delays to power and incentive approvals.",
+   "source": "Albuquerque Journal",
+   "url": "https://www.abqjournal.com/news/project-jupiter-opponent-elected-dona-ana-county-commissioner/3155779"
+  },
+  {
+   "date": "2026-11-04",
+   "project": "Meta Prometheus",
+   "project_id": "meta-prometheus",
+   "state": "OH",
+   "category": "Policy",
+   "headline": "Pataskala and Granville voters approve charter bans on data centers in Prometheus's home county",
+   "why_it_matters": "Shrinking local acceptance limits expansion sites and raises opposition risk for central Ohio projects.",
+   "source": "10TV (via Yahoo News)",
+   "url": "https://www.yahoo.com/news/politics/articles/ohio-election-results-show-voters-142538202.html"
+  },
+  {
+   "date": "2026-11-04",
+   "project": "EdgeConneX Ashville; Wilmington rezoning",
+   "project_id": null,
+   "state": "OH",
+   "category": "Opposition & permits",
+   "headline": "Ashville voters reverse council's deal for two EdgeConneX data centers; Wilmington rejects data center rezoning in four referendums",
+   "why_it_matters": "Ballot reversals can void approved agreements after design and site work have begun.",
+   "source": "Cincinnati Enquirer (via Yahoo News)",
+   "url": "https://www.yahoo.com/news/politics/articles/ohioans-overwhelmingly-pass-data-center-051528805.html"
+  },
+  {
+   "date": "2026-11-04",
+   "project": "Boulder City Eldorado Valley; Janesville GM/JATCO site",
+   "project_id": null,
+   "state": "NV",
+   "category": "Opposition & permits",
+   "headline": "Boulder City voters reject data centers in Eldorado Valley 71-29; Janesville, Wis., requires voter approval for $450M-plus projects at former GM site",
+   "why_it_matters": "Voter-approval hurdles add schedule uncertainty to large sites in the Southwest and Midwest.",
+   "source": "State Capital Lobbyist",
+   "url": "https://statecapitallobbyist.com/artificial-intelligence-ai/data-centers/data-centers-on-the-ballot-where-things-stand/"
+  },
+  {
+   "date": "2026-11-03",
+   "project": "Stargate Lordstown",
    "project_id": "stargate-lordstown",
    "state": "OH",
    "category": "Opposition & permits",
-   "headline": "Ohio Supreme Court unanimously rules Lordstown need not review Bristolville data center plan during its moratorium",
-   "why_it_matters": "Upholds local moratoria as a way to stall data center projects in Ohio, adding schedule risk for campuses still at the permitting stage.",
-   "source": "Supreme Court of Ohio",
-   "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-4073.pdf"
+   "headline": "Hubbard, Ohio voters approve citywide ban on data centers of any size by roughly three to one",
+   "why_it_matters": "Shows hardening local opposition around the Lordstown site that could limit nearby follow-on or support facilities.",
+   "source": "WFMJ",
+   "url": "https://www.wfmj.com/news/local-news/hubbard/decision-2026-hubbard-data-center-ban-passes/article_199b8466-6e64-472a-a2f9-1820efd51dc2.html"
   },
   {
-   "date": "2026-10-20",
+   "date": "2026-11-03",
+   "project": "Fermi Project Matador (Amarillo)",
+   "project_id": "fermi-matador",
+   "state": "TX",
+   "category": "Financing",
+   "headline": "Fermi's TensorWave lease misses Oct. 31 closing date and is not yet effective; construction financing still unsecured",
+   "why_it_matters": "The anchor lease underpinning the first Matador building remains unclosed, raising timing and counterparty risk for builder's-risk and project cover.",
+   "source": "StockTitan (Fermi press release)",
+   "url": "https://www.stocktitan.net/news/FRMI/fermi-provides-update-on-lease-agreement-as-parties-work-toward-s55mo4hurwnb.html"
+  },
+  {
+   "date": "2026-11-03",
+   "project": "AWS Trenton-area campus (Butler County)",
+   "project_id": null,
+   "state": "OH",
+   "category": "Opposition & permits",
+   "headline": "Trenton voters pass Issue 17 with about 80%, banning data centers over 25 MW and blocking annexation for a planned 1 GW Amazon campus",
+   "why_it_matters": "A 250 MW Prologis facility already under construction in the city now faces an uncertain future, a builder's-risk concern.",
+   "source": "WVXU",
+   "url": "https://www.wvxu.org/environment/2026-11-03/trenton-votes-to-ban-data-centers"
+  },
+  {
+   "date": "2026-11-03",
+   "project": "Dominion Energy data center pipeline",
+   "project_id": null,
+   "state": "VA",
+   "category": "Power",
+   "headline": "Dominion reports 54.9 GW of Virginia data center demand in contracting stages, up 13% since end-2025",
+   "why_it_matters": "Grid queue growth signals continued energization delays and backup-generation reliance in Virginia.",
+   "source": "Baxtel",
+   "url": "https://baxtel.com/news/dominion-energy-reports-54-9gw-data-center-pipeline-up-13-since-december"
+  },
+  {
+   "date": "2026-11-02",
+   "project": "xAI Colossus 2",
+   "project_id": "xai-colossus-2",
+   "state": "TN",
+   "category": "Opposition & permits",
+   "headline": "Federal judge refuses to dismiss NAACP Clean Air Act suit over xAI's Southaven turbines, rejecting mobile-source exemption argument",
+   "why_it_matters": "Keeps alive a case that could force permits, controls or limits on the interim turbines powering Colossus 2.",
+   "source": "RuntimeWire",
+   "url": "https://runtimewire.com/article/judge-xai-trailer-turbines-mobile-air-permits-naacp"
+  },
+  {
+   "date": "2026-11-02",
+   "project": "xAI Colossus 2",
+   "project_id": "xai-colossus-2",
+   "state": "TN",
+   "category": "Construction",
+   "headline": "Musk says Colossus 2 adds Gun Range and Spam sites in Memphis, targeting operation in November and December",
+   "why_it_matters": "Rapid fit-out of converted buildings raises builder's-risk and commissioning exposure on a tight schedule.",
+   "source": "TNW",
+   "url": "https://thenextweb.com/news/colossus-2-musk-spam-gun-range-memphis"
+  },
+  {
+   "date": "2026-11-02",
+   "project": "Google Botetourt County",
+   "project_id": null,
+   "state": "VA",
+   "category": "Opposition & permits",
+   "headline": "Neighbor sues Botetourt County to void its 2025 performance agreement with Google's data center entity under Virginia FOIA",
+   "why_it_matters": "A voided incentive and permitting-expedite agreement could delay the Google campus.",
+   "source": "WDBJ7",
+   "url": "https://www.wdbj7.com/2026/11/02/botetourt-county-sued-over-data-center-agreement/"
+  },
+  {
+   "date": "2026-11-02",
+   "project": "Falls Ranch campus near Casper",
+   "project_id": null,
+   "state": "WY",
+   "category": "New project",
+   "headline": "Prometheus Hyperscale exits planned 1.25 GW gas-powered Casper campus; landowner says a new developer will take over",
+   "why_it_matters": "Developer churn on early-stage gigawatt sites shows how speculative some announced pipelines are.",
+   "source": "Baxtel",
+   "url": "https://baxtel.com/news/prometheus-hyperscale-exits-1-25gw-casper-data-center-campus"
+  },
+  {
+   "date": "2026-10-30",
+   "project": "Project Thunderbird (Enid)",
+   "project_id": "thunderbird-enid",
+   "state": "OK",
+   "category": "Opposition & permits",
+   "headline": "Enid opponents launch referendum drive against Thunderbird rezonings and seek recall of mayor and commissioners",
+   "why_it_matters": "A successful referendum could undo zoning for two of the four proposed campuses before any construction starts.",
+   "source": "Enid News & Eagle",
+   "url": "https://www.enidnews.com/news/data-center-foes-target-city-leaders-for-recall-seek-to-undo-rezoning/article_6017ffa4-1cf3-4e7d-8148-9ca4d9d2ff2a.html"
+  },
+  {
+   "date": "2026-10-30",
+   "project": "Haverhill citywide ban",
+   "project_id": null,
+   "state": "MA",
+   "category": "Policy",
+   "headline": "Haverhill bans data centers in every zoning district and drops a 20-acre battery storage overlay, citing grid and water limits",
+   "why_it_matters": "Massachusetts cities are closing the door to new campuses, joining Holyoke and Lowell.",
+   "source": "The Eagle-Tribune (via GovTech)",
+   "url": "https://www.govtech.com/artificial-intelligence/haverhill-mass-bans-data-centers-unplugs-battery-zone"
+  },
+  {
+   "date": "2026-10-29",
+   "project": "Digital Realty Kokomo",
+   "project_id": "digital-realty-kokomo",
+   "state": "IN",
+   "category": "Opposition & permits",
+   "headline": "Kokomo council advances 450-acre annexation and industrial rezoning as Digital Realty says groundbreaking is about 18 months away",
+   "why_it_matters": "Sets a 2028-era construction start for a 1 GW campus with up to 4,000 workers, shaping builder's-risk timing in the area.",
+   "source": "The Kokomo Lantern",
+   "url": "https://kokomolantern.substack.com/p/city-moves-to-expand-industrial-land"
+  },
+  {
+   "date": "2026-10-27",
    "project": "xAI Colossus 1 / Colossus 2",
    "project_id": "xai-colossus-1",
    "state": "TN",
    "category": "Opposition & permits",
-   "headline": "Memphis council rejects one-year data center moratorium, approves 135-day permitting pause instead",
-   "why_it_matters": "New Memphis data center permits face a pause of about four and a half months, which may delay further local expansion.",
-   "source": "The Energy Mag",
-   "url": "https://www.theenergymag.com/news/market-news/memphis-reject-longer-data-center-freeze"
+   "headline": "Shelby County Commission defers data center moratorium and regulations ordinance to Nov. 18 meeting",
+   "why_it_matters": "A county moratorium or new rules could constrain future xAI expansion outside Memphis city limits.",
+   "source": "Memphis Flyer",
+   "url": "https://www.memphisflyer.com/shelby-county-commission-defers-voting-on-data-center-related-ordinances/"
   },
   {
-   "date": "2026-10-19",
-   "project": "Microsoft La Porte",
+   "date": "2026-10-26",
+   "project": "Stargate Lordstown",
+   "project_id": "stargate-lordstown",
+   "state": "OH",
+   "category": "Opposition & permits",
+   "headline": "Vienna Township renews data center moratorium for 180 days and sends zoning rules back for rewrite",
+   "why_it_matters": "Adds to a ring of Trumbull County pauses that narrows siting options near the Lordstown plant.",
+   "source": "WFMJ",
+   "url": "https://www.wfmj.com/news/local-news/vienna-trustees-extend-data-center-moratorium-proposed-zoning-regulations-returned-for-further-review/article_0128dec5-dbcc-4f7f-bb89-fcd09075fa58.html"
+  },
+  {
+   "date": "2026-10-26",
+   "project": "OpenAI Project Camellia (Effingham County)",
    "project_id": null,
-   "state": "IN",
-   "category": "Power",
-   "headline": "Microsoft will fund about 1.1 GW of NiSource generation for its La Porte campus under a 20-year deal starting 2028",
-   "why_it_matters": "Dedicated generation reduces grid-supply risk but ties energization to new-build timelines.",
+   "state": "GA",
+   "category": "Opposition & permits",
+   "headline": "OpenAI seeks Army Corps permit to fill 72 acres of wetlands at its $20B, 3.2 GW Savannah-area campus",
+   "why_it_matters": "Wetland fill near the coast raises drainage, flood and permit-challenge questions for the build.",
    "source": "Baxtel",
-   "url": "https://baxtel.com/news/microsoft-to-fund-1-100mw-of-indiana-generation-under-20-year-nisource-deal"
+   "url": "https://baxtel.com/news/openai-seeks-permit-to-fill-72-acres-of-wetlands-at-project-camellia"
   },
   {
-   "date": "2026-10-19",
+   "date": "2026-10-18",
    "project": "Microsoft Fairwater (Wisconsin)",
    "project_id": "msft-fairwater-wisconsin",
    "state": "WI",
-   "category": "Power",
-   "headline": "Wisconsin regulators unanimously approve two Invenergy gas plants, including the 1.2 GW Red Oak Ridge in Kenosha County, amid data center demand",
-   "why_it_matters": "Adds southeast Wisconsin generation for data center load, though Red Oak Ridge isn't due until 2030.",
-   "source": "WPR",
-   "url": "https://www.wpr.org/news/state-regulators-approve-2-southern-wisconsin-natural-gas-plants"
+   "category": "Opposition & permits",
+   "headline": "Mount Pleasant planners back Microsoft's revised campus: seven buildings, about 5.9M sq ft, sound walls, build-out of up to 10 years",
+   "why_it_matters": "A larger single-site concentration of value (projected $6.1B taxable) and a decade-long phased build extend builder's-risk exposure, with noise mitigation already a condition amid a pending neighbor lawsuit.",
+   "source": "WRJN / Racine County Eye",
+   "url": "https://wrjn.com/news/2026/10/18/mount-pleasant-data-center-plans-expand-in-lowers-building-sites-increasing-squarefootage"
   },
   {
-   "date": "2026-10-19",
-   "project": "Stargate Lighthouse (Port Washington)",
-   "project_id": "stargate-port-washington-lighthouse",
-   "state": "WI",
-   "category": "Policy",
-   "headline": "Wisconsin DNR settles Port Washington data center suit and agrees to full environmental impact statements for future data centers",
-   "why_it_matters": "Removes a legal challenge to the Port Washington permits, but future Wisconsin campuses face longer environmental reviews.",
-   "source": "Wisconsin Examiner",
-   "url": "https://wisconsinexaminer.com/2026/10/19/wisconsin-dnr-to-assess-data-center-environmental-impacts-as-part-of-settlement-agreement/"
+   "date": "2026-10-18",
+   "project": "BlackChamber Cedar Creek (Bastrop County)",
+   "project_id": null,
+   "state": "TX",
+   "category": "Power",
+   "headline": "Pacifico seeks TCEQ standard permit, with no public notice, for 48-turbine, 1.3 GW gas plant serving an Anthropic-linked data center",
+   "why_it_matters": "A large onsite gas plant adds fire/explosion exposure and challenge risk to a fast-tracked permit.",
+   "source": "Straight Arrow News",
+   "url": "https://san.com/cc/she-was-building-her-dream-home-then-came-the-data-center-inside-a-key-loophole-for-minor-power-plants/"
   }
  ],
  "permits": [
@@ -2311,7 +2315,7 @@
    "agency": "Trumbull County Board of Elections (City of Hubbard issue)",
    "action": "Hubbard voters decide proposed citywide data center ban ordinance",
    "status": "Filed / pending",
-   "open": true,
+   "open": false,
    "next_date": "2026-11-03",
    "summary": "The county's issues list for the November 3, 2026 election includes a City of Hubbard proposed ordinance asking whether a ban on data centers within city limits should be passed.",
    "schedule_impact": "A yes vote would put a standing ban on data centers in Hubbard; the list does not connect it to the Lordstown campus.",
@@ -2331,7 +2335,7 @@
    "agency": "City of Memphis (Mayor's Office)",
    "action": "Mayor announces 90-day executive-order review of xAI guardrails",
    "status": "Filed / pending",
-   "open": true,
+   "open": false,
    "next_date": null,
    "summary": "Mayor Paul Young said he would sign an executive order starting a 90-day review of guardrails for xAI covering land use, infrastructure, air, water and aquifer, utility costs and noise, separate from the council's moratorium debate.",
    "schedule_impact": "May lead to new city conditions on xAI's Memphis operations and expansion once the 90 days end.",
@@ -3650,7 +3654,7 @@
    "agency": "NMED Air Quality Bureau (hearing AQB 26-57)",
    "action": "Air permit for fuel-cell microgrid (NSR 10883)",
    "status": "Filed / pending",
-   "open": true,
+   "open": false,
    "next_date": "2026-11-23",
    "summary": "NMED docketed a public hearing (AQB 26-57) on Yucca Growth Infrastructure's air permit application for the campus's fuel-cell microgrid, and its July 16 scheduling order set the hearing for Oct 19, 2026.",
    "schedule_impact": "The microgrid that powers the campus has no air permit until this hearing and the decision after it are done; the August Supreme Court stay (lifted Sept 17) may have moved the hearing date.",
@@ -4457,7 +4461,7 @@
    "agency": "Niles City Council",
    "action": "Adopts 180-day pause on data center permits and applications",
    "status": "In effect",
-   "open": true,
+   "open": false,
    "next_date": null,
    "summary": "Niles City Council passed an emergency 180-day moratorium on issuing new data center permits and processing applications, after Bitdeer presented plans for 1047 Belmont Ave. and residents raised water-use, noise and infrastructure concerns, while a consultant helps draft restrictive language.",
    "schedule_impact": "Signals that neighboring Trumbull County cities are restricting new data centers, which may limit nearby sites for related or follow-on development.",
@@ -4697,7 +4701,7 @@
    "agency": "U.S. District Court, N.D. Mississippi",
    "action": "NAACP Clean Air Act suit over unpermitted Southaven turbines",
    "status": "Filed / pending",
-   "open": true,
+   "open": false,
    "next_date": null,
    "summary": "In case 3:26-cv-00074, the NAACP alleges xAI and MZX Tech ran 'temporary' turbines in Southaven without the required permits, and it seeks an injunction, best-available control technology and daily penalties.",
    "schedule_impact": "An injunction could shut down the interim turbines that power Colossus 2 before permanent units or grid power are available.",
@@ -6692,7 +6696,7 @@
    "agency": "Vienna Township Board of Trustees",
    "action": "60-day moratorium extension set to expire Friday, Oct. 16",
    "status": "In effect",
-   "open": true,
+   "open": false,
    "next_date": "2026-10-16",
    "summary": "WFMJ reported that the 60-day extension of the data center moratorium Vienna trustees enacted in August was set to expire Friday (Oct. 16), and said nothing of a further extension.",
    "schedule_impact": "The article does not tie the moratorium to Lordstown; trustees are weighing data center zoning language instead.",
@@ -6712,7 +6716,7 @@
    "agency": "Vienna Township Board of Trustees",
    "action": "Special meeting to approve, deny or return data center zoning",
    "status": "Filed / pending",
-   "open": true,
+   "open": false,
    "next_date": "2026-10-26",
    "summary": "Following a zoning commission public hearing, Vienna trustees scheduled an Oct. 26 special meeting to approve, deny or send back a proposed data center zoning section.",
    "schedule_impact": "Local zoning only; the article does not connect it to the Lordstown site.",
@@ -7056,7 +7060,7 @@
    "agency": "Shelby County Board of Commissioners",
    "action": "Moratorium for unincorporated county passes first reading 5-4",
    "status": "Filed / pending",
-   "open": true,
+   "open": false,
    "next_date": null,
    "summary": "A temporary data center moratorium for unincorporated Shelby County, sponsored by Commissioners Erika Sugarmon and Henri Brooks, passed first reading 5-4 on Oct 12 and still needs further readings; length and terms were not reported.",
    "schedule_impact": "Would apply only in unincorporated areas, where no projects are currently identified; no date for the next reading was reported.",
@@ -7097,7 +7101,7 @@
    "agency": "Cheyenne Planning Commission",
    "action": "Data center code amendment (noise, cooling) postponed to Oct 19",
    "status": "Filed / pending",
-   "open": true,
+   "open": false,
    "next_date": "2026-11-02",
    "summary": "Cheyenne's proposed data center code amendment (PLTA-26-5) would lower property-line noise limits, require sound studies, bar unenclosed rooftop fans, cap generator testing at 30 minutes per generator weekly and require closed-loop rather than evaporative cooling; on Oct 5 the Planning Commission postponed it to Oct 19 seeking more information on sound studies, setbacks and facility size.",
    "schedule_impact": "Rules for data centers under Cheyenne's development code stay unsettled until at least Oct 19.",
@@ -7535,7 +7539,7 @@
    "agency": "U.S. District Court, N.D. Mississippi",
    "action": "Judge rejects DOJ bid to dismiss NAACP turbine suit",
    "status": "Filed / pending",
-   "open": true,
+   "open": false,
    "next_date": null,
    "summary": "Judge Debra Brown let the federal government intervene in the NAACP's Clean Air Act case over xAI's 69 Southaven turbines but refused its request to dismiss, saying EPA's enforcement role does not give it full control of the litigation.",
    "schedule_impact": "The suit, which asks the court to stop unpermitted turbine operation, continues; no next hearing date was reported.",
@@ -7778,7 +7782,7 @@
    "agency": "City of Pataskala (citizen-initiated charter amendment)",
    "action": "Voters decide charter ban on data centers of 25+ MW",
    "status": "Filed / pending",
-   "open": true,
+   "open": false,
    "next_date": "2026-11-03",
    "summary": "A resident petition put a Pataskala charter amendment on the Nov. 3 ballot that would ban building data centers with monthly demand of 25 MW or more; the city council had rejected an Aligned data center proposal in late August, and Aligned has asked a judge to review that denial.",
    "schedule_impact": "The article does not tie the measure to Prometheus or say whether it reaches projects already approved; passage would bar new large data centers in this Licking County city.",
@@ -8051,6 +8055,288 @@
    "schedule_impact": "Council approval is a precondition before construction can proceed.",
    "source": "Baxtel",
    "url": "https://baxtel.com/news/digital-realty-picks-kokomo-for-1gw-campus-its-first-in-indiana",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "hubbard-data-center-ban-ballot-passes-2026",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "scope": "Local area",
+   "date": "2026-11-03",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "City of Hubbard voters (Nov. 3 election)",
+   "action": "Voters approve citywide ban on data centers of any size",
+   "status": "Approved",
+   "open": true,
+   "next_date": null,
+   "summary": "Hubbard voters passed the data center ban ordinance by about 76% to 23%, barring data centers of any size from city limits; the council president said the law director will draft an ordinance for council approval and the data center committee is on hold.",
+   "schedule_impact": "No direct effect on the Lordstown campus; it closes Hubbard to data centers, though the ban could be reversed by a later vote.",
+   "source": "WFMJ",
+   "url": "https://www.wfmj.com/news/local-news/hubbard/decision-2026-hubbard-data-center-ban-passes/article_199b8466-6e64-472a-a2f9-1820efd51dc2.html",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "vienna-township-data-center-moratorium-third-extension-2026",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "scope": "Local area",
+   "date": "2026-10-26",
+   "date_precision": "day",
+   "type": "Local moratorium",
+   "agency": "Vienna Township Board of Trustees",
+   "action": "Extends data center moratorium 180 days, third renewal",
+   "status": "In effect",
+   "open": true,
+   "next_date": null,
+   "summary": "Vienna trustees voted 2-1 to renew the township's data center moratorium, which had lapsed Oct. 16, for another 180 days, its third renewal.",
+   "schedule_impact": "Keeps Vienna Township closed to data centers into spring 2027; the article does not tie it to the Lordstown campus.",
+   "source": "WFMJ",
+   "url": "https://www.wfmj.com/news/local-news/vienna-trustees-extend-data-center-moratorium-proposed-zoning-regulations-returned-for-further-review/article_0128dec5-dbcc-4f7f-bb89-fcd09075fa58.html",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "vienna-township-data-center-zoning-returned-2026",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "scope": "Local area",
+   "date": "2026-10-26",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Vienna Township Board of Trustees",
+   "action": "Trustees send proposed data center zoning back for revisions",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "By a 2-1 vote, trustees returned the proposed data center zoning rules for language changes after residents raised concerns about power-cost pass-through, permitted locations and electricity supply; a trustee estimated the rework will take at least three to four months.",
+   "schedule_impact": "Local rule-making only; township data center rules are unlikely before early 2027, and the article does not connect them to the Lordstown site.",
+   "source": "WFMJ",
+   "url": "https://www.wfmj.com/news/local-news/vienna-trustees-extend-data-center-moratorium-proposed-zoning-regulations-returned-for-further-review/article_0128dec5-dbcc-4f7f-bb89-fcd09075fa58.html",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "niles-city-data-center-moratorium-extension-2026",
+   "project_ids": [
+    "stargate-lordstown"
+   ],
+   "scope": "Local area",
+   "date": "2026-11-04",
+   "date_precision": "day",
+   "type": "Local moratorium",
+   "agency": "Niles City Council",
+   "action": "Extends data center moratorium 180 days; zoning hearing set",
+   "status": "In effect",
+   "open": true,
+   "next_date": "2026-12-02",
+   "summary": "Niles council approved a 180-day extension of its temporary data center moratorium and scheduled a Dec. 2 public hearing on data center amendments to the zoning code, while residents organize a petition for a ban on the November 2027 ballot.",
+   "schedule_impact": "Keeps Niles closed to new data center permits while it adopts rules; a sponsor said the full 180 days may not be needed. The article does not tie it to the Lordstown campus.",
+   "source": "Tribune Chronicle",
+   "url": "https://www.tribtoday.com/news/local-news/2026/11/niles-passes-data-center-moratorium-extension/",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "jupiter-nmed-air-joint-motion-vacate-hearing-2026-11",
+   "project_ids": [
+    "stargate-project-jupiter"
+   ],
+   "scope": "Site",
+   "date": "2026-11-03",
+   "date_precision": "day",
+   "type": "Air permit",
+   "agency": "NMED hearing officer (AQB 26-57)",
+   "action": "NMED and developer jointly ask to vacate Dec. 7 hearing",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Yucca Growth Infrastructure and NMED's Air Quality Bureau jointly moved to vacate the Dec. 7 hearing on air permit 10883 until the bureau files its revised recommendation on the October design changes, and Yucca Growth agreed to waive the Nov. 23 decision deadline.",
+   "schedule_impact": "No new hearing date is proposed and NMED gave no review timeline, so the microgrid permit decision will likely slip; the hearing officer had not ruled as of Nov. 5.",
+   "source": "Organ Mountain News",
+   "url": "https://www.organmountainnews.com/project-jupiter-air-permit-deadline-waived-hearing-delay-2026/",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "pataskala-data-center-charter-ban-passes-2026-11",
+   "project_ids": [
+    "meta-prometheus"
+   ],
+   "scope": "Local area",
+   "date": "2026-11-03",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "City of Pataskala voters (charter amendment)",
+   "action": "Voters approve charter amendment prohibiting data center construction",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "With all precincts reporting, about 73.6% of Pataskala voters backed a charter amendment barring data center construction, a measure that followed Aligned Data Centers' plan for three buildings near East Broad and Mink streets.",
+   "schedule_impact": "Does not affect Prometheus directly but further narrows sites for large data centers in Licking County.",
+   "source": "10TV (via Yahoo News)",
+   "url": "https://www.yahoo.com/news/politics/articles/ohio-election-results-show-voters-142538202.html",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "granville-data-center-charter-ban-passes-2026-11",
+   "project_ids": [
+    "meta-prometheus"
+   ],
+   "scope": "Local area",
+   "date": "2026-11-03",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Village of Granville voters (charter amendment)",
+   "action": "Voters approve charter amendment prohibiting data center construction",
+   "status": "Approved",
+   "open": false,
+   "next_date": null,
+   "summary": "Granville voters approved a charter amendment prohibiting data center construction with about 82.5% of the vote, with all precincts reporting.",
+   "schedule_impact": "No direct effect on Prometheus; adds to a run of Licking County communities closing the door to new data centers.",
+   "source": "10TV (via Yahoo News)",
+   "url": "https://www.yahoo.com/news/politics/articles/ohio-election-results-show-voters-142538202.html",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "colossus2-naacp-caa-suit-xai-dismissal-denied-2026-10-30",
+   "project_ids": [
+    "xai-colossus-2"
+   ],
+   "scope": "Site",
+   "date": "2026-10-30",
+   "date_precision": "day",
+   "type": "Litigation",
+   "agency": "U.S. District Court, N.D. Mississippi",
+   "action": "Judge denies xAI motion to dismiss NAACP turbine suit",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "Judge Debra M. Brown denied xAI's bid to dismiss the NAACP's Clean Air Act suit over the Southaven turbines that power Colossus 2, rejecting at this stage the company's argument that the units are exempt mobile sources.",
+   "schedule_impact": "The case now proceeds and could eventually bring permits, pollution controls, penalties or operating limits for the interim turbines; no injunction has been issued.",
+   "source": "RuntimeWire",
+   "url": "https://runtimewire.com/article/judge-xai-trailer-turbines-mobile-air-permits-naacp",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "memphis-mayor-data-center-90-day-study-executive-order-signed-2026-10",
+   "project_ids": [
+    "xai-colossus-1",
+    "xai-colossus-2"
+   ],
+   "scope": "Local area",
+   "date": "2026-10-01",
+   "date_precision": "month",
+   "type": "Environmental review",
+   "agency": "City of Memphis (Mayor Paul Young)",
+   "action": "Mayor signs executive order launching 90-day data center study",
+   "status": "In effect",
+   "open": true,
+   "next_date": null,
+   "summary": "The city's Oct. 23 newsletter says Mayor Young signed an executive order in October starting a 90-day expert review of data centers' effects on neighborhoods, air, water, power and infrastructure, with public input and recommendations to the council, MLGW and the county health department.",
+   "schedule_impact": "Could lead to new local conditions on xAI's Memphis sites once findings are presented, likely in early 2027.",
+   "source": "City of Memphis",
+   "url": "https://content.govdelivery.com/accounts/TNMEMPHIS/bulletins/42f91b5",
+   "source_kind": "Original"
+  },
+  {
+   "id": "cheyenne-pc-forwards-data-center-regulations-nov-2026",
+   "project_ids": [
+    "google-tembo-cheyenne"
+   ],
+   "scope": "Local area",
+   "date": "2026-11-02",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Cheyenne Planning Commission",
+   "action": "Sends proposed data center regulations to City Council",
+   "status": "Approved",
+   "open": true,
+   "next_date": null,
+   "summary": "At its Monday-night meeting, the Cheyenne Planning Commission passed a proposed set of data center rules covering noise levels, water consumption and electricity generation on to the City Council.",
+   "schedule_impact": "The rules are not final until the City Council acts; no council vote date was reported.",
+   "source": "KGAB AM 650",
+   "url": "https://kgab.com/cheyenne-data-center-regulations/",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "homer-city-dep-wastewater-permit-amendment-blacklick-creek",
+   "project_ids": [
+    "homer-city"
+   ],
+   "scope": "Site",
+   "date": "2026-10-01",
+   "date_precision": "month",
+   "type": "Water & discharge",
+   "agency": "Pennsylvania Department of Environmental Protection",
+   "action": "Weighs wastewater permit amendment for cooling-tower discharge to Blacklick Creek",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": null,
+   "summary": "DEP is considering an amendment to the Homer City generating station's wastewater permit that would allow cooling tower water to be discharged into Blacklick Creek, with written comments accepted through Oct. 19, 2026 and no decision yet.",
+   "schedule_impact": "The campus's cooling-water discharge depends on DEP's decision on this amendment; no decision date was given.",
+   "source": "WJAC-TV",
+   "url": "https://wjactv.com/news/local/indiana-co-officials-discuss-plans-for-proposed-data-center",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "thunderbird-enid-rezoning-referendum-recall-drive",
+   "project_ids": [
+    "thunderbird-enid"
+   ],
+   "scope": "Site",
+   "date": "2026-10-01",
+   "date_precision": "month",
+   "type": "Zoning & land use",
+   "agency": "City of Enid (City Clerk)",
+   "action": "Opponents pursue referendum to overturn rezonings, recall of officials",
+   "status": "Appealed / challenged",
+   "open": true,
+   "next_date": null,
+   "summary": "No Data Centers in Enid is working on a petition to force a citywide vote overturning the rezoning of two Project Thunderbird properties and has begun efforts to recall the mayor and most commissioners; the rezoning lacked an emergency clause and takes effect 30 days after passage.",
+   "schedule_impact": "If the petition gathers enough signatures, a public vote could reverse the rezonings; no filing yet reported.",
+   "source": "Enid News & Eagle",
+   "url": "https://www.enidnews.com/news/data-center-foes-target-city-leaders-for-recall-seek-to-undo-rezoning/article_6017ffa4-1cf3-4e7d-8148-9ca4d9d2ff2a.html",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "kokomo-northeast-450-acre-annexation-rezoning-2026-10",
+   "project_ids": [
+    "digital-realty-kokomo"
+   ],
+   "scope": "Local area",
+   "date": "2026-10-26",
+   "date_precision": "day",
+   "type": "Zoning & land use",
+   "agency": "Kokomo Common Council",
+   "action": "First-reading approval to annex and rezone ~450 acres for industry",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": "2026-11-09",
+   "summary": "The council passed six annexation and rezoning ordinances 8-1 on first reading, backed by the Plan Commission, to bring nearly 450 acres of northeast-side farm and residential land in for industrial use that could draw more data centers; second reading is set for Nov. 9.",
+   "schedule_impact": "Does not directly change Digital Realty's timeline but expands land open to further data center or industrial development near Kokomo.",
+   "source": "The Kokomo Lantern",
+   "url": "https://kokomolantern.substack.com/p/city-moves-to-expand-industrial-land",
+   "source_kind": "Reported"
+  },
+  {
+   "id": "shelby-county-data-center-ordinances-deferred-2026-10-26",
+   "project_ids": [
+    "xai-colossus-1",
+    "xai-colossus-2"
+   ],
+   "scope": "Local area",
+   "date": "2026-10-26",
+   "date_precision": "day",
+   "type": "Local moratorium",
+   "agency": "Shelby County Commission",
+   "action": "Defers 12-month moratorium and data center rules to Nov. 18",
+   "status": "Filed / pending",
+   "open": true,
+   "next_date": "2026-11-18",
+   "summary": "Commissioners pushed both a proposed 12-month data center moratorium and a separate ordinance setting rules for new and existing data centers, focused on reporting water, power and infrastructure costs, to their next meeting to gather more feedback.",
+   "schedule_impact": "No county pause or rules take effect before the Nov. 18 meeting; either could add conditions for data centers in the county.",
+   "source": "Memphis Flyer",
+   "url": "https://www.memphisflyer.com/shelby-county-commission-defers-voting-on-data-center-related-ordinances/",
    "source_kind": "Reported"
   }
  ]
